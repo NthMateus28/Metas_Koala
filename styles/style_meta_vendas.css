@@ -1,40 +1,195 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f9f9f9;
+  background: linear-gradient(135deg, #79b667, #203a43, #2c5364);
+  color: #ecf0f1;
+  box-sizing: border-box;
+  min-height: 100vh;
 }
 
 h1 {
-  margin-bottom: 30px;
-  font-size: 1.8rem;
-  color: #333;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(201, 201, 201, 0.5);
 }
 
-#chart-container {
+/* ============ GRÁFICOS ============ */
+.graficos-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.chart-container {
   position: relative;
-  width: 400px;
-  height: 400px;
-  margin: auto;
+  width: 100%;
+  max-width: 550px;
+  aspect-ratio: 1 / 1;
+  background-color: #1c1c1c;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  flex: 1;
+  /* display: flex; */
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 20px;
 }
 
 canvas {
   position: absolute;
-  left: 0;
+  width: 100%;
+  height: 100%;
+  inset: 0;
 }
 
-#chartProjecao {
-  bottom: 0;          /* 👈 Coloca o gráfico de projeção no fundo */
-  opacity: 0.3;       /* Transparência para não tampar o realizado */
+#chartProjecao, #chartProjecaoArmer {
+  opacity: 0.3;
   z-index: 1;
+  transform: scale(0.92);
+  transform-origin: bottom center;
 }
 
-#chartRealizado {
-  top: 0;
+#chartRealizado, #chartRealizadoArmer {
   z-index: 2;
+}
+
+.chart-label {
+  position: absolute;
+  top: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+#grafico-gap, #grafico-gap-armer {
+  left: 20px;
+  text-align: left;
+}
+
+#grafico-projecao, #grafico-projecao-armer {
+  right: 20px;
+  text-align: right;
+}
+
+.separator {
+  width: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: auto;
+  align-self: stretch;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+
+/* ============ RANKING ============ */
+.ranking-section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 40px;
+}
+
+.ranking-block {
+  max-width: 550px;
+  width: 100%;
+  background-color: #1f2c3b;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  flex: 1;
+}
+
+.ranking-table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  color: #ecf0f1;
+}
+
+.ranking-table th, .ranking-table td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+}
+
+.ranking-table th {
+  background: rgba(0, 210, 255, 0.15);
+  color: #ffffff;
+}
+
+.ranking-table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+h2, h3 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* ============ RESPONSIVO ============ */
+@media (max-width: 600px) {
+  .graficos-wrapper, .ranking-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart-container, .ranking-block {
+    width: 100% !important;
+    max-width: none;
+  }
+
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+    position: relative;
+  }
+
+  .chart-label {
+    font-size: 12px;
+    top: 10px;
+  }
+
+  #grafico-gap, #grafico-gap-armer {
+    left: 10px;
+  }
+
+  #grafico-projecao, #grafico-projecao-armer {
+    right: 10px;
+  }
+
+  .ranking-table th,
+  .ranking-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .separator {
+    display: none;
+  }
 }

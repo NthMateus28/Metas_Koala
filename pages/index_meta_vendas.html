@@ -6,39 +6,96 @@
   <title>Meta de Vendas</title>
   <link rel="stylesheet" href="../styles/style_meta_vendas.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <style>
-    #chart-container {
-      position: relative;
-      width: 400px;
-      height: 400px;
-      margin: auto;
-    }
-  
-    canvas {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-  
-    #chartProjecao {
-      transform: scale(0.92);
-      transform-origin: bottom center; /* 🧭 Alinha o redimensionamento à base */
-      opacity: 0.3;
-      z-index: 2;
-    }
-  
-    #chartRealizado {
-      z-index: 1;
-    }
-  </style>  
-  
 </head>
 <body>
   <h1>Meta de Vendas Mensal</h1>
-  <div id="chart-container">
-    <canvas id="chartRealizado" width="400" height="400"></canvas>
-    <canvas id="chartProjecao" width="400" height="400"></canvas>
+
+  <div class="graficos-wrapper">
+    <!-- Gráfico Geral -->
+    <div class="chart-container">
+      <div class="chart-inner">
+        <canvas id="chartRealizado"></canvas>
+        <canvas id="chartProjecao"></canvas>
+        <div id="grafico-gap" class="chart-label"></div>
+        <div id="grafico-projecao" class="chart-label"></div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <!-- Gráfico ARMER -->
+    <div class="chart-container">
+      <div class="chart-inner">
+        <canvas id="chartRealizadoArmer"></canvas>
+        <canvas id="chartProjecaoArmer"></canvas>
+        <div id="grafico-gap-armer" class="chart-label"></div>
+        <div id="grafico-projecao-armer" class="chart-label"></div>
+      </div>
+    </div>
   </div>
+
+  <div class="ranking-section">
+    <!-- Ranking Geral -->
+    <div class="ranking-block">
+      <h2>Ranking de Produtos (Geral)</h2>
+
+      <h3>Top 5 Mais Vendidos</h3>
+      <table class="ranking-table" id="tabela-mais-vendidos">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Ticket Médio</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <h3 style="margin-top: 40px;">Top 5 Menos Vendidos</h3>
+      <table class="ranking-table" id="tabela-menos-vendidos">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Ticket Médio</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="separator"></div>
+
+    <!-- Ranking ARMER -->
+    <div class="ranking-block">
+      <h2>Ranking de Produtos (ARMER)</h2>
+
+      <h3>Top 5 Mais Vendidos</h3>
+      <table class="ranking-table" id="tabela-mais-vendidos-armer">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Ticket Médio</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <h3 style="margin-top: 40px;">Top 5 Menos Vendidos</h3>
+      <table class="ranking-table" id="tabela-menos-vendidos-armer">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Ticket Médio</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
   <script src="../scrypts/script_meta_vendas.js"></script>
 </body>
 </html>
