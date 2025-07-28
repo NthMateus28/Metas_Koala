@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+#chart-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+}
+
+#chartProjecao {
+  bottom: 0;          /* 👈 Coloca o gráfico de projeção no fundo */
+  opacity: 0.3;       /* Transparência para não tampar o realizado */
+  z-index: 1;
+}
+
+#chartRealizado {
+  top: 0;
+  z-index: 2;
+}

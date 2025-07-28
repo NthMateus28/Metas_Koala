@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta de Vendas</title>
+  <link rel="stylesheet" href="../styles/style_meta_vendas.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    #chart-container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      margin: auto;
+    }
+  
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+    #chartProjecao {
+      transform: scale(0.92);
+      transform-origin: bottom center; /* 🧭 Alinha o redimensionamento à base */
+      opacity: 0.3;
+      z-index: 2;
+    }
+  
+    #chartRealizado {
+      z-index: 1;
+    }
+  </style>  
+  
+</head>
+<body>
+  <h1>Meta de Vendas Mensal</h1>
+  <div id="chart-container">
+    <canvas id="chartRealizado" width="400" height="400"></canvas>
+    <canvas id="chartProjecao" width="400" height="400"></canvas>
+  </div>
+  <script src="../scrypts/script_meta_vendas.js"></script>
+</body>
+</html>
