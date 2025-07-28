@@ -200,3 +200,14 @@ import { atualizarNotasCompletas } from './scrypts/atualizarNotas.js';
   await new Promise(resolve => setTimeout(resolve, 1500)); // espera o server subir completamente
   await atualizarNotasCompletas();
 })();
+
+// Atualiza notas a cada 1 hora
+setInterval(async () => {
+  console.log('⏰ Executando atualização automática de notas (intervalo de 1h)...');
+  try {
+    await atualizarNotasCompletas();
+    console.log('✅ Atualização concluída com sucesso!');
+  } catch (err) {
+    console.error('❌ Erro na atualização automática:', err);
+  }
+}, 1000 * 60 * 60); // 1 hora

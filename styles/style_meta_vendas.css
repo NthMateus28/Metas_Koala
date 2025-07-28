@@ -154,14 +154,32 @@ h2, h3 {
 
 /* ============ RESPONSIVO ============ */
 @media (max-width: 600px) {
+  body {
+    padding: 10px;
+    overflow-x: hidden;
+  }
+
   .graficos-wrapper, .ranking-section {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    gap: 20px;
+    padding: 0;
   }
 
   .chart-container, .ranking-block {
     width: 100% !important;
-    max-width: none;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .chart-inner {
+    padding: 0 10px;
+  }
+
+  .grafico-titulo {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 10px;
   }
 
   canvas {
@@ -172,21 +190,27 @@ h2, h3 {
 
   .chart-label {
     font-size: 12px;
-    top: 10px;
+    top: 8px;
+    padding: 0 5px;
   }
 
   #grafico-gap, #grafico-gap-armer {
-    left: 10px;
+    left: 5px;
   }
 
   #grafico-projecao, #grafico-projecao-armer {
-    right: 10px;
+    right: 5px;
   }
 
   .ranking-table th,
   .ranking-table td {
     font-size: 12px;
-    padding: 8px;
+    padding: 6px;
+    word-break: break-word;
+  }
+
+  .ranking-table {
+    overflow-x: auto;
   }
 
   .separator {

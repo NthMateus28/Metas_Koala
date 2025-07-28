@@ -54,7 +54,7 @@ Chart.register({
     const pluginOpts = chart.config.options.plugins.centerText;
     if (!pluginOpts) return;
 
-    const { realizado, projetado, meta } = pluginOpts;
+    const { realizado, projetado, meta, label } = pluginOpts;
     const porcentagemProjecao = Math.round((projetado / meta) * 100);
 
     ctx.save();
@@ -70,8 +70,7 @@ Chart.register({
     // Espaçamento maior aqui 👇
     ctx.font = 'normal 24px Arial';
     ctx.fillStyle = '#888';
-    ctx.fillText(`REALIZADO`, width / 2, height / 102 + 35);
-    
+    ctx.fillText(label || 'REALIZADO', width / 2, height / 2 + 35);
     ctx.font = 'bold 24px Arial';
     ctx.fillStyle = '#3498db';
     ctx.fillText(`R$ ${realizado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`, width / 2, height / 2 + 55);
@@ -121,7 +120,7 @@ function renderizarGrafico(realizado, projetado) {
         centerText: {
           realizado,
           projetado,
-          meta: metaGeral
+          meta: metaGeral        
         }
       }
     }
@@ -130,10 +129,11 @@ function renderizarGrafico(realizado, projetado) {
   const gap = metaGeral - realizado;
 
   document.getElementById('grafico-gap').innerHTML =
-    `GAP<br><span style="color: ${gap >= 0 ? '#c0392b' : '#27ae60'}">R$ ${Math.abs(gap).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
+  `GAP<br><span style="color: ${gap >= 0 ? '#c0392b' : '#27ae60'}; font-size: 16px;">R$ ${Math.abs(gap).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
 
-  document.getElementById('grafico-projecao').innerHTML =
-    `PROJEÇÃO<br><span style="color: #2980b9">R$ ${projetado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
+document.getElementById('grafico-projecao').innerHTML =
+  `PROJEÇÃO<br><span style="color: #2980b9; font-size: 16px;">R$ ${projetado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
+
 }
 
 function renderizarGraficoArmer(notasFiltradas) {
@@ -194,17 +194,16 @@ function renderizarGraficoArmer(notasFiltradas) {
         centerText: {
           realizado,
           projetado,
-          meta: metaArmer
-        }
+          meta: metaArmer        }
       }
     }
   });
 
   document.getElementById('grafico-gap-armer').innerHTML =
-    `GAP<br><span style="color: ${metaArmer - realizado >= 0 ? '#c0392b' : '#27ae60'}">R$ ${Math.abs(metaArmer - realizado).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
+    `GAP<br><span style="color: ${metaArmer - realizado >= 0 ? '#c0392b' : '#27ae60'}; font-size:16px;">R$ ${Math.abs(metaArmer - realizado).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
 
   document.getElementById('grafico-projecao-armer').innerHTML =
-    `PROJEÇÃO<br><span style="color: #2980b9">R$ ${projetado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
+    `PROJEÇÃO<br><span style="color: #2980b9; font-size:16px;">R$ ${projetado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
 
   const ranking = Object.entries(ticketPorProduto)
     .map(([codigo, dados]) => ({
