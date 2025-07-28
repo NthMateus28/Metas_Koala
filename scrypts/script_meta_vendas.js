@@ -60,18 +60,22 @@ Chart.register({
     ctx.save();
     ctx.textAlign = 'center';
 
-    ctx.font = 'bold 16px Arial';
+    ctx.font = 'bold 24px Arial';
     ctx.fillStyle = '#3498db';
     ctx.fillText(`PROJEÇÃO`, width / 2, height / 2 - 30);
-    ctx.font = 'bold 22px Arial';
+    
+    ctx.font = 'bold 24px Arial';
     ctx.fillText(`${porcentagemProjecao}%`, width / 2, height / 2 - 5);
-
-    ctx.font = 'normal 12px Arial';
+    
+    // Espaçamento maior aqui 👇
+    ctx.font = 'normal 24px Arial';
     ctx.fillStyle = '#888';
-    ctx.fillText(`REALIZADO`, width / 2, height / 2 + 25);
-    ctx.font = 'bold 18px Arial';
-    ctx.fillStyle = '#2c3e50';
-    ctx.fillText(`R$ ${realizado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`, width / 2, height / 2 + 45);
+    ctx.fillText(`REALIZADO`, width / 2, height / 102 + 35);
+    
+    ctx.font = 'bold 24px Arial';
+    ctx.fillStyle = '#3498db';
+    ctx.fillText(`R$ ${realizado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`, width / 2, height / 2 + 55);
+    
 
     ctx.restore();
   }

@@ -7,7 +7,7 @@ import bodyParser from 'body-parser';
 
 const app = express();
 const PORT = 3000;
-const ACCESS_TOKEN = 'd424e686f74e76210ff3454f0b5fecf1c254fadc'; // ideal usar variável de ambiente
+const ACCESS_TOKEN = '2cfb95d0340243e069d3019405fe65fbf85cd88b'; // ideal usar variável de ambiente
 
 const detalhesPath = path.resolve('./cache_detalhes.json');
 const cacheNfePath = path.resolve('./cache_nfe.json');
