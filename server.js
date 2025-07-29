@@ -185,6 +185,15 @@ app.post('/api/nfe-cache', async (req, res) => {
   }
 });
 
+// Serve arquivos estáticos da pasta "pages"
+app.use(express.static(path.resolve('./pages')));
+
+// Rota raiz carrega a página index_meta_vendas.html
+app.get('/', (req, res) => {
+  res.sendFile(path.resolve('./pages/index_meta_vendas.html'));
+});
+
+
 // Inicializa servidor
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
