@@ -13,6 +13,7 @@ const detalhesPath = path.resolve('./cache_detalhes.json');
 const cacheNfePath = path.resolve('./cache_nfe.json');
 
 app.use(cors());
+app.use(express.static(path.resolve('./public')));
 app.use(bodyParser.json({ limit: '10mb' }));
 
 async function getUltimaDataDoCacheDetalhes() {
@@ -188,10 +189,10 @@ app.post('/api/nfe-cache', async (req, res) => {
 // Serve arquivos estáticos da pasta "pages"
 app.use(express.static(path.resolve('./pages')));
 
-// Rota raiz carrega a página index_meta_vendas.html
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve('./pages/index_meta_vendas.html'));
+  res.sendFile(path.resolve('./public/pages/index_meta_vendas.html'));
 });
+
 
 
 // Inicializa servidor
