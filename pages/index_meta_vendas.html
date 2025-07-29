@@ -8,9 +8,23 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body class="armer">
+
+  <!-- MENU HAMBURGUER - visível apenas no mobile -->
+  <div class="menu-hamburguer-container">
+    <div class="hamburguer" id="hamburguer">&#9776;</div>
+    <div class="menu-slide" id="menuSlide">
+      <div class="fechar-menu" id="fecharMenu">&times;</div>
+      <a href="../pages/index_meta_vendas.html" class="nav-link">Meta Vendas Geral</a>
+      <a href="../pages/meta-site.html" class="nav-link">Meta Vendas Site</a>
+      <a href="../pages/meta-ml.html" class="nav-link">Metas Venda Mercado Livre</a>
+      <a href="../pages/meta-outros.html" class="nav-link">Meta Vendas Outros</a>
+    </div>
+  </div>
+
   <div class="layout-container">
     <!-- Menu lateral fixo ao lado -->
     <aside class="menu-lateral">
+      <img id="logoCategoria" src="" alt="" style="max-width: 100%; margin-bottom: 20px; display: none;" />
       <button class="botao-menu" data-categoria="geral">Metas Geral</button>
       <button class="botao-menu" data-categoria="armer">Metas Armer</button>
       <button class="botao-menu" data-categoria="az">Metas AZ Audio</button>
@@ -19,11 +33,9 @@
 
     <!-- Dashboard com título, botão, gráficos e ranking -->
     <main class="conteudo-dashboard">
-      <!-- Título e botão -->
       <h1>Meta de Vendas Mensal</h1>
-      <!-- <button id="botaoAtualizar" class="botao-atualizar">Atualizar Dados</button> -->
 
-      <!-- Navegação entre áreas -->
+      <!-- Menu de navegação horizontal (desktop) -->
       <nav class="nav-menu">
         <a href="../pages/index_meta_vendas.html" class="nav-item">Meta Vendas Geral</a>
         <a href="../pages/meta-site.html" class="nav-item">Meta Vendas Site</a>
@@ -82,5 +94,20 @@
 
   <!-- Script principal -->
   <script src="../scrypts/script_meta_vendas.js"></script>
+
+  <!-- Script do menu hamburguer -->
+  <script>
+    const hamburguer = document.getElementById('hamburguer');
+    const menuSlide = document.getElementById('menuSlide');
+    const fecharMenu = document.getElementById('fecharMenu');
+
+    hamburguer.addEventListener('click', () => {
+      menuSlide.classList.add('aberto');
+    });
+
+    fecharMenu.addEventListener('click', () => {
+      menuSlide.classList.remove('aberto');
+    });
+  </script>
 </body>
 </html>

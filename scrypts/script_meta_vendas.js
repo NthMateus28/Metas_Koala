@@ -252,6 +252,36 @@ function gerarGraficoFaturamentoDiario(notas) {
   });
 }
 
+function atualizarLogo(categoria) {
+  const logo = document.getElementById('logoCategoria');
+  switch (categoria) {
+    case 'geral':
+      logo.src = '../images/logo_koalaBrands.png';
+      logo.alt = 'Logo Koala Brands';
+      logo.style.display = 'block';
+      break;
+    case 'armer':
+      logo.src = '../images/logo_Armer.png';
+      logo.alt = 'Logo Armer';
+      logo.style.display = 'block';
+      break;
+    case 'az':
+      logo.src = '../images/logo_AzAudio.png';
+      logo.alt = 'Logo AZ Audio';
+      logo.style.display = 'block';
+      break;
+      case 'outros':
+        logo.src = '../images/logo_koalaBrands.png';
+        logo.alt = 'Logo Koala Brands';
+        logo.style.display = 'block';
+        break;
+    default:
+      logo.src = '';
+      logo.alt = '';
+      logo.style.display = 'none';
+  }
+}
+
 document.getElementById('botaoAtualizar')?.addEventListener('click', async () => {
   const botao = document.getElementById('botaoAtualizar');
   botao.disabled = true;
@@ -279,8 +309,24 @@ document.querySelectorAll('.botao-menu').forEach(botao => {
     document.querySelectorAll('.botao-menu').forEach(b => b.classList.remove('ativo'));
     botao.classList.add('ativo');
 
+    atualizarLogo(categoriaSelecionada); // 👈 Atualiza logo
     buscarNotas();
   });
 });
 
+// Menu hamburguer
+const hamburguer = document.getElementById('hamburguer');
+const menuSlide = document.getElementById('menuSlide');
+const fecharMenu = document.getElementById('fecharMenu');
+
+hamburguer.addEventListener('click', () => {
+  menuSlide.classList.add('aberto');
+});
+
+fecharMenu.addEventListener('click', () => {
+  menuSlide.classList.remove('aberto');
+});
+
+// Inicialização
+atualizarLogo(categoriaSelecionada); // 👈 Logo ao iniciar
 buscarNotas();

@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start; /* <-- Agora o menu vai ficar no topo */
-  background: linear-gradient(135deg, #79b667, #203a43, #2c5364);
+  background: linear-gradient(#97291d, #330c08, #1a0604); /* vermelho para preto */
   color: #ecf0f1;
   box-sizing: border-box;
   min-height: 100vh;
@@ -46,8 +46,8 @@ h2, h3 {
   align-items: flex-start; /* ESSENCIAL para alinhar topo do menu com gráfico */
   width: 100%;
   max-width: 1500px;
+  gap: 20px;
 }
-
 
 .menu-lateral {
   width: 250px;
@@ -57,8 +57,16 @@ h2, h3 {
   gap: 12px;
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: 4px 0 8px rgba(0,0,0,0.2);
-  margin-top: 300px; /* alinhamento visual com gráfico de vendas */
+  /* margin-top: 0; --> pode remover essa linha */
 }
+
+.logo-categoria {
+  height: 60px;         /* Altura fixa */
+  object-fit: contain;  /* Mantém proporção da imagem */
+  margin-bottom: 20px;  /* Espaço abaixo da logo */
+  display: block;
+}
+
 
 .botao-menu {
   background-color: #34495e;
@@ -79,13 +87,13 @@ h2, h3 {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 20px;
+  padding: 0 20px; /* reduz top padding */
+  box-sizing: border-box;
 }
 
 
 body.geral {
-  background: linear-gradient(#97291d, #330c08, #1a0604); /* vermelho para preto */
+  background: linear-gradient(135deg, #25868d, #1e1e1e); /* roxo escuro para cinza */
 }
 
 body.armer {
@@ -97,7 +105,8 @@ body.az {
 }
 
 body.outros {
-  background: linear-gradient(135deg, #25868d, #1e1e1e); /* roxo escuro para cinza */
+  background: linear-gradient(#d43625, #330c08, #1a0604); /* vermelho para preto */
+
 }
 
 
@@ -242,6 +251,52 @@ body.outros {
   body {
     padding: 10px;
     overflow-x: hidden;
+    flex-direction: column;
+    align-items: stretch;
+    box-sizing: border-box;
+  }
+
+  .layout-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .logo-categoria {
+    display: block;
+    height: auto;
+    max-height: 30px;
+    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto 20px auto;
+    box-sizing: border-box;
+  }  
+
+  .menu-lateral {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    gap: 10px;
+    box-shadow: none;
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  
+  .botao-menu {
+    flex: 1 1 45%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    box-sizing: border-box;
+  }
+
+  .conteudo-dashboard {
+    padding: 10px;
+    align-items: stretch;
   }
 
   .painel-metas {
@@ -256,6 +311,11 @@ body.outros {
     width: 100% !important;
     max-width: 100%;
     box-sizing: border-box;
+    min-width: 280px;
+  }
+
+  .grafico-linha-diario canvas {
+    height: 150px !important;
   }
 
   .chart-label {
@@ -280,13 +340,109 @@ body.outros {
   }
 
   .nav-menu {
+    display: flex;
     flex-direction: column;
     align-items: stretch;
     padding: 10px;
     gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .nav-item {
     text-align: center;
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    white-space: nowrap;
+    box-sizing: border-box;
   }
+}
+
+/* Esconde o menu hamburguer no desktop */
+.menu-hamburguer-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none; /* Escondido por padrão */
+}
+
+.hamburguer {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.menu-slide {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(44, 62, 80, 0.95);
+  padding: 30px 20px;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.3);
+  transition: right 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 998;
+}
+
+.menu-slide a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.fechar-menu {
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+/* Quando estiver visível */
+.menu-slide.aberto {
+  right: 0;
+}
+
+/* MOSTRA O MENU HAMBURGUER APENAS EM TELAS PEQUENAS */
+@media (max-width: 800px) {
+  .menu-hamburguer-container {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none !important;
+  }
+}
+
+/* WRAPPER que contém o nav + layout */
+.wrapper-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Força alinhamento vertical do menu lateral com nav */
+.layout-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1500px;
+}
+
+/* Fixar altura da logo */
+.logo-categoria {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 20px;
+  display: block;
 }
