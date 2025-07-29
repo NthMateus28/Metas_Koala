@@ -4,6 +4,11 @@ import cors from 'cors';
 import fs from 'fs/promises';
 import path from 'path';
 import bodyParser from 'body-parser';
+import { fileURLToPath } from 'url';
+import { atualizarNotasCompletas } from './scrypts/atualizarNotas.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = 3000;
@@ -191,13 +196,13 @@ app.use(express.static(path.resolve('./pages')));
 
 // Rota raiz carrega a página index_meta_vendas.html
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve('./pages/index_meta_vendas.html'));
+  res.sendFile(path.resolve(__dirname, 'pages/index_meta_vendas.html'));
 });
 
 
 // Inicializa servidor
 app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
+  console.log(`Servidor rodando na porta ${PORT}`);
 });
 
 import { atualizarNotasCompletas } from './public/scrypts/atualizarNotas.js';
