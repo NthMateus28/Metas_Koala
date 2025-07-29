@@ -6,12 +6,49 @@ const idsValidos = [
   15105999702, 15105613261
 ];
 
-const metaGeral = 2500000;
-const metaArmer = 937500;
+let categoriaSelecionada = 'geral';
+let metas = {
+  geral: 2500000,
+  armer: 937500,
+  az: 715000,
+  outros: 847500
+};
+
 const hoje = new Date();
 const mesAtual = hoje.getMonth();
 const anoAtual = hoje.getFullYear();
 const ultimoDiaDoMes = new Date(anoAtual, mesAtual + 1, 0).getDate();
+
+let chartMeta, chartFaturamento;
+
+Chart.register({
+  id: 'centerText',
+  beforeDraw(chart) {
+    const { width, height } = chart;
+    const ctx = chart.ctx;
+    const pluginOpts = chart.config.options.plugins.centerText;
+    if (!pluginOpts) return;
+
+    const { realizado, projetado, meta } = pluginOpts;
+    const porcentagemProjecao = Math.round((projetado / meta) * 100);
+
+    ctx.save();
+    ctx.textAlign = 'center';
+    ctx.font = 'bold 18px Arial';
+    ctx.fillStyle = '#3498db';
+    ctx.fillText(`PROJEÇÃO`, width / 2, height / 2 - 15);
+    ctx.fillText(`${porcentagemProjecao}%`, width / 2, height / 2 + 5);
+
+    ctx.font = 'normal 18px Arial';
+    ctx.fillStyle = '#888';
+    ctx.fillText('REALIZADO', width / 2, height / 2 + 35);
+
+    ctx.font = 'bold 18px Arial';
+    ctx.fillStyle = '#3498db';
+    ctx.fillText(`R$ ${realizado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`, width / 2, height / 2 + 55);
+    ctx.restore();
+  }
+});
 
 async function buscarNotas() {
   try {
@@ -27,64 +64,49 @@ async function buscarNotas() {
       if (!data || !natureza) return false;
 
       const dataEmissao = new Date(data);
-      return (
-        dataEmissao.getFullYear() === anoAtual &&
-        dataEmissao.getMonth() === mesAtual &&
-        idsValidos.includes(natureza)
-      );
+      if (
+        dataEmissao.getFullYear() !== anoAtual ||
+        dataEmissao.getMonth() !== mesAtual ||
+        !idsValidos.includes(natureza)
+      ) return false;
+
+      const itens = nf?.data?.itens || [];
+
+      if (categoriaSelecionada === 'armer') {
+        return itens.some(i => i.codigo?.toUpperCase().includes('ARMER'));
+      } else if (categoriaSelecionada === 'az') {
+        return itens.some(i => i.codigo?.toUpperCase().includes('AZ'));
+      } else if (categoriaSelecionada === 'outros') {
+        return itens.every(i =>
+          !i.codigo?.toUpperCase().includes('AZ') &&
+          !i.codigo?.toUpperCase().includes('ARMER')
+        );
+      }
+
+      return true; // geral
     });
 
     const realizado = notasFiltradas.reduce((soma, nf) => soma + (nf?.data?.valorNota || 0), 0);
     const proporcao = hoje.getDate() / ultimoDiaDoMes;
     const projetado = realizado / proporcao;
 
-    renderizarGrafico(realizado, projetado);
-    renderizarGraficoArmer(notasFiltradas);
+    renderizarGraficoMeta(realizado, projetado, metas[categoriaSelecionada]);
     gerarTopProdutos(notasFiltradas);
+    gerarGraficoFaturamentoDiario(notasFiltradas);
   } catch (err) {
-    console.error('Erro ao processar notas:', err);
+    console.error('Erro ao buscar notas:', err);
   }
 }
 
-Chart.register({
-  id: 'centerText',
-  beforeDraw(chart) {
-    const { width, height } = chart;
-    const ctx = chart.ctx;
-    const pluginOpts = chart.config.options.plugins.centerText;
-    if (!pluginOpts) return;
+function renderizarGraficoMeta(realizado, projetado, meta) {
+  const ctx = document.getElementById('chartMetaGeral').getContext('2d');
 
-    const { realizado, projetado, meta, label } = pluginOpts;
-    const porcentagemProjecao = Math.round((projetado / meta) * 100);
+  if (chartMeta) chartMeta.destroy();
 
-    ctx.save();
-    ctx.textAlign = 'center';
+  const realizadoPercentual = Math.min(realizado / meta, 1);
+  const projetadoPercentual = projetado / meta;
 
-    ctx.font = 'bold 24px Arial';
-    ctx.fillStyle = '#3498db';
-    ctx.fillText(`PROJEÇÃO`, width / 2, height / 2 - 30);
-    
-    ctx.font = 'bold 24px Arial';
-    ctx.fillText(`${porcentagemProjecao}%`, width / 2, height / 2 - 5);
-    
-    ctx.font = 'normal 24px Arial';
-    ctx.fillStyle = '#888';
-    ctx.fillText(label || 'REALIZADO', width / 2, height / 2 + 35);
-    ctx.font = 'bold 24px Arial';
-    ctx.fillStyle = '#3498db';
-    ctx.fillText(`R$ ${realizado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`, width / 2, height / 2 + 55);
-
-    ctx.restore();
-  }
-});
-
-function renderizarGrafico(realizado, projetado) {
-  const ctx = document.getElementById('chartRealizado').getContext('2d');
-
-  const realizadoPercentual = Math.min(realizado / metaGeral, 1);
-  const projetadoPercentual = projetado / metaGeral;
-
-  const data = projetado >= metaGeral
+  const data = projetado >= meta
     ? [100, 0, 0]
     : [
         realizadoPercentual * 100,
@@ -92,7 +114,7 @@ function renderizarGrafico(realizado, projetado) {
         Math.max(0, 100 - Math.min(projetadoPercentual, 1) * 100)
       ];
 
-  new Chart(ctx, {
+  chartMeta = new Chart(ctx, {
     type: 'doughnut',
     data: {
       labels: ['Realizado', 'Projeção', 'Restante'],
@@ -112,140 +134,30 @@ function renderizarGrafico(realizado, projetado) {
         legend: { display: false },
         tooltip: {
           callbacks: {
-            label: function (ctx) {
-              const label = ctx.label || '';
-              const valor = ctx.raw;
-              return `${label}: ${valor.toFixed(1)}%`;
-            }
+            label: ctx => `${ctx.label}: ${ctx.raw.toFixed(1)}%`
           }
         },
         centerText: {
           realizado,
           projetado,
-          meta: metaGeral
+          meta
         }
       }
     }
   });
 
-  const gap = metaGeral - realizado;
-
+  const gap = meta - realizado;
   document.getElementById('grafico-gap').innerHTML =
     `GAP<br><span style="color: ${gap >= 0 ? '#c0392b' : '#27ae60'}; font-size: 16px;">R$ ${Math.abs(gap).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
-
   document.getElementById('grafico-projecao').innerHTML =
     `PROJEÇÃO<br><span style="color: #2980b9; font-size: 16px;">R$ ${projetado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
-}
-
-function renderizarGraficoArmer(notasFiltradas) {
-  const apenasArmer = notasFiltradas.flatMap(nf => nf?.data?.itens || [])
-    .filter(item => item?.codigo?.toUpperCase().includes('ARMER'));
-
-  const ticketPorProduto = {};
-
-  apenasArmer.forEach(item => {
-    const codigo = item.codigo;
-    if (!ticketPorProduto[codigo]) {
-      ticketPorProduto[codigo] = { quantidade: 0, total: 0 };
-    }
-    ticketPorProduto[codigo].quantidade += item.quantidade || 0;
-    ticketPorProduto[codigo].total += (item.quantidade || 0) * (item.valor || 0);
-  });
-
-  const realizado = Object.values(ticketPorProduto).reduce((sum, p) => sum + p.total, 0);
-  const proporcao = hoje.getDate() / ultimoDiaDoMes;
-  const projetado = realizado / proporcao;
-
-  const ctx = document.getElementById('chartRealizadoArmer').getContext('2d');
-
-  const realizadoPercentual = Math.min(realizado / metaArmer, 1);
-  const projetadoPercentual = projetado / metaArmer;
-
-  const data = projetado >= metaArmer
-    ? [100, 0, 0]
-    : [
-        realizadoPercentual * 100,
-        Math.max(0, (projetadoPercentual - realizadoPercentual) * 100),
-        Math.max(0, 100 - Math.min(projetadoPercentual, 1) * 100)
-      ];
-
-  new Chart(ctx, {
-    type: 'doughnut',
-    data: {
-      labels: ['Realizado', 'Projeção', 'Restante'],
-      datasets: [{
-        data,
-        backgroundColor: ['#2ecc71', 'rgba(52, 152, 219, 0.5)', '#e5e5e5'],
-        borderWidth: 0
-      }]
-    },
-    options: {
-      circumference: 180,
-      rotation: 270,
-      cutout: '80%',
-      responsive: false,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: function (ctx) {
-              const label = ctx.label || '';
-              const valor = ctx.raw;
-              return `${label}: ${valor.toFixed(1)}%`;
-            }
-          }
-        },
-        centerText: {
-          realizado,
-          projetado,
-          meta: metaArmer
-        }
-      }
-    }
-  });
-
-  document.getElementById('grafico-gap-armer').innerHTML =
-    `GAP<br><span style="color: ${metaArmer - realizado >= 0 ? '#c0392b' : '#27ae60'}; font-size:16px;">R$ ${Math.abs(metaArmer - realizado).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
-
-  document.getElementById('grafico-projecao-armer').innerHTML =
-    `PROJEÇÃO<br><span style="color: #2980b9; font-size:16px;">R$ ${projetado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
-
-  const ranking = Object.entries(ticketPorProduto)
-    .map(([codigo, dados]) => ({
-      codigo,
-      quantidade: dados.quantidade,
-      total: dados.total
-    }))
-    .sort((a, b) => b.quantidade - a.quantidade);
-
-  const topMais = ranking.slice(0, 5);
-  const topMenos = ranking.slice(-5);
-
-  function renderTabelaArmer(lista, idTabela) {
-    const tbody = document.querySelector(`#${idTabela} tbody`);
-    tbody.innerHTML = '';
-    lista.forEach(produto => {
-      const tr = document.createElement('tr');
-      tr.innerHTML = `
-        <td>${produto.codigo}</td>
-        <td>${produto.quantidade}</td>
-        <td>R$ ${(produto.total / produto.quantidade).toFixed(2).replace('.', ',')}</td>
-      `;
-      tbody.appendChild(tr);
-    });
-  }
-
-  renderTabelaArmer(topMais, 'tabela-mais-vendidos-armer');
-  renderTabelaArmer(topMenos, 'tabela-menos-vendidos-armer');
 }
 
 function gerarTopProdutos(notas) {
   const produtos = {};
 
   notas.forEach(nf => {
-    const itens = nf?.data?.itens || [];
-    itens.forEach(item => {
+    (nf?.data?.itens || []).forEach(item => {
       const nome = item.codigo;
       const qtd = item.quantidade || 0;
       const valor = item.valor || 0;
@@ -284,11 +196,61 @@ function gerarTopProdutos(notas) {
     });
   }
 
-  renderTabela(mais, 'tabela-mais-vendidos');
-  renderTabela(menos, 'tabela-menos-vendidos');
+  renderTabela(mais, 'ranking-mais-vendidos');
+  renderTabela(menos, 'ranking-menos-vendidos');
 }
 
-buscarNotas();
+function gerarGraficoFaturamentoDiario(notas) {
+  const porDia = {};
+
+  notas.forEach(nf => {
+    const data = new Date(nf?.data?.dataEmissao);
+    const dia = data.getDate();
+    const valor = nf?.data?.valorNota || 0;
+    porDia[dia] = (porDia[dia] || 0) + valor;
+  });
+
+  const dias = Array.from({ length: ultimoDiaDoMes }, (_, i) => i + 1);
+  const valores = dias.map(d => porDia[d] || 0);
+
+  const ctx = document.getElementById('chartFaturamentoDiario').getContext('2d');
+
+  if (chartFaturamento) chartFaturamento.destroy();
+
+  chartFaturamento = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: dias,
+      datasets: [{
+        label: 'Faturamento Diário',
+        data: valores,
+        borderColor: '#2ecc71',
+        backgroundColor: 'rgba(46, 204, 113, 0.2)',
+        tension: 0.3,
+        fill: true
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: {
+          title: { display: true, text: 'Dia do mês', color: '#fff' },
+          ticks: { color: '#ecf0f1' }
+        },
+        y: {
+          title: { display: true, text: 'R$', color: '#fff' },
+          ticks: {
+            color: '#ecf0f1',
+            callback: value => `R$ ${value.toLocaleString('pt-BR')}`
+          }
+        }
+      }
+    }
+  });
+}
 
 document.getElementById('botaoAtualizar')?.addEventListener('click', async () => {
   const botao = document.getElementById('botaoAtualizar');
@@ -298,14 +260,27 @@ document.getElementById('botaoAtualizar')?.addEventListener('click', async () =>
   try {
     const res = await fetch('http://localhost:3000/api/atualizar-notas');
     const json = await res.json();
-
     alert(json.mensagem || 'Atualização concluída!');
-    location.reload(); // recarrega os dados e gráficos
+    location.reload();
   } catch (err) {
-    console.error('Erro na atualização manual:', err);
-    alert('Erro ao atualizar os dados. Veja o console para mais detalhes.');
+    console.error('Erro ao atualizar:', err);
+    alert('Erro ao atualizar os dados.');
   }
 
   botao.disabled = false;
   botao.innerText = 'Atualizar Dados';
 });
+
+document.querySelectorAll('.botao-menu').forEach(botao => {
+  botao.addEventListener('click', () => {
+    categoriaSelecionada = botao.dataset.categoria;
+    document.body.className = categoriaSelecionada;
+
+    document.querySelectorAll('.botao-menu').forEach(b => b.classList.remove('ativo'));
+    botao.classList.add('ativo');
+
+    buscarNotas();
+  });
+});
+
+buscarNotas();

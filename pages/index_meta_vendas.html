@@ -1,102 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meta de Vendas</title>
-  <link rel="stylesheet" href="../styles/style_meta_vendas.css">
+  <link rel="stylesheet" href="../styles/style_meta_vendas.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-<body>
-  <h1>Meta de Vendas Mensal</h1>
-  <button id="botaoAtualizar" class="botao-atualizar">Atualizar Dados</button>
+<body class="armer">
+  <div class="layout-container">
+    <!-- Menu lateral fixo ao lado -->
+    <aside class="menu-lateral">
+      <button class="botao-menu" data-categoria="geral">Metas Geral</button>
+      <button class="botao-menu" data-categoria="armer">Metas Armer</button>
+      <button class="botao-menu" data-categoria="az">Metas AZ Audio</button>
+      <button class="botao-menu" data-categoria="outros">Metas Outros</button>
+    </aside>
 
-  <div class="graficos-wrapper">
-    <!-- Gráfico Geral -->
-    <div class="chart-container">
-      <div class="chart-inner">
-        <canvas id="chartRealizado"></canvas>
-        <canvas id="chartProjecao"></canvas>
-        <div id="grafico-gap" class="chart-label"></div>
-        <div id="grafico-projecao" class="chart-label"></div>
+    <!-- Dashboard com título, botão, gráficos e ranking -->
+    <main class="conteudo-dashboard">
+      <!-- Título e botão -->
+      <h1>Meta de Vendas Mensal</h1>
+      <!-- <button id="botaoAtualizar" class="botao-atualizar">Atualizar Dados</button> -->
+
+      <!-- Navegação entre áreas -->
+      <nav class="nav-menu">
+        <a href="../pages/index_meta_vendas.html" class="nav-item">Meta Vendas Geral</a>
+        <a href="../pages/meta-site.html" class="nav-item">Meta Vendas Site</a>
+        <a href="../pages/meta-ml.html" class="nav-item">Metas Venda Mercado Livre</a>
+        <a href="../pages/meta-outros.html" class="nav-item">Meta Vendas Outros</a>
+      </nav>
+
+      <!-- Painel de metas -->
+      <div class="painel-metas">
+        <!-- Gráfico de metas -->
+        <div class="grafico-meta-unico">
+          <canvas id="chartMetaGeral"></canvas>
+          <div id="grafico-gap" class="chart-label"></div>
+          <div id="grafico-projecao" class="chart-label"></div>
+        </div>
+
+        <!-- Rankings -->
+        <div class="ranking-container">
+          <div class="ranking-block">
+            <h2>Top 5 Mais Vendidos</h2>
+            <table class="ranking-table" id="ranking-mais-vendidos">
+              <thead>
+                <tr>
+                  <th>Produto</th>
+                  <th>Quantidade</th>
+                  <th>Ticket Médio</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+
+          <div class="ranking-block">
+            <h2>Top 5 Menos Vendidos</h2>
+            <table class="ranking-table" id="ranking-menos-vendidos">
+              <thead>
+                <tr>
+                  <th>Produto</th>
+                  <th>Quantidade</th>
+                  <th>Ticket Médio</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="separator"></div>
-
-    <!-- Gráfico ARMER -->
-    <div class="chart-container">
-      <div class="chart-inner">
-        <canvas id="chartRealizadoArmer"></canvas>
-        <canvas id="chartProjecaoArmer"></canvas>
-        <div id="grafico-gap-armer" class="chart-label"></div>
-        <div id="grafico-projecao-armer" class="chart-label"></div>
+      <!-- Gráfico de linha de faturamento -->
+      <div class="grafico-linha-diario">
+        <h2 style="text-align: center; margin-bottom: 10px;">Faturamento Diário</h2>
+        <canvas id="chartFaturamentoDiario"></canvas>
       </div>
-    </div>
+    </main>
   </div>
 
-  <div class="ranking-section">
-    <!-- Ranking Geral -->
-    <div class="ranking-block">
-      <h2>Ranking de Produtos (Geral)</h2>
-
-      <h3>Top 5 Mais Vendidos</h3>
-      <table class="ranking-table" id="tabela-mais-vendidos">
-        <thead>
-          <tr>
-            <th>Produto</th>
-            <th>Quantidade</th>
-            <th>Ticket Médio</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-
-      <h3 style="margin-top: 40px;">Top 5 Menos Vendidos</h3>
-      <table class="ranking-table" id="tabela-menos-vendidos">
-        <thead>
-          <tr>
-            <th>Produto</th>
-            <th>Quantidade</th>
-            <th>Ticket Médio</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-
-    <div class="separator"></div>
-
-    <!-- Ranking ARMER -->
-    <div class="ranking-block">
-      <h2>Ranking de Produtos (ARMER)</h2>
-
-      <h3>Top 5 Mais Vendidos</h3>
-      <table class="ranking-table" id="tabela-mais-vendidos-armer">
-        <thead>
-          <tr>
-            <th>Produto</th>
-            <th>Quantidade</th>
-            <th>Ticket Médio</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-
-      <h3 style="margin-top: 40px;">Top 5 Menos Vendidos</h3>
-      <table class="ranking-table" id="tabela-menos-vendidos-armer">
-        <thead>
-          <tr>
-            <th>Produto</th>
-            <th>Quantidade</th>
-            <th>Ticket Médio</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </div>
-
+  <!-- Script principal -->
   <script src="../scrypts/script_meta_vendas.js"></script>
 </body>
 </html>
