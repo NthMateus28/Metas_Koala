@@ -195,7 +195,7 @@ app.use(express.static(path.resolve('./pages')));
 
 // Rota raiz carrega a página index_meta_vendas.html
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'pages/index_meta_vendas.html'));
+  res.sendFile(path.resolve(__dirname, 'public/pages/index_meta_vendas.html'));
 });
 
 
