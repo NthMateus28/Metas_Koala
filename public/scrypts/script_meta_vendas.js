@@ -52,7 +52,7 @@ Chart.register({
 
 async function buscarNotas() {
   try {
-    const detalhesCacheados = await fetch('http://localhost:3000/api/nfe-cache')
+    const detalhesCacheados = await fetch('https://metas-koala.onrender.com/api/nfe-cache')
       .then(res => res.json())
       .catch(() => ({}));
 
@@ -288,7 +288,7 @@ document.getElementById('botaoAtualizar')?.addEventListener('click', async () =>
   botao.innerText = 'Atualizando...';
 
   try {
-    const res = await fetch('http://localhost:3000/api/atualizar-notas');
+    const res = await fetch('https://metas-koala.onrender.com/api/atualizar-notas');
     const json = await res.json();
     alert(json.mensagem || 'Atualização concluída!');
     location.reload();

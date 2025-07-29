@@ -5,12 +5,12 @@ export async function atualizarNotasCompletas() {
     console.log('🔄 Buscando novas notas fiscais...');
 
     // 1. Buscar lista geral de notas
-    const url = 'http://localhost:3000/api/nfe';
+    const url = 'https://metas-koala.onrender.com/api/nfe';
     const res = await fetch(url);
     const { data: notas } = await res.json();
 
     // 2. Obter cache atual
-    const cacheRes = await fetch('http://localhost:3000/api/nfe-cache');
+    const cacheRes = await fetch('https://metas-koala.onrender.com/api/nfe-cache');
     const cacheAtual = await cacheRes.json();
 
     // 3. Identificar notas ainda não detalhadas
@@ -27,7 +27,7 @@ export async function atualizarNotasCompletas() {
 
     for (const id of idsRestantes) {
       try {
-        const resposta = await fetch(`http://localhost:3000/api/nfe/${id}`);
+        const resposta = await fetch(`https://metas-koala.onrender.com/api/nfe/${id}`);
         const status = resposta.status;
 
         if (status === 302) {
@@ -61,7 +61,7 @@ export async function atualizarNotasCompletas() {
 
     // 5. Atualizar cache
     if (novosDetalhes.length > 0) {
-      await fetch('http://localhost:3000/api/nfe-cache', {
+      await fetch('https://metas-koala.onrender.com/api/nfe-cache', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(novosDetalhes)
