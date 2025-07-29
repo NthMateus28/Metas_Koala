@@ -42,7 +42,7 @@ async function buscarNotas() {
     renderizarGraficoArmer(notasFiltradas);
     gerarTopProdutos(notasFiltradas);
   } catch (err) {
-    console.error('❌ Erro ao processar notas:', err);
+    console.error('Erro ao processar notas:', err);
   }
 }
 
@@ -67,14 +67,12 @@ Chart.register({
     ctx.font = 'bold 24px Arial';
     ctx.fillText(`${porcentagemProjecao}%`, width / 2, height / 2 - 5);
     
-    // Espaçamento maior aqui 👇
     ctx.font = 'normal 24px Arial';
     ctx.fillStyle = '#888';
     ctx.fillText(label || 'REALIZADO', width / 2, height / 2 + 35);
     ctx.font = 'bold 24px Arial';
     ctx.fillStyle = '#3498db';
     ctx.fillText(`R$ ${realizado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`, width / 2, height / 2 + 55);
-    
 
     ctx.restore();
   }
@@ -86,16 +84,20 @@ function renderizarGrafico(realizado, projetado) {
   const realizadoPercentual = Math.min(realizado / metaGeral, 1);
   const projetadoPercentual = projetado / metaGeral;
 
+  const data = projetado >= metaGeral
+    ? [100, 0, 0]
+    : [
+        realizadoPercentual * 100,
+        Math.max(0, (projetadoPercentual - realizadoPercentual) * 100),
+        Math.max(0, 100 - Math.min(projetadoPercentual, 1) * 100)
+      ];
+
   new Chart(ctx, {
     type: 'doughnut',
     data: {
       labels: ['Realizado', 'Projeção', 'Restante'],
       datasets: [{
-        data: [
-          realizadoPercentual * 100,
-          Math.max(0, (projetadoPercentual - realizadoPercentual) * 100),
-          Math.max(0, 100 - Math.min(projetadoPercentual, 1) * 100)
-        ],
+        data,
         backgroundColor: ['#2ecc71', 'rgba(52, 152, 219, 0.5)', '#e5e5e5'],
         borderWidth: 0
       }]
@@ -120,7 +122,7 @@ function renderizarGrafico(realizado, projetado) {
         centerText: {
           realizado,
           projetado,
-          meta: metaGeral        
+          meta: metaGeral
         }
       }
     }
@@ -129,11 +131,10 @@ function renderizarGrafico(realizado, projetado) {
   const gap = metaGeral - realizado;
 
   document.getElementById('grafico-gap').innerHTML =
-  `GAP<br><span style="color: ${gap >= 0 ? '#c0392b' : '#27ae60'}; font-size: 16px;">R$ ${Math.abs(gap).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
+    `GAP<br><span style="color: ${gap >= 0 ? '#c0392b' : '#27ae60'}; font-size: 16px;">R$ ${Math.abs(gap).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
 
-document.getElementById('grafico-projecao').innerHTML =
-  `PROJEÇÃO<br><span style="color: #2980b9; font-size: 16px;">R$ ${projetado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
-
+  document.getElementById('grafico-projecao').innerHTML =
+    `PROJEÇÃO<br><span style="color: #2980b9; font-size: 16px;">R$ ${projetado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
 }
 
 function renderizarGraficoArmer(notasFiltradas) {
@@ -160,16 +161,20 @@ function renderizarGraficoArmer(notasFiltradas) {
   const realizadoPercentual = Math.min(realizado / metaArmer, 1);
   const projetadoPercentual = projetado / metaArmer;
 
+  const data = projetado >= metaArmer
+    ? [100, 0, 0]
+    : [
+        realizadoPercentual * 100,
+        Math.max(0, (projetadoPercentual - realizadoPercentual) * 100),
+        Math.max(0, 100 - Math.min(projetadoPercentual, 1) * 100)
+      ];
+
   new Chart(ctx, {
     type: 'doughnut',
     data: {
       labels: ['Realizado', 'Projeção', 'Restante'],
       datasets: [{
-        data: [
-          realizadoPercentual * 100,
-          Math.max(0, (projetadoPercentual - realizadoPercentual) * 100),
-          Math.max(0, 100 - Math.min(projetadoPercentual, 1) * 100)
-        ],
+        data,
         backgroundColor: ['#2ecc71', 'rgba(52, 152, 219, 0.5)', '#e5e5e5'],
         borderWidth: 0
       }]
@@ -194,7 +199,8 @@ function renderizarGraficoArmer(notasFiltradas) {
         centerText: {
           realizado,
           projetado,
-          meta: metaArmer        }
+          meta: metaArmer
+        }
       }
     }
   });
@@ -216,23 +222,6 @@ function renderizarGraficoArmer(notasFiltradas) {
   const topMais = ranking.slice(0, 5);
   const topMenos = ranking.slice(-5);
 
-  function tabelaHTML(ranking) {
-    return `
-      <table style="margin: auto; border-collapse: collapse;">
-        <thead>
-          <tr><th>Código</th><th>Qtd</th><th>Ticket</th></tr>
-        </thead>
-        <tbody>
-          ${ranking.map(p => `
-            <tr>
-              <td>${p.codigo}</td>
-              <td>${p.quantidade}</td>
-              <td>R$ ${p.total.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</td>
-            </tr>`).join('')}
-        </tbody>
-      </table>`;
-  }
-
   function renderTabelaArmer(lista, idTabela) {
     const tbody = document.querySelector(`#${idTabela} tbody`);
     tbody.innerHTML = '';
@@ -246,10 +235,9 @@ function renderizarGraficoArmer(notasFiltradas) {
       tbody.appendChild(tr);
     });
   }
-  
+
   renderTabelaArmer(topMais, 'tabela-mais-vendidos-armer');
   renderTabelaArmer(topMenos, 'tabela-menos-vendidos-armer');
-  
 }
 
 function gerarTopProdutos(notas) {
@@ -301,3 +289,23 @@ function gerarTopProdutos(notas) {
 }
 
 buscarNotas();
+
+document.getElementById('botaoAtualizar')?.addEventListener('click', async () => {
+  const botao = document.getElementById('botaoAtualizar');
+  botao.disabled = true;
+  botao.innerText = 'Atualizando...';
+
+  try {
+    const res = await fetch('http://localhost:3000/api/atualizar-notas');
+    const json = await res.json();
+
+    alert(json.mensagem || 'Atualização concluída!');
+    location.reload(); // recarrega os dados e gráficos
+  } catch (err) {
+    console.error('Erro na atualização manual:', err);
+    alert('Erro ao atualizar os dados. Veja o console para mais detalhes.');
+  }
+
+  botao.disabled = false;
+  botao.innerText = 'Atualizar Dados';
+});

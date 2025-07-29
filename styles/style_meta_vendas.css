@@ -18,6 +18,24 @@ h1 {
   text-shadow: 1px 1px 4px rgba(201, 201, 201, 0.5);
 }
 
+.botao-atualizar {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.botao-atualizar:hover {
+  background-color: #219150;
+}
+
+
 /* ============ GRÁFICOS ============ */
 .graficos-wrapper {
   display: flex;
