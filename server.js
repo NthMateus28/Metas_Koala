@@ -200,7 +200,7 @@ app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
 
-import { atualizarNotasCompletas } from './scrypts/atualizarNotas.js';
+import { atualizarNotasCompletas } from './public/scrypts/atualizarNotas.js';
 
 // Atualiza automaticamente ao subir o servidor
 (async () => {
