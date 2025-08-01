@@ -109,6 +109,92 @@ body.outros {
 
 }
 
+.linha-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Linha 1 – Gráfico de metas e devoluções */
+.grafico-meta-unico,
+.grafico-devolucoes {
+  flex: 1;
+  max-width: 370px;
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  aspect-ratio: 1.6/1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+#grafico-total-devolucoes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  pointer-events: none;
+}
+
+#grafico-total-devolucoes .devolucoes-titulo {
+  font-size: 26px;
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#grafico-total-devolucoes .devolucoes-valor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 44px;
+  color: #e74c3c;
+  font-weight: bold;
+  white-space: nowrap
+}
+
+
+.grafico-meta-unico canvas,
+.grafico-devolucoes canvas {
+  width: 100%;
+  height: 200px;
+}
+
+.chart-label {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #ecf0f1;
+}
+
+/* Linha 2 – Rankings */
+.ranking-container {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ranking-block {
+  flex: 1 1 48%;
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Linha 3 – Gráfico de linha */
+.grafico-linha-diario {
+  width: 100%;
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+}
+
 
 /* ============ MENU DE NAVEGAÇÃO ============ */
 .nav-menu {

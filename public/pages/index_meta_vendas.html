@@ -43,49 +43,52 @@
         <a href="../pages/meta-outros.html" class="nav-item">Meta Vendas Outros</a>
       </nav>
 
-      <!-- Painel de metas -->
-      <div class="painel-metas">
-        <!-- Gráfico de metas -->
+      <!-- Linha 1: Gráfico de Metas + Devoluções -->
+      <div class="linha-dashboard">
         <div class="grafico-meta-unico">
           <canvas id="chartMetaGeral"></canvas>
           <div id="grafico-gap" class="chart-label"></div>
           <div id="grafico-projecao" class="chart-label"></div>
         </div>
-
-        <!-- Rankings -->
-        <div class="ranking-container">
-          <div class="ranking-block">
-            <h2>Top 5 Mais Vendidos</h2>
-            <table class="ranking-table" id="ranking-mais-vendidos">
-              <thead>
-                <tr>
-                  <th>Produto</th>
-                  <th>Quantidade</th>
-                  <th>Ticket Médio</th>
-                </tr>
-              </thead>
-              <tbody></tbody>
-            </table>
-          </div>
-
-          <div class="ranking-block">
-            <h2>Top 5 Menos Vendidos</h2>
-            <table class="ranking-table" id="ranking-menos-vendidos">
-              <thead>
-                <tr>
-                  <th>Produto</th>
-                  <th>Quantidade</th>
-                  <th>Ticket Médio</th>
-                </tr>
-              </thead>
-              <tbody></tbody>
-            </table>
-          </div>
+        <div class="grafico-devolucoes">
+          <canvas id="chartDevolucoes"></canvas>
+          <div id="grafico-total-devolucoes" class="chart-label"></div>
         </div>
       </div>
 
-      <!-- Gráfico de linha de faturamento -->
-      <div class="grafico-linha-diario">
+      <!-- Linha 2: Rankings -->
+      <div class="linha-dashboard ranking-container">
+        <div class="ranking-block">
+          <h2>Top 5 Mais Vendidos</h2>
+          <table class="ranking-table" id="ranking-mais-vendidos">
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Ticket Médio</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="ranking-block">
+          <h2>Top 5 Menos Vendidos</h2>
+          <table class="ranking-table" id="ranking-menos-vendidos">
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Ticket Médio</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Linha 3: Faturamento diário -->
+      <div class="linha-dashboard grafico-linha-diario">
         <h2 style="text-align: center; margin-bottom: 10px;">Faturamento Diário</h2>
         <canvas id="chartFaturamentoDiario"></canvas>
       </div>

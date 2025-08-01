@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = 3000;
-const ACCESS_TOKEN = 'f48eb4fd8e624047cef8e2555fef39b3c203f0fa';
+const ACCESS_TOKEN = '3a96f309f108e91be1538becdcb2d4df9a96bf45';
 
 const detalhesPath = path.resolve('./cache_detalhes.json');
 const cacheNfePath = path.resolve('./cache_nfe.json');
@@ -43,27 +43,19 @@ async function getUltimaDataDoCacheDetalhes() {
 app.get('/api/nfe', async (req, res) => {
   const hoje = new Date().toISOString().split('T')[0];
   const dataFinal = req.query.fim || hoje;
+  const dataInicial = '2025-07-01'; // ← fixado em julho
 
-  console.log(dataFinal);
+  async function buscarNotasPorTipo(tipo) {
+    const limite = 100;
+    let pagina = 1;
+    let todasNotas = [];
+    let continuar = true;
 
-  let dataInicial = await getUltimaDataDoCacheDetalhes();
-  if (!dataInicial) {
-    const d = new Date();
-    dataInicial = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-01`;
-  }
+    console.log(`📦 Buscando notas tipo ${tipo === 1 ? 'SAÍDA' : 'ENTRADA'} de ${dataInicial} até ${dataFinal}`);
 
-  const limite = 100;
-  let pagina = 1;
-  let todasNotas = [];
-  let continuar = true;
-  let ultimaDataEncontrada = dataInicial;
-
-  console.log(` Buscando NFs de ${dataInicial} até ${dataFinal}`);
-
-  try {
     while (continuar) {
-      const url = `https://api.bling.com.br/Api/v3/nfe?pagina=${pagina}&limite=${limite}&dataEmissaoInicial=${dataInicial}&dataEmissaoFinal=${dataFinal}`;
-      console.log(`Requisição para URL: ${url}`);
+      const url = `https://api.bling.com.br/Api/v3/nfe?pagina=${pagina}&limite=${limite}&tipo=${tipo}&dataEmissaoInicial=${dataInicial}&dataEmissaoFinal=${dataFinal}`;
+      console.log(`🌐 Requisição URL: ${url}`);
 
       const response = await fetch(url, {
         headers: {
@@ -74,8 +66,7 @@ app.get('/api/nfe', async (req, res) => {
 
       if (!response.ok) {
         const textoErro = await response.text();
-        console.error(`Erro na página ${pagina}:
-${textoErro.slice(0, 300)}`);
+        console.error(`❌ Erro na página ${pagina} (tipo ${tipo}):\n${textoErro.slice(0, 300)}`);
         break;
       }
 
@@ -83,15 +74,7 @@ ${textoErro.slice(0, 300)}`);
       const notas = json.data || [];
 
       todasNotas = todasNotas.concat(notas);
-
-      for (const nf of notas) {
-        const dataEmissao = nf?.data?.dataEmissao;
-        if (dataEmissao && dataEmissao > ultimaDataEncontrada) {
-          ultimaDataEncontrada = dataEmissao;
-        }
-      }
-
-      console.log(`Página ${pagina} retornou ${notas.length} notas`);
+      console.log(`✅ Página ${pagina} (tipo ${tipo}) retornou ${notas.length} notas`);
 
       if (notas.length < limite) {
         continuar = false;
@@ -100,20 +83,31 @@ ${textoErro.slice(0, 300)}`);
       }
     }
 
-    if (todasNotas.length > 0) {
-      const novoCache = {
-        notas: todasNotas,
-        ultimaDataBusca: ultimaDataEncontrada
-      };
-      await fs.writeFile(cacheNfePath, JSON.stringify(novoCache, null, 2));
-      console.log(`Atualizado cache_nfe.json com ${todasNotas.length} notas e data ${ultimaDataEncontrada}`);
-    } else {
-      console.log('Nenhuma nova nota encontrada.');
-    }
+    return todasNotas;
+  }
+
+  try {
+    // 🔄 Buscar ambos os tipos de notas
+    const [notasSaida, notasEntrada] = await Promise.all([
+      buscarNotasPorTipo(1),
+      buscarNotasPorTipo(0)
+    ]);
+
+    const todasNotas = [...notasSaida, ...notasEntrada];
+
+    // 💾 Salvar no cache
+    const ultimaDataBusca = dataFinal;
+    const novoCache = {
+      notas: todasNotas,
+      ultimaDataBusca
+    };
+
+    await fs.writeFile(cacheNfePath, JSON.stringify(novoCache, null, 2));
+    console.log(`🗃️ Cache atualizado com ${todasNotas.length} notas até ${ultimaDataBusca}`);
 
     res.json({ data: todasNotas });
   } catch (error) {
-    console.error('Erro ao buscar dados do Bling:', error);
+    console.error('🔥 Erro ao buscar dados do Bling:', error);
     res.status(500).json({ error: 'Erro ao buscar dados do Bling' });
   }
 });

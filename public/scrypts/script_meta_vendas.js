@@ -8,10 +8,10 @@ const idsValidos = [
 
 let categoriaSelecionada = 'geral';
 let metas = {
-  geral: 2500000,
-  armer: 937500,
-  az: 715000,
-  outros: 847500
+  geral: 2200000,
+  armer: 825000,
+  az: 629200,
+  outros: 745800
 };
 
 const hoje = new Date();
@@ -57,16 +57,37 @@ async function buscarNotas() {
       .catch(() => ({}));
 
     const detalhes = Object.values(detalhesCacheados || {});
+    const totalDevolucoes = calcularTotalDevolucoes(detalhes, categoriaSelecionada);
+
+    // Exibir na interface (em cima do gráfico)
+    document.getElementById('grafico-total-devolucoes').innerHTML = `
+    <div class="devolucoes-titulo">DEVOLUÇÕES</div>
+    <div class="devolucoes-valor">R$ ${totalDevolucoes.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</div>
+  `;  
+  
+    
+    const hoje = new Date();
+    let mesFiltro = hoje.getMonth();
+    let anoFiltro = hoje.getFullYear();
+
+    // 👉 EXCEÇÃO: se hoje é 1 de agosto, continua mostrando JULHO (mês 6)
+    if (hoje.getDate() === 1 && hoje.getMonth() === 7) {
+      mesFiltro = 7;
+      anoFiltro = hoje.getFullYear();
+    }
 
     const notasFiltradas = detalhes.filter(nf => {
+      // ✅ Apenas notas de saída
+      if (nf?.data?.tipo !== 1) return false;
+
       const data = nf?.data?.dataEmissao;
       const natureza = nf?.data?.naturezaOperacao?.id;
       if (!data || !natureza) return false;
 
       const dataEmissao = new Date(data);
       if (
-        dataEmissao.getFullYear() !== anoAtual ||
-        dataEmissao.getMonth() !== mesAtual ||
+        dataEmissao.getFullYear() !== anoFiltro ||
+        dataEmissao.getMonth() !== mesFiltro ||
         !idsValidos.includes(natureza)
       ) return false;
 
@@ -86,11 +107,23 @@ async function buscarNotas() {
       return true; // geral
     });
 
-    const realizado = notasFiltradas.reduce((soma, nf) => soma + (nf?.data?.valorNota || 0), 0);
-    const proporcao = hoje.getDate() / ultimoDiaDoMes;
+    const realizadoBruto = notasFiltradas.reduce((soma, nf) => soma + (nf?.data?.valorNota || 0), 0);
+    const realizado = Math.max(0, realizadoBruto - totalDevolucoes);
+    
+    const proporcao = hoje.getDate() / new Date(anoFiltro, mesFiltro + 1, 0).getDate();
+
+    console.log(hoje.getDate());
+    console.log(new Date(anoFiltro, mesFiltro + 1, 0).getDate());
+
+
+    console.log(proporcao);
+
     const projetado = realizado / proporcao;
 
+    console.log(projetado);
+    
     renderizarGraficoMeta(realizado, projetado, metas[categoriaSelecionada]);
+    
     gerarTopProdutos(notasFiltradas);
     gerarGraficoFaturamentoDiario(notasFiltradas);
   } catch (err) {
@@ -252,6 +285,53 @@ function gerarGraficoFaturamentoDiario(notas) {
   });
 }
 
+function calcularTotalDevolucoes(detalhes, categoria) {
+  const idsNaturezasDevolucao = [
+    14316243828,
+    15102988505,
+    14316243903,
+    15103139667,
+    15102332276,
+    15107208607,
+    15103139766,
+    15103236484,
+    15101939575
+  ];
+
+  let total = 0;
+
+  detalhes.forEach(nf => {
+    const tipo = nf?.data?.tipo;
+    const naturezaId = nf?.data?.naturezaOperacao?.id;
+    const data = new Date(nf?.data?.dataEmissao);
+    const itens = nf?.data?.itens || [];
+
+    if (
+      tipo === 0 &&
+      idsNaturezasDevolucao.includes(naturezaId) &&
+      data.getFullYear() === anoAtual &&
+      data.getMonth() === hoje.getMonth()
+    ) {
+      itens.forEach(item => {
+        const codigo = item?.codigo?.toUpperCase() || '';
+        const valor = item?.valor || 0;
+        const qtd = item?.quantidade || 1;
+
+        if (
+          (categoria === 'geral') ||
+          (categoria === 'armer' && codigo.includes('ARMER')) ||
+          (categoria === 'az' && codigo.includes('AZ')) ||
+          (categoria === 'outros' && !codigo.includes('ARMER') && !codigo.includes('AZ'))
+        ) {
+          total += valor * qtd;
+        }
+      });
+    }
+  });
+
+  return total;
+}
+
 function atualizarLogo(categoria) {
   const logo = document.getElementById('logoCategoria');
   switch (categoria) {
@@ -281,6 +361,27 @@ function atualizarLogo(categoria) {
       logo.style.display = 'none';
   }
 }
+
+function gerarDadosMensaisParaMes(mesStr) {
+  // Aqui você pode aplicar o filtro nos dados carregados do JSON
+  // mesStr deve ser '07', '08', '09', etc.
+  const vendas = todasNotasFiscais.filter(nf => 
+    nf.tipo === 1 && nf.data.startsWith(`2025-${mesStr}`)
+  );
+
+  const devolucoes = todasNotasFiscais.filter(nf => 
+    nf.tipo === 0 &&
+    nf.data.startsWith(`2025-${mesStr}`) &&
+    IDS_DEVOLUCAO.includes(nf.idNatureza)
+  );
+
+  return {
+    vendas,
+    devolucoes
+  };
+}
+
+
 
 document.getElementById('botaoAtualizar')?.addEventListener('click', async () => {
   const botao = document.getElementById('botaoAtualizar');
