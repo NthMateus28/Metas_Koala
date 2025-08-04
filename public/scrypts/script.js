@@ -1,7 +1,6 @@
 async function fetchNotasFiscais() {
-    // const url = 'https://metas-koala.onrender.com/api/nfe';
-    const url = 'http://localhost:3000/api/nfe';
-  
+    const url = 'https://metas-koala.onrender.com/api/nfe';
+
     try {
       const response = await fetch(url);
       const result = await response.json();
@@ -20,7 +19,7 @@ async function fetchNotasFiscais() {
     const delayMs = 20000;
   
     try {
-      const response = await fetch(`http://localhost:3000/api/nfe/${idNota}`);
+      const response = await fetch(`https://metas-koala.onrender.com/api/nfe/${idNota}`);
   
       if (response.status === 429) {
         console.warn(`⚠️ Nota ${idNota} recebeu 429 (Too Many Requests). Tentativa ${tentativa}/${maxTentativas}`);
