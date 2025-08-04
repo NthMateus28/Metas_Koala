@@ -10,6 +10,19 @@
 
 </head>
 <body class="geral pagina-barras">
+
+<!-- MENU HAMBURGUER - visível apenas no mobile -->
+<div class="menu-hamburguer-container">
+  <div class="hamburguer" id="hamburguer">&#9776;</div>
+  <div class="menu-slide" id="menuSlide">
+    <div class="fechar-menu" id="fecharMenu">&times;</div>
+    <a href="../pages/index_meta_vendas.html" class="nav-link">Meta Vendas Geral</a>
+    <a href="../pages/index_meta_empilhado-sites.html" class="nav-link">Meta Vendas Site</a>
+    <a href="../pages/meta-ml.html" class="nav-link">Metas Venda Mercado Livre</a>
+    <a href="../pages/meta-outros.html" class="nav-link">Meta Vendas Outros</a>
+  </div>
+</div>
+
   <div class="wrapper-dashboard">
 
     <img src="../images/logo_koalaBrands.png" alt="Logo Koala Brands" class="logo-koala" />
@@ -37,5 +50,21 @@
   </div>
 
   <script src="../scrypts/barras_empilhadas.js"></script>
+
+  <script>
+    const hamburguer = document.getElementById('hamburguer');
+    const menuSlide = document.getElementById('menuSlide');
+    const fecharMenu = document.getElementById('fecharMenu');
+  
+    hamburguer.addEventListener('click', () => {
+      menuSlide.classList.add('aberto');
+    });
+  
+    fecharMenu.addEventListener('click', () => {
+      menuSlide.classList.remove('aberto');
+    });
+  </script>
+  
+
 </body>
 </html>

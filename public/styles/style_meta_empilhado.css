@@ -1,165 +1,202 @@
 @import url("../styles/style_meta_vendas.css");
 
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #1e1e2f;
-    color: white;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e2f;
+  color: white;
+}
+
+hr {
+  margin: 30px;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-koala {
+  width: 180px;
+  max-width: 90%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.title-hr {
+  width: 200px;
+  border: solid 10px;
+}
+
+.layout-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.conteudo-dashboard {
+  max-width: 1200px;
+  width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.conteudo-dashboard > h1 {
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(201, 201, 201, 0.5);
+  text-align: center;
+}
+
+.graficos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.bloco-barra {
+  width: 100%;
+}
+
+.nome-loja {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.barra-container {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.barra {
+  display: flex;
+  height: 25px;
+  background-color: #555;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.realizado {
+  background-color: #2ecc71;
+  height: 100%;
+}
+
+.projecao {
+  background-color: #bdc3c7;
+  height: 100%;
+}
+
+.valores {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+.realizado-label {
+  color: #2ecc71;
+}
+
+.meta-label {
+  color: #ffffff;
+  text-align: right;
+}
+
+.menu-hamburguer-container {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .layout-container {
+    flex-direction: column;
+    padding: 0 10px;
   }
 
-  hr {
-    margin: 30px;
+  .conteudo-dashboard {
+    padding: 20px 10px;
   }
 
-  canvas {
-    max-width: 100%;
-    height: auto !important;
-    display: block;
-    margin: 0 auto;
+  .conteudo-dashboard > h1 {
+    font-size: 1.5rem;
+  }
+
+  .graficos-container {
+    padding: 0 10px;
+    gap: 30px;
   }
 
   .logo-koala {
-    width: 180px !important;
-    max-width: 100%;
-    height: auto;
-    margin: 20px auto;
+    width: 140px;
+  }
+
+  .valores {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.85rem;
+  }
+
+  .menu-lateral {
+    display: none;
+  }
+
+  .menu-hamburguer-container {
+    display: block;
+    background-color: #111;
+    padding: 10px;
+  }
+
+  .menu-slide {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #111;
+    padding: 20px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 999;
+  }
+
+  .menu-slide.aberto {
+    transform: translateX(0);
+  }
+
+  .fechar-menu {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+
+  .menu-slide .nav-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu-hamburguer-container {
     display: block;
   }
 
-  .title-hr{
-    width: 200px;
-    border: solid 10px;
+  .nav-menu {
+    display: none !important;
   }
-  
-  .layout-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  
-  .conteudo-dashboard {
-    max-width: 1200px;
-    width: 100%;
-    padding: 30px;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-  
-  .conteudo-dashboard > h1 {
-    width: 100%;
-    margin-bottom: 40px;
-    font-size: 2rem;
-    color: #ffffff;
-    text-shadow: 1px 1px 4px rgba(201, 201, 201, 0.5);
-    text-align: center;
-  }
-  
-  .graficos-container {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 100%;
-    max-width: 800px; /* ou ajuste conforme desejar */
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-  }  
-  
-  .bloco-barra {
-    width: 100%;
-  }
-  
-  .nome-loja {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .barra-container {
-    background-color: #333;
-    padding: 10px;
-    border-radius: 8px;
-  }
-  
-  .barra {
-    display: flex;
-    height: 25px;
-    background-color: #555;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .realizado {
-    background-color: #2ecc71;
-    height: 100%;
-  }
-  
-  .projecao {
-    background-color: #bdc3c7;
-    height: 100%;
-  }
-  
-  .valores {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
-    font-size: 0.9rem;
-  }
-  
-  .realizado-label {
-    color: #2ecc71;
-  }
-  
-  .meta-label {
-    color: #ffffff;
-    text-align: right;
-  }
-  
-  .menu-hamburguer-container {
-    display: none;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .menu-lateral {
-      display: none;
-    }
-    .menu-hamburguer-container {
-      display: block;
-      background-color: #111;
-      padding: 10px;
-    }
-  
-    .menu-slide {
-      position: fixed;
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 250px;
-      background-color: #111;
-      padding: 20px;
-      transform: translateX(-100%);
-      transition: transform 0.3s ease;
-      z-index: 999;
-    }
-  
-    .menu-slide.aberto {
-      transform: translateX(0);
-    }
-  
-    .fechar-menu {
-      font-size: 24px;
-      color: white;
-      cursor: pointer;
-      text-align: right;
-      margin-bottom: 20px;
-    }
-  
-    .menu-slide .nav-link {
-      display: block;
-      color: white;
-      text-decoration: none;
-      margin-bottom: 15px;
-    }
-  }
-  
+}

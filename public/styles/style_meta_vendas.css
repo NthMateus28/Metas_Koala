@@ -447,6 +447,7 @@ body.outros {
 }
 
 /* Esconde o menu hamburguer no desktop */
+/* Esconde o menu hamburguer no desktop */
 .menu-hamburguer-container {
   position: fixed;
   top: 20px;

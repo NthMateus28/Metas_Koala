@@ -100,15 +100,17 @@
   <script src="../scrypts/script_meta_vendas.js"></script>
 
   <!-- Script do menu hamburguer -->
+  <script src="../scrypts/barras_empilhadas.js"></script>
+
   <script>
     const hamburguer = document.getElementById('hamburguer');
     const menuSlide = document.getElementById('menuSlide');
     const fecharMenu = document.getElementById('fecharMenu');
-
+  
     hamburguer.addEventListener('click', () => {
       menuSlide.classList.add('aberto');
     });
-
+  
     fecharMenu.addEventListener('click', () => {
       menuSlide.classList.remove('aberto');
     });
