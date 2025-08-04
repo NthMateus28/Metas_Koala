@@ -184,6 +184,11 @@ app.post('/api/nfe-cache', async (req, res) => {
   }
 });
 
+app.get('/cache_detalhes_atualizado.json', (req, res) => {
+  const filePath = path.resolve('./cache_detalhes_atualizado.json');
+  res.sendFile(filePath);
+});
+
 // Serve arquivos estáticos da pasta "pages"
 app.use(express.static(path.resolve('./pages')));
 

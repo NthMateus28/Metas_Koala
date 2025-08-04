@@ -18,7 +18,7 @@ const METAS = {
   
   async function carregarDadosBarras() {
     try {
-      const res = await fetch('../../cache_detalhes_atualizado.json');
+      const res = await fetch('https://metas-koala.onrender.com/cache_detalhes_atualizado.json');
       const json = await res.json();
       const notas = Array.isArray(json) ? json : Object.values(json);
   
