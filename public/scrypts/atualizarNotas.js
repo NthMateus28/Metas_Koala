@@ -1,4 +1,5 @@
 import fetch from 'node-fetch';
+import fs from 'fs';
 
 export async function atualizarNotasCompletas() {
   try {
@@ -67,13 +68,69 @@ export async function atualizarNotasCompletas() {
         body: JSON.stringify(novosDetalhes)
       });
       console.log(`🗃️ Cache atualizado com ${novosDetalhes.length} novas notas`);
+
+      // 6. Substituir IDs de loja por nomes
     } else {
       console.log('📭 Nenhuma nota detalhada foi adicionada');
     }
 
-    // 6. Resumo
+    substituirIdsDeLojaPorNome(novosDetalhes, cacheAtual);
+
+    // 7. Resumo
     console.log(`🔚 Finalizado: ${novosDetalhes.length} salvas, ${redirects} 302, ${erros} erros`);
   } catch (err) {
     console.error('🔥 Erro geral ao atualizar notas:', err);
   }
+}
+
+// ✅ Função auxiliar para substituir IDs de loja pelos nomes
+function substituirIdsDeLojaPorNome(novosDetalhes, cacheAtual) {
+  console.log('🔄 Substituindo IDs de loja por nomes...');
+  const caminhoLojas = './cache_loja.json';
+  const raw = JSON.parse(fs.readFileSync(caminhoLojas, 'utf-8'));
+  const lojas = raw.data || [];
+
+  const mapaLojas = {};
+  for (const loja of lojas) {
+    if (loja?.id && loja?.descricao) {
+      mapaLojas[loja.id] = loja.descricao;
+    }
+  }
+
+  // Combinar detalhes existentes com os novos
+  const mapaNotas = new Map();
+
+  Object.values(cacheAtual).forEach(nf => {
+    if (nf?.data?.id) {
+      mapaNotas.set(nf.data.id, nf);
+    }
+  });
+  
+  novosDetalhes.forEach(nf => {
+    if (nf?.data?.id) {
+      mapaNotas.set(nf.data.id, nf);
+    }
+  });
+  
+  const detalhesCompletos = Array.from(mapaNotas.values());
+  
+  const detalhesAtualizados = detalhesCompletos.map(nf => {
+    if (nf?.data?.loja?.id) {
+      const idLoja = nf.data.loja.id;
+      const nomeLoja = mapaLojas[idLoja];
+
+      if (nomeLoja) {
+        nf.data.loja = nomeLoja;
+      }
+    }
+    return nf;
+  });
+
+  fs.writeFileSync(
+    './cache_detalhes_atualizado.json',
+    JSON.stringify(detalhesAtualizados, null, 2),
+    'utf-8'
+  );
+
+  console.log('✅ IDs de loja substituídos por nomes e arquivo salvo como cache_detalhes_atualizado.json!');
 }

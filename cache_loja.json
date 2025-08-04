@@ -1,0 +1,316 @@
+{
+    "data": [
+        {
+            "id": 203787109,
+            "descricao": "SITE-Loja ATV",
+            "tipo": "LojaIntegrada",
+            "situacao": 2
+        },
+        {
+            "id": 203792310,
+            "descricao": "Loja Física RS",
+            "tipo": "LojaFisica",
+            "situacao": 1
+        },
+        {
+            "id": 203792312,
+            "descricao": "Filial SC",
+            "tipo": "LojaFisica",
+            "situacao": 1
+        },
+        {
+            "id": 203826594,
+            "descricao": "Mercado Livre SC-Koala Music",
+            "tipo": "MercadoLivre",
+            "situacao": 1
+        },
+        {
+            "id": 203866306,
+            "descricao": "B2W",
+            "tipo": "SkyHub",
+            "situacao": 2
+        },
+        {
+            "id": 203866908,
+            "descricao": "Amazon",
+            "tipo": "Amazon",
+            "situacao": 2
+        },
+        {
+            "id": 203868813,
+            "descricao": "Ideris",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 203873247,
+            "descricao": "Ideris 2",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 203878406,
+            "descricao": "Magalu Koala",
+            "tipo": "IntegraCommerce",
+            "situacao": 2
+        },
+        {
+            "id": 203955117,
+            "descricao": "SITE-ARMER",
+            "tipo": "LojaIntegrada",
+            "situacao": 2
+        },
+        {
+            "id": 204010122,
+            "descricao": "Amazon FBA SC",
+            "tipo": "AmazonFulfillment",
+            "situacao": 1
+        },
+        {
+            "id": 204024796,
+            "descricao": "Mercado Livre RS",
+            "tipo": "MercadoLivre",
+            "situacao": 1
+        },
+        {
+            "id": 204031796,
+            "descricao": "Shopee",
+            "tipo": "Shopee",
+            "situacao": 2
+        },
+        {
+            "id": 204098803,
+            "descricao": "Mundo da Música - 204098803",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 204202253,
+            "descricao": "LI-IEQ",
+            "tipo": "LojaIntegrada",
+            "situacao": 2
+        },
+        {
+            "id": 204251059,
+            "descricao": "Full Envios",
+            "tipo": "LojaFisica",
+            "situacao": 2
+        },
+        {
+            "id": 204328087,
+            "descricao": "Olist",
+            "tipo": "Olist",
+            "situacao": 2
+        },
+        {
+            "id": 204468981,
+            "descricao": "AnyMarket-Magalu",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 204472494,
+            "descricao": "AnyMarket-Mercado Livre-SC",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 204472537,
+            "descricao": "AnyMarket-B2W",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 204472541,
+            "descricao": "AnyMarket-Olist",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 204472543,
+            "descricao": "Anymarket-Shopee",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 204472551,
+            "descricao": "AnyMarket-Amazon",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 204476830,
+            "descricao": "AnyMarket-E-commerce",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 204493304,
+            "descricao": "SITE-Distribuidora Armer",
+            "tipo": "LojaIntegrada",
+            "situacao": 2
+        },
+        {
+            "id": 204520509,
+            "descricao": "AnyMarket-FBA",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 204523267,
+            "descricao": "AnyMarket-FULL",
+            "tipo": "Api",
+            "situacao": 2
+        },
+        {
+            "id": 204672124,
+            "descricao": "Filial SP",
+            "tipo": "LojaFisica",
+            "situacao": 1
+        },
+        {
+            "id": 204673600,
+            "descricao": "Mercado Livre SP",
+            "tipo": "MercadoLivre",
+            "situacao": 1
+        },
+        {
+            "id": 204855024,
+            "descricao": "Amazon SP",
+            "tipo": "Amazon",
+            "situacao": 1
+        },
+        {
+            "id": 204888058,
+            "descricao": "Amazon FBA SP",
+            "tipo": "AmazonFBAClassic",
+            "situacao": 1
+        },
+        {
+            "id": 204958478,
+            "descricao": "TEste FULL SP",
+            "tipo": "MercadoLivre",
+            "situacao": 2
+        },
+        {
+            "id": 204981095,
+            "descricao": "Mercado Livre SP-FULL",
+            "tipo": "MercadoLivre",
+            "situacao": 1
+        },
+        {
+            "id": 205071333,
+            "descricao": "ATV-LOJA-Mercado Livre -SC",
+            "tipo": "MercadoLivre",
+            "situacao": 2
+        },
+        {
+            "id": 205081531,
+            "descricao": "Mercado Envios SP",
+            "tipo": "MercadoLivre",
+            "situacao": 2
+        },
+        {
+            "id": 205118654,
+            "descricao": "Amazon SC",
+            "tipo": "Amazon",
+            "situacao": 1
+        },
+        {
+            "id": 205118665,
+            "descricao": "Amazon FBA  Desativada",
+            "tipo": "AmazonFulfillment",
+            "situacao": 2
+        },
+        {
+            "id": 205118914,
+            "descricao": "Magalu SC",
+            "tipo": "IntegraCommerce",
+            "situacao": 1
+        },
+        {
+            "id": 205120840,
+            "descricao": "Mercado Livre SC-AZAudio",
+            "tipo": "MercadoLivre",
+            "situacao": 1
+        },
+        {
+            "id": 205139241,
+            "descricao": "Mercado Livre FULL-SP",
+            "tipo": "MercadoLivre",
+            "situacao": 2
+        },
+        {
+            "id": 205139769,
+            "descricao": "Mercado Livre SC-FULL-Armer",
+            "tipo": "MercadoLivre",
+            "situacao": 1
+        },
+        {
+            "id": 205139798,
+            "descricao": "Mercado Livre SC-FULL-Koala Music",
+            "tipo": "MercadoLivre",
+            "situacao": 1
+        },
+        {
+            "id": 205139821,
+            "descricao": "Mercado Livre SC-FULL-AZ Audio",
+            "tipo": "MercadoLivre",
+            "situacao": 1
+        },
+        {
+            "id": 205321736,
+            "descricao": "",
+            "tipo": "Amazon",
+            "situacao": 2
+        },
+        {
+            "id": 205343961,
+            "descricao": "(Loja anonimizada - 25/03/2025 19:13:08)",
+            "tipo": "Nuvemshop",
+            "situacao": 2
+        },
+        {
+            "id": 205346017,
+            "descricao": "",
+            "tipo": "Amazon",
+            "situacao": 2
+        },
+        {
+            "id": 205364860,
+            "descricao": "Nuvemshop Armer",
+            "tipo": "Nuvemshop",
+            "situacao": 1
+        },
+        {
+            "id": 205374838,
+            "descricao": "Nuvemshop Koala",
+            "tipo": "Nuvemshop",
+            "situacao": 1
+        },
+        {
+            "id": 205378493,
+            "descricao": "Nuvemshop Distribuidora Koala",
+            "tipo": "Nuvemshop",
+            "situacao": 1
+        },
+        {
+            "id": 205382756,
+            "descricao": "Nuvemshop ATV",
+            "tipo": "Nuvemshop",
+            "situacao": 1
+        },
+        {
+            "id": 205409981,
+            "descricao": "Nuvemshop Zarcon",
+            "tipo": "Nuvemshop",
+            "situacao": 1
+        },
+        {
+            "id": 205427184,
+            "descricao": "Nuvemshop Az Audio",
+            "tipo": "Nuvemshop",
+            "situacao": 1
+        }
+    ]
+}
