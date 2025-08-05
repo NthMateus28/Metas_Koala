@@ -381,7 +381,35 @@ function gerarDadosMensaisParaMes(mesStr) {
   };
 }
 
+document.getElementById('botaoRefresh')?.addEventListener('click', async (event) => {
+  event.preventDefault(); // evita recarregamento da página
 
+  const btn = document.getElementById('botaoRefresh');
+  btn.classList.add('girando'); // inicia rotação
+  console.log('[🔄 Início] Atualizando notas...');
+
+  try {
+    const res = await fetch('http://localhost:3000/api/atualizar-notas');
+
+    console.log(`[🌐 Status] Código da resposta: ${res.status}`);
+
+    if (!res.ok) {
+      const text = await res.text();
+      console.warn('[⚠️ API respondeu com erro]', text.slice(0, 300));
+      throw new Error('Erro ao atualizar notas');
+    }
+
+    const json = await res.json();
+    console.log('[✅ Concluído] Resposta recebida:', json);
+    alert(json.mensagem || 'Notas atualizadas com sucesso!');
+  } catch (err) {
+    console.error('[❌ Erro] Durante a atualização:', err);
+    alert('Erro ao atualizar notas!');
+  } finally {
+    btn.classList.remove('girando'); // para rotação
+    console.log('[✔️ Fim] Processo de atualização encerrado');
+  }
+});
 
 document.getElementById('botaoAtualizar')?.addEventListener('click', async () => {
   const botao = document.getElementById('botaoAtualizar');

@@ -292585,6 +292585,327 @@
   },
   {
     "data": {
+      "id": 23516961348,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "019238",
+      "dataEmissao": "2025-08-05 12:51:56",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192381539829922",
+      "contato": {
+        "id": 17572642483,
+        "nome": "daay Lima",
+        "numeroDocumento": "35014656889",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Jose de Paiva e Silva",
+          "numero": "348",
+          "complemento": "Frente Referencia: Muro azul portao branco",
+          "bairro": "Jardim Nova Terra (Nova Veneza)",
+          "cep": "13.179-020",
+          "municipio": "Sumaré",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-FULL-Koala Music",
+      "serie": 2,
+      "valorNota": 1992.85,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550020000192381539829922&s&signature=53a4ea17d5ac274e13b69994969ba60d9be1ef4b077aa7acc3488a114464cd6a",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=92608e43f1c7f9f5628f87ad910c0148",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=92608e43f1c7f9f5628f87ad910c0148",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012548746164",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 2,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15775871171
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-AX822M-TD",
+          "descricao": "Microfone sem Fio Duplo True Diversity AX822M-TD",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 1815.81,
+          "valorTotal": 1815.81,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001254874616",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "",
+          "gtin": "7899701568550",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 485.73,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 79.71
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 1992.85,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1921735
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23516580936,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "019236",
+      "dataEmissao": "2025-08-05 12:09:58",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192361914249828",
+      "contato": {
+        "id": 17572301204,
+        "nome": "Alessandro Terra Palhares",
+        "numeroDocumento": "15027670826",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Doutor Nelson D Avila",
+          "numero": "1125",
+          "complemento": "Apt: 401 D Referencia: Condominio Suite Service",
+          "bairro": "Jardim Sao Dimas",
+          "cep": "12.245-030",
+          "municipio": "São José dos Campos",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-FULL-Koala Music",
+      "serie": 2,
+      "valorNota": 620.79,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550020000192361914249828&s&signature=20c2189f33b173a1ca7b6d72c42a0bf5218aee17ad9b0048e468f189cbe0e56c",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=a4f57bf3b7d0fa12f4b2944ea9d07a99",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=a4f57bf3b7d0fa12f4b2944ea9d07a99",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012546839194",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 2,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15775709359
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-SH550-HEADPHON",
+          "descricao": "Fone de Estudio Profissional Armer SH550",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 565.64,
+          "valorTotal": 565.64,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001254683919",
+          "classificacaoFiscal": "8518.30.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "",
+          "gtin": "7899701562848",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 151.31,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 24.83
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 620.79,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23515389032,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "019234",
+      "dataEmissao": "2025-08-05 10:34:04",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192341975538159",
+      "contato": {
+        "id": 17572306592,
+        "nome": "Erick Valenga",
+        "numeroDocumento": "05074316936",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Alferes Poli",
+          "numero": "3298",
+          "complemento": "Nao consta",
+          "bairro": "Parolin",
+          "cep": "80.220-051",
+          "municipio": "Curitiba",
+          "uf": "PR"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-FULL-Armer",
+      "serie": 2,
+      "valorNota": 579.99,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550020000192341975538159&s&signature=e9dc379fb28f382d0f51c103f09eb0b89a5d9836eda38ed43cd64b740ed6eac5",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=6607ae4f3c574411a002c02fb835e86f",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=6607ae4f3c574411a002c02fb835e86f",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012546882280",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 2,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15775712172
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-REDONE",
+          "descricao": "Interface De Audio Usb Armer Red One 2-in/2-out",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 544.59,
+          "valorTotal": 544.59,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001254688228",
+          "classificacaoFiscal": "8543.70.99",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 6,
+          "informacoesAdicionais": "",
+          "gtin": "7899701561889",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 124.55,
+            "icms": {
+              "st": 0,
+              "origem": 6,
+              "modalidade": 3,
+              "aliquota": 12,
+              "valor": 69.6
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 579.99,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
       "id": 23515169356,
       "tipo": 1,
       "situacao": 5,
@@ -294669,6 +294990,207 @@
         {
           "data": "2025-08-05",
           "valor": 1501,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23516289902,
+      "tipo": 0,
+      "situacao": 7,
+      "numero": "030164",
+      "dataEmissao": "2025-08-02 10:24:56",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301641929461541",
+      "contato": {
+        "id": 15003539576,
+        "nome": "Koala Music Ltda-Filial SC",
+        "numeroDocumento": "42985698000272",
+        "ie": "261283456",
+        "rg": "",
+        "telefone": "5140421522",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Cecilia do Rego Almeida",
+          "numero": "98",
+          "complemento": "Box 1",
+          "bairro": "Brejaru",
+          "cep": "88.133-560",
+          "municipio": "Palhoça",
+          "uf": "SC"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103158046
+      },
+      "loja": "Loja Física RS",
+      "serie": 1,
+      "valorNota": 1009.98,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000301641929461541&s&signature=257c9bda6034369055f88073204999cece40f69c0b5533a725903314d69751c4",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=394a9b366ab85eea32de4947968f7f08",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=394a9b366ab85eea32de4947968f7f08",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Expresso Sao Miguel-Palhoca",
+          "numeroDocumento": "00428307001160"
+        },
+        "volumes": [],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-NEO-PRO8",
+          "descricao": "Caixa de Som Torre Sistema PA Portatil Bluetooth Neo Pro8 AZ",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 878.24,
+          "valorTotal": 878.24,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "",
+          "gtin": "7899701569731",
+          "cfop": "6152",
+          "impostos": {
+            "valorAproximadoTotalTributos": 418.84,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 35.13
+            }
+          }
+        }
+      ],
+      "parcelas": []
+    }
+  },
+  {
+    "data": {
+      "id": 23517683301,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "003352",
+      "dataEmissao": "2025-08-05 14:05:19",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "35250842985698000353550050000033521793139798",
+      "contato": {
+        "id": 17572807651,
+        "nome": "Victor Hugo Neves Gonzaga",
+        "numeroDocumento": "75371553134",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua GB8",
+          "numero": "SN",
+          "complemento": "Cond. parque aroeira Referencia: Casa 221 condominio parque",
+          "bairro": "Jardim Guanabara II",
+          "cep": "74.680-770",
+          "municipio": "Goiânia",
+          "uf": "GO"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SP-FULL",
+      "serie": 5,
+      "valorNota": 1309.4,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=35250842985698000353550050000033521793139798&s&signature=e9b67bce5798fef290091d8587084212dabfdbf9a197981ff5e4d714a8f02642",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=cd0f8309d794960bb04954342fd889d0",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=cd0f8309d794960bb04954342fd889d0",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012549778862",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15775950824
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "TAG-SIXMART-CA",
+          "descricao": "Guitarra Stratocaster Tagima Sixmart Vermelha com Efeitos",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 1309.4,
+          "valorTotal": 1309.4,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001254977886",
+          "classificacaoFiscal": "9207.90.10",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 2,
+          "informacoesAdicionais": "",
+          "gtin": "7898563970815",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 637.68,
+            "icms": {
+              "st": 0,
+              "origem": 2,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 52.38
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 1309.4,
           "observacoes": "",
           "formaPagamento": {
             "id": 1989128

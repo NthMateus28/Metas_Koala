@@ -56,12 +56,13 @@ const METAS = {
   
         const realizadoPercent = Math.min(realizado / meta, 1);
         const projecaoPercent = Math.min(projecao / meta, 1);
+        const restantePercent = Math.max(0, 1 - projecaoPercent);
+  
         const dados = [
           realizadoPercent,
           Math.max(0, projecaoPercent - realizadoPercent),
-          Math.max(0, 1 - projecaoPercent)
+          restantePercent
         ];
-        
   
         const graficoBox = document.createElement('div');
         graficoBox.classList.add('grafico-box');
@@ -69,45 +70,50 @@ const METAS = {
         graficoBox.innerHTML = `
           <h3>${loja.toUpperCase()}</h3>
           <canvas id="grafico-${loja.replace(/\s+/g, '-').toLowerCase()}" height="80" width="800" style="margin-bottom: 10px;"></canvas>
-`;
+          <p class="meta-valor">Meta: <strong>${formatarValor(meta)}</strong></p>
+        `;
   
-          container.appendChild(graficoBox);
-
-          // Adiciona <hr> após cada gráfico, exceto o último
-          if (loja !== Object.keys(METAS).slice(-1)[0]) {
-            const linha = document.createElement('hr');
-            linha.style.margin = '30px 0'; // espaço antes e depois da linha
-            linha.style.border = 'none';
-            linha.style.borderTop = '1px solid #ccc'; // ou outra cor
-            container.appendChild(linha);
-          }
-            
+        container.appendChild(graficoBox);
+  
+        if (loja !== Object.keys(METAS).slice(-1)[0]) {
+          const linha = document.createElement('hr');
+          linha.style.margin = '30px 0';
+          linha.style.border = 'none';
+          linha.style.borderTop = '1px solid #ccc';
+          container.appendChild(linha);
+        }
+  
         const ctx = graficoBox.querySelector('canvas').getContext('2d');
+  
+        const datasets = [
+          {
+            label: 'Realizado',
+            data: [dados[0]],
+            backgroundColor: CORES.realizado,
+            stack: 'meta'
+          },
+          {
+            label: 'Projeção',
+            data: [dados[1]],
+            backgroundColor: CORES.projecao,
+            stack: 'meta'
+          }
+        ];
+  
+        if (dados[2] > 0) {
+          datasets.push({
+            label: 'Restante',
+            data: [dados[2]],
+            backgroundColor: CORES.restante,
+            stack: 'meta'
+          });
+        }
   
         new Chart(ctx, {
           type: 'bar',
           data: {
             labels: [''],
-            datasets: [
-              {
-                label: 'Realizado',
-                data: [dados[0]],
-                backgroundColor: CORES.realizado,
-                stack: 'meta'
-              },
-              {
-                label: 'Projeção',
-                data: [dados[1]],
-                backgroundColor: CORES.projecao,
-                stack: 'meta'
-              },
-              {
-                label: 'Restante',
-                data: [dados[2]],
-                backgroundColor: CORES.restante,
-                stack: 'meta'
-              }
-            ]
+            datasets: datasets
           },
           options: {
             indexAxis: 'y',
@@ -121,42 +127,79 @@ const METAS = {
                     return `${context.dataset.label}: ${formatarValor(valor)}`;
                   }
                 }
+              },
+              datalabels: {
+                color: '#000',
+                anchor: 'end',
+                align: 'start',
+                formatter: (valor, context) => {
+                  const label = context.dataset.label;
+                  const valorAbsoluto = valor * meta;
+                  return `${label}\n${formatarValor(valorAbsoluto)}`;
+                },
+                font: {
+                  weight: 'bold',
+                  size: 12
+                },
+                clamp: true,
+                clip: true,
+                padding: {
+                  right: 6
+                }
               }
             },
             scales: {
-                x: {
-                  stacked: true,
-                  min: 0,
-                  max: 1,
-                  grid: {
-                    display: false,
-                    drawTicks: false,
-                    drawBorder: false
-                  },
-                  ticks: {
-                    display: false
-                  }
-                },
-                y: {
-                  stacked: true,
-                  grid: {
-                    display: false,
-                    drawTicks: false,
-                    drawBorder: false
-                  },
-                  ticks: {
-                    display: false
-                  }
-                }
+              x: {
+                stacked: true,
+                min: 0,
+                max: 1,
+                grid: { display: false, drawTicks: false, drawBorder: false },
+                ticks: { display: false }
+              },
+              y: {
+                stacked: true,
+                grid: { display: false, drawTicks: false, drawBorder: false },
+                ticks: { display: false }
               }
-              
-          }
+            }
+          },
+          plugins: [ChartDataLabels]
         });
       });
     } catch (erro) {
       console.error('Erro ao carregar dados:', erro);
     }
   }
+  
+  document.getElementById('botaoRefresh')?.addEventListener('click', async (event) => {
+    event.preventDefault(); // evita recarregamento da página
+  
+    const btn = document.getElementById('botaoRefresh');
+    btn.classList.add('girando'); // inicia rotação
+    console.log('[🔄 Início] Atualizando notas...');
+  
+    try {
+      const res = await fetch('http://localhost:3000/api/atualizar-notas');
+  
+      console.log(`[🌐 Status] Código da resposta: ${res.status}`);
+  
+      if (!res.ok) {
+        const text = await res.text();
+        console.warn('[⚠️ API respondeu com erro]', text.slice(0, 300));
+        throw new Error('Erro ao atualizar notas');
+      }
+  
+      const json = await res.json();
+      console.log('[✅ Concluído] Resposta recebida:', json);
+      alert(json.mensagem || 'Notas atualizadas com sucesso!');
+    } catch (err) {
+      console.error('[❌ Erro] Durante a atualização:', err);
+      alert('Erro ao atualizar notas!');
+    } finally {
+      btn.classList.remove('girando'); // para rotação
+      console.log('[✔️ Fim] Processo de atualização encerrado');
+    }
+  }); 
   
   document.addEventListener('DOMContentLoaded', carregarDadosBarras);
   

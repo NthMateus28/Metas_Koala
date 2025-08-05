@@ -228,6 +228,41 @@ body.outros {
   transform: translateY(-2px);
 }
 
+.refresh-icon-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+
+.refresh-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  filter: brightness(1.2);
+  transition: transform 0.2s ease;
+}
+
+.refresh-icon:hover {
+  transform: rotate(90deg) scale(1.1);
+}
+
+/* Animação de rotação */
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#botaoRefresh.girando {
+  animation: girar 1s linear infinite;
+  opacity: 0.7;
+}
+
+
 /* ============ PAINEL DE METAS ============ */
 .painel-metas {
   display: flex;
@@ -346,7 +381,11 @@ body.outros {
   .layout-container {
     flex-direction: column;
     align-items: stretch;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden;
   }
+  
   .logo-categoria {
     display: block;
     height: auto;
@@ -370,6 +409,22 @@ body.outros {
     box-shadow: none;
     background-color: transparent;
     box-sizing: border-box;
+  }
+
+  .refresh-icon-container {
+    justify-content: center;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .refresh-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  #botaoRefresh.girando {
+    animation: girar 0.8s linear infinite;
+    opacity: 0.8;
   }
   
   .botao-menu {
@@ -524,6 +579,8 @@ body.outros {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* Força alinhamento vertical do menu lateral com nav */
@@ -542,4 +599,9 @@ body.outros {
   object-fit: contain;
   margin-bottom: 20px;
   display: block;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
 }

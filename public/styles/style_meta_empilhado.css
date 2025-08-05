@@ -26,6 +26,14 @@ canvas {
   display: block;
 }
 
+.refresh-icon-container {
+  display: flex;
+  width: 72%;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+
 .title-hr {
   width: 200px;
   border: solid 10px;
@@ -119,6 +127,15 @@ canvas {
   display: none;
 }
 
+.meta-valor {
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+
 @media screen and (max-width: 768px) {
   .layout-container {
     flex-direction: column;
@@ -131,6 +148,11 @@ canvas {
 
   .conteudo-dashboard > h1 {
     font-size: 1.5rem;
+  }
+
+  .refresh-icon-container {
+  justify-content: center;
+  align-items: center;
   }
 
   .graficos-container {
