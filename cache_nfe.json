@@ -1,13 +1,2422 @@
 {
   "notas": [
     {
+      "id": 23513690349,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005138",
+      "dataEmissao": "2025-08-05 08:43:39",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051381136903496",
+      "contato": {
+        "id": 17052270793,
+        "nome": "Igreja Evangelica Asembleia De .-",
+        "numeroDocumento": "24671976000154",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Gonçalo Antunes De Barros",
+          "numero": "860",
+          "complemento": "Referencia: Igreja Assembleia De Deus Madureira",
+          "bairro": "Bosque da Saude",
+          "cep": "78.050-175",
+          "municipio": "Cuiabá",
+          "uf": "MT"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513691507,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005139",
+      "dataEmissao": "2025-08-05 08:42:48",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051391136915076",
+      "contato": {
+        "id": 17570797984,
+        "nome": "Izyan Kathiuce Franz Nasciment Izyan Kathiuce Franz Nascimen",
+        "numeroDocumento": "44398168000172",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Monte Sinai",
+          "numero": "SN",
+          "complemento": "cond planalto 4 c8 Referencia: ao lado do residencial santa ines",
+          "bairro": "Residencial Santa Inês",
+          "cep": "78.051-904",
+          "municipio": "Cuiabá",
+          "uf": "MT"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513701944,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005149",
+      "dataEmissao": "2025-08-05 08:42:40",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051491137019445",
+      "contato": {
+        "id": 17569591890,
+        "nome": "Walker Moore",
+        "numeroDocumento": "00311094708",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Cajazeiros",
+          "numero": "165",
+          "complemento": "",
+          "bairro": "Jardim Guanabara",
+          "cep": "78.206-093",
+          "municipio": "Cáceres",
+          "uf": "MT"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513877675,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "019226",
+      "dataEmissao": "2025-08-05 08:40:31",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192261721869828",
+      "contato": {
+        "id": 17572044451,
+        "nome": "Luca Moraes",
+        "numeroDocumento": "08968404500",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Ponte Preta",
+          "numero": "204",
+          "complemento": "Portao vermelho Referencia: A casa tem o portao vermelho, do",
+          "bairro": "Parque Ipe",
+          "cep": "44.054-666",
+          "municipio": "Feira de Santana",
+          "uf": "BA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23513708274,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005156",
+      "dataEmissao": "2025-08-05 08:37:47",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051561137082745",
+      "contato": {
+        "id": 17279140158,
+        "nome": "Matheus Santana",
+        "numeroDocumento": "50820999814",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Das Esterlinas",
+          "numero": "366",
+          "complemento": "",
+          "bairro": "Parque dos Bancários",
+          "cep": "03.922-120",
+          "municipio": "São Paulo",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513707231,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005155",
+      "dataEmissao": "2025-08-05 08:37:39",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051551137072319",
+      "contato": {
+        "id": 17569072075,
+        "nome": "Josiellen Vieira Carvalho",
+        "numeroDocumento": "16620548741",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Barão De Itapagipe",
+          "numero": "71",
+          "complemento": "Bloco 2, 206",
+          "bairro": "Tijuca",
+          "cep": "20.261-105",
+          "municipio": "Rio de Janeiro",
+          "uf": "RJ"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513705435,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005153",
+      "dataEmissao": "2025-08-05 08:37:31",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051531137054359",
+      "contato": {
+        "id": 17569117410,
+        "nome": "Luiz Leonardo Vital Abrão",
+        "numeroDocumento": "00458369659",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Paulino Mendes Lima",
+          "numero": "555",
+          "complemento": "Sala 101",
+          "bairro": "Centro",
+          "cep": "45.820-440",
+          "municipio": "Eunápolis",
+          "uf": "BA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513704444,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005152",
+      "dataEmissao": "2025-08-05 08:37:23",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051521137044445",
+      "contato": {
+        "id": 16030969269,
+        "nome": "Maria Suzaneide Da Silva Nunes Nunes",
+        "numeroDocumento": "10616222823",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "ideris_nf@outpost.com.br",
+        "endereco": {
+          "endereco": "Rua Idelfonso Stehle",
+          "numero": "1184",
+          "complemento": "casa Referencia: casa",
+          "bairro": "Parque São Joaquim",
+          "cep": "13.334-180",
+          "municipio": "Indaiatuba",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513703457,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005151",
+      "dataEmissao": "2025-08-05 08:37:15",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051511137034574",
+      "contato": {
+        "id": 17569439202,
+        "nome": "Maria Do Carmo Costa",
+        "numeroDocumento": "03850656632",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua João Capistrano",
+          "numero": "428",
+          "complemento": "Rede de alta tensão Referencia: Casa de Fabiana Moreno",
+          "bairro": "Indústrias",
+          "cep": "35.702-064",
+          "municipio": "Sete Lagoas",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513700877,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005148",
+      "dataEmissao": "2025-08-05 08:37:07",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051481137008772",
+      "contato": {
+        "id": 17569739182,
+        "nome": "Paulo Roberto Oliveira Silva",
+        "numeroDocumento": "32482183634",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Presidente Antônio Carlos",
+          "numero": "90",
+          "complemento": "centro horá omercial Referencia: horário  comercial",
+          "bairro": "Centro",
+          "cep": "37.900-092",
+          "municipio": "Passos",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513699941,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005147",
+      "dataEmissao": "2025-08-05 08:36:59",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051471136999417",
+      "contato": {
+        "id": 17569798258,
+        "nome": "Reobote Church",
+        "numeroDocumento": "26991236845",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Argentina",
+          "numero": "775",
+          "complemento": "Apto 101 A Serena",
+          "bairro": "Guilhermina",
+          "cep": "11.702-110",
+          "municipio": "Praia Grande",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513698975,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005146",
+      "dataEmissao": "2025-08-05 08:36:51",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051461136989759",
+      "contato": {
+        "id": 17569897954,
+        "nome": "Matheus Dias Gomes",
+        "numeroDocumento": "05419152150",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Da Colônia",
+          "numero": "23",
+          "complemento": "Esquina Referencia: Esquina logo atrás da Igreja Católica",
+          "bairro": "Vila Bancária",
+          "cep": "79.200-000",
+          "municipio": "Aquidauana",
+          "uf": "MS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513696812,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005144",
+      "dataEmissao": "2025-08-05 08:36:42",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051441136968129",
+      "contato": {
+        "id": 17569942472,
+        "nome": "Jose Humberto Da Costa Junior",
+        "numeroDocumento": "03807361448",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Vereador Severino Martins",
+          "numero": "35",
+          "complemento": "em frente a russiel Referencia: Em frente a residência de Russiel do DETRAN",
+          "bairro": "novo rumo",
+          "cep": "59.330-000",
+          "municipio": "Jucurutu",
+          "uf": "RN"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513695908,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005143",
+      "dataEmissao": "2025-08-05 08:36:34",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051431136959084",
+      "contato": {
+        "id": 17570261069,
+        "nome": "Eder Rocha Mendes",
+        "numeroDocumento": "09980398701",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Travessa Circular",
+          "numero": "13",
+          "complemento": "Rua do salão do Pará Referencia: ircular - Casa",
+          "bairro": "Santa Cruz",
+          "cep": "23.510-565",
+          "municipio": "Rio de Janeiro",
+          "uf": "RJ"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513694757,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005142",
+      "dataEmissao": "2025-08-05 08:36:25",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051421136947577",
+      "contato": {
+        "id": 17570351780,
+        "nome": "Fernando Dos Santos Bechtloff",
+        "numeroDocumento": "02487982942",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Gerânio",
+          "numero": "344",
+          "complemento": "Loja",
+          "bairro": "Jardim Eldorado",
+          "cep": "88.133-800",
+          "municipio": "Palhoça",
+          "uf": "SC"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513693574,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005141",
+      "dataEmissao": "2025-08-05 08:36:17",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051411136935741",
+      "contato": {
+        "id": 17570683747,
+        "nome": "Edgar Holanda",
+        "numeroDocumento": "98981277320",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Alagoinha",
+          "numero": "3653",
+          "complemento": "PANIF SOL NASCENTE",
+          "bairro": "Satélite",
+          "cep": "64.059-390",
+          "municipio": "Teresina",
+          "uf": "PI"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513689250,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005137",
+      "dataEmissao": "2025-08-05 08:36:00",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051371136892500",
+      "contato": {
+        "id": 17570993327,
+        "nome": "Willian Emerich",
+        "numeroDocumento": "40762935847",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Itápolis",
+          "numero": "669",
+          "complemento": "",
+          "bairro": "Pacaembu",
+          "cep": "01.245-000",
+          "municipio": "São Paulo",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513686395,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005134",
+      "dataEmissao": "2025-08-05 08:35:52",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051341136863959",
+      "contato": {
+        "id": 17571415370,
+        "nome": "Zezito De Jesus",
+        "numeroDocumento": "53019610559",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Dois De Julho",
+          "numero": "55",
+          "complemento": "Esquina do bolo Referencia: Bairro São Cristovão do Aeroporto\ndias para a entrega de segunda a sábad",
+          "bairro": "São Cristóvão",
+          "cep": "41.500-270",
+          "municipio": "Salvador",
+          "uf": "BA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513685433,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005133",
+      "dataEmissao": "2025-08-05 08:35:43",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051331136854332",
+      "contato": {
+        "id": 17571450788,
+        "nome": "Matheus Freitas",
+        "numeroDocumento": "71994444436",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Floriano Peixoto",
+          "numero": "10",
+          "complemento": "Coqueiro",
+          "bairro": "Centro",
+          "cep": "55.500-000",
+          "municipio": "Escada",
+          "uf": "PE"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513684501,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005132",
+      "dataEmissao": "2025-08-05 08:35:34",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051321136845018",
+      "contato": {
+        "id": 17571491078,
+        "nome": "Wegllison Coelho",
+        "numeroDocumento": "96606894204",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Campolina",
+          "numero": "620",
+          "complemento": "Referencia: Em frente ao ponto da bebida",
+          "bairro": "Camboatã",
+          "cep": "68.626-415",
+          "municipio": "Paragominas",
+          "uf": "PA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513682208,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005130",
+      "dataEmissao": "2025-08-05 08:35:26",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051301136822080",
+      "contato": {
+        "id": 17571752998,
+        "nome": "Nathan Abel",
+        "numeroDocumento": "06784024931",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Bom Retiro",
+          "numero": "SN",
+          "complemento": "sala 04 Referencia: Porta e janela preta escrito NAZA",
+          "bairro": "centro",
+          "cep": "88.240-000",
+          "municipio": "São João Batista",
+          "uf": "SC"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513680855,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005129",
+      "dataEmissao": "2025-08-05 08:35:18",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051291136808559",
+      "contato": {
+        "id": 17571803832,
+        "nome": "Marcelo Valezi Fernandes",
+        "numeroDocumento": "22450137866",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Cândido Portinari",
+          "numero": "617",
+          "complemento": "617",
+          "bairro": "Vila Nogueira",
+          "cep": "13.088-007",
+          "municipio": "Campinas",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513678828,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005127",
+      "dataEmissao": "2025-08-05 08:35:10",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051271136788286",
+      "contato": {
+        "id": 17571820505,
+        "nome": "Antonio Santos",
+        "numeroDocumento": "71402004672",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Itapoã",
+          "numero": "184",
+          "complemento": "B",
+          "bairro": "Novo Eldorado",
+          "cep": "32.341-380",
+          "municipio": "Contagem",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513677716,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005126",
+      "dataEmissao": "2025-08-05 08:35:02",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051261136777163",
+      "contato": {
+        "id": 17571836273,
+        "nome": "Vanderson Locatelli Correa",
+        "numeroDocumento": "04194011996",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Antonio Batista",
+          "numero": "396",
+          "complemento": "casa",
+          "bairro": "Ipiranga",
+          "cep": "85.615-506",
+          "municipio": "Marmeleiro",
+          "uf": "PR"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513679666,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005128",
+      "dataEmissao": "2025-08-05 08:34:54",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051281136796669",
+      "contato": {
+        "id": 17571816309,
+        "nome": "Fabio Rodrigo De Oliveira Ribeiro",
+        "numeroDocumento": "06735003810",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Estrada Judite Dos Santos Pinto",
+          "numero": "421",
+          "complemento": "BL. 99 Ap. 12 Referencia: Jd.Cruzeiro do Sul",
+          "bairro": "Jardim Cruzeiro do Sul",
+          "cep": "13.917-110",
+          "municipio": "Jaguariúna",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513683570,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005131",
+      "dataEmissao": "2025-08-05 08:34:46",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051311136835708",
+      "contato": {
+        "id": 17571526821,
+        "nome": "Lucas Vinicius",
+        "numeroDocumento": "05459108110",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Vc 72",
+          "numero": "SN",
+          "complemento": "Qd 145 Lt 06 Referencia: Na porta da minha casa tem uma loja de calçados LS shoes, caso não atender",
+          "bairro": "Conjunto Vera Cruz",
+          "cep": "74.495-490",
+          "municipio": "Goiânia",
+          "uf": "GO"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513687198,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005135",
+      "dataEmissao": "2025-08-05 08:34:38",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051351136871983",
+      "contato": {
+        "id": 17571377499,
+        "nome": "Marcus Machado",
+        "numeroDocumento": "03758520932",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Doutor Emílio Petry",
+          "numero": "205",
+          "complemento": "Casa 01",
+          "bairro": "Boa Vista",
+          "cep": "89.205-400",
+          "municipio": "Joinville",
+          "uf": "SC"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513688273,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005136",
+      "dataEmissao": "2025-08-05 08:34:30",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051361136882737",
+      "contato": {
+        "id": 17571200408,
+        "nome": "Rafael Da Silva Mendes",
+        "numeroDocumento": "02920033310",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Ourinho",
+          "numero": "1785",
+          "complemento": "FINAL DA RUA Referencia: GPS (CAKE THAMY)\nTEL:86995840317",
+          "bairro": "Santa Rosa",
+          "cep": "64.011-155",
+          "municipio": "Teresina",
+          "uf": "PI"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513692590,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005140",
+      "dataEmissao": "2025-08-05 08:34:22",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051401136925900",
+      "contato": {
+        "id": 17570797414,
+        "nome": "Carla Pacheco",
+        "numeroDocumento": "08493106950",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Olivar Martins",
+          "numero": "600",
+          "complemento": "casa cinza",
+          "bairro": "Centro",
+          "cep": "85.301-355",
+          "municipio": "Laranjeiras do Sul",
+          "uf": "PR"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513698080,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005145",
+      "dataEmissao": "2025-08-05 08:34:14",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051451136980800",
+      "contato": {
+        "id": 17569901941,
+        "nome": "Caio Rian Silva Dos Santos",
+        "numeroDocumento": "08444614580",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua José De Alencar",
+          "numero": "64",
+          "complemento": "Chamar por suellen Referencia: Rua do portão azul.",
+          "bairro": "Boa Vista de São Caetano",
+          "cep": "40.385-650",
+          "municipio": "Salvador",
+          "uf": "BA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513702682,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005150",
+      "dataEmissao": "2025-08-05 08:34:03",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051501137026825",
+      "contato": {
+        "id": 17569528615,
+        "nome": "Andreia Cristiana Gigliotti Schiavoni Miranda",
+        "numeroDocumento": "25093364878",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Joaquim Ferraz De Almeida Prado",
+          "numero": "2271",
+          "complemento": "",
+          "bairro": "Jardim Dona Emília",
+          "cep": "17.215-022",
+          "municipio": "Jaú",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513706386,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005154",
+      "dataEmissao": "2025-08-05 08:33:55",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051541137063860",
+      "contato": {
+        "id": 17569079365,
+        "nome": "Jobert Santos",
+        "numeroDocumento": "01175396605",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Maria De Lourdes Pereira",
+          "numero": "1020",
+          "complemento": "casa",
+          "bairro": "Silva Prado",
+          "cep": "32.481-062",
+          "municipio": "Brumadinho",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513709234,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005157",
+      "dataEmissao": "2025-08-05 08:33:47",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051571137092349",
+      "contato": {
+        "id": 17568901879,
+        "nome": "Vinicius São Paulo",
+        "numeroDocumento": "11687438773",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Visconde De Inhauma",
+          "numero": "SN",
+          "complemento": "lote: 4 quadra: 4 Referencia: próximo a praça do galo, na esquina da rua tem um colégio: Alba Luiza.",
+          "bairro": "Parque Fluminense",
+          "cep": "25.046-375",
+          "municipio": "Duque de Caxias",
+          "uf": "RJ"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513710223,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005158",
+      "dataEmissao": "2025-08-05 08:33:39",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051581137102236",
+      "contato": {
+        "id": 17568892366,
+        "nome": "Elton Xavier",
+        "numeroDocumento": "06383401602",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Geraldo Magela",
+          "numero": "176",
+          "complemento": "Loja 2",
+          "bairro": "AC Santa Bárbara do Leste Clique e Retire",
+          "cep": "35.328-959",
+          "municipio": "Santa Bárbara do Leste",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23513545341,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030197",
+      "dataEmissao": "2025-08-05 08:21:28",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301971135453411",
+      "contato": {
+        "id": 17570839331,
+        "nome": "Luis Felipe Vieira",
+        "numeroDocumento": "42946261867",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Padre Antônio Vieira",
+          "numero": "69",
+          "complemento": "",
+          "bairro": "Loteamento Villa Branca",
+          "cep": "12.301-110",
+          "municipio": "Jacareí",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513537246,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030189",
+      "dataEmissao": "2025-08-05 08:20:01",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301891135372460",
+      "contato": {
+        "id": 17571891611,
+        "nome": "Axel Volker",
+        "numeroDocumento": "23497788864",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua São Domingos",
+          "numero": "88",
+          "complemento": "Casa 05 Referencia: Casa 05, Condominio Buona Ville",
+          "bairro": "Vila Santo Antônio",
+          "cep": "06.708-385",
+          "municipio": "Cotia",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513538166,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030190",
+      "dataEmissao": "2025-08-05 08:19:53",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301901135381665",
+      "contato": {
+        "id": 17571599873,
+        "nome": "Marcio Ferreira",
+        "numeroDocumento": "82442720078",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Linha Dalmoro",
+          "numero": "SN",
+          "complemento": "ao lado da sipagro Referencia: retirada mercadoria correios",
+          "bairro": "portal",
+          "cep": "99.860-000",
+          "municipio": "Cacique Doble",
+          "uf": "RS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513538900,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030191",
+      "dataEmissao": "2025-08-05 08:19:44",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301911135389000",
+      "contato": {
+        "id": 17571598549,
+        "nome": "Rafael Viegas",
+        "numeroDocumento": "09835965650",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Presidente Getúlio Vargas",
+          "numero": "55",
+          "complemento": "LOJA 1 E 3 Referencia: SUPER MAGAZINE",
+          "bairro": "Centro",
+          "cep": "37.410-137",
+          "municipio": "Três Corações",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513539842,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030192",
+      "dataEmissao": "2025-08-05 08:19:35",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301921135398422",
+      "contato": {
+        "id": 17571510509,
+        "nome": "Josias Silva",
+        "numeroDocumento": "86985701604",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Sibipiruna",
+          "numero": "2",
+          "complemento": "1002 Referencia: Ao lado da Petz",
+          "bairro": "Sul (Águas Claras)",
+          "cep": "71.928-720",
+          "municipio": "Brasília",
+          "uf": "DF"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513540814,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030193",
+      "dataEmissao": "2025-08-05 08:19:27",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301931135408140",
+      "contato": {
+        "id": 17571293831,
+        "nome": "Promoções Do Dia",
+        "numeroDocumento": "09800586601",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Bernardo Guimarães",
+          "numero": "470",
+          "complemento": "",
+          "bairro": "Matozinhos",
+          "cep": "36.305-046",
+          "municipio": "São João del Rei",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513541851,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030194",
+      "dataEmissao": "2025-08-05 08:19:19",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301941135418517",
+      "contato": {
+        "id": 17571262614,
+        "nome": "George Luis Bezerra De Araujo Silva",
+        "numeroDocumento": "12898497738",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Augusto Dos Anjos",
+          "numero": "269",
+          "complemento": "Bloco Dália apto 802 Referencia: Bloco Dália apto 802",
+          "bairro": "Chácara Parreiral",
+          "cep": "29.164-335",
+          "municipio": "Serra",
+          "uf": "ES"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513543665,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030195",
+      "dataEmissao": "2025-08-05 08:19:11",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301951135436652",
+      "contato": {
+        "id": 17571223453,
+        "nome": "Gilberto Ferreira",
+        "numeroDocumento": "16909002881",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Galdino Antonio Dá Silva",
+          "numero": "93",
+          "complemento": "",
+          "bairro": "alto vista verde",
+          "cep": "07.500-000",
+          "municipio": "Santa Isabel",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513544522,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030196",
+      "dataEmissao": "2025-08-05 08:18:59",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301961135445225",
+      "contato": {
+        "id": 17571155841,
+        "nome": "Joaquim Bonatti Junior",
+        "numeroDocumento": "08609538826",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Prudente De Moraes",
+          "numero": "129",
+          "complemento": "",
+          "bairro": "Centro",
+          "cep": "13.320-160",
+          "municipio": "Salto",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513546168,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030198",
+      "dataEmissao": "2025-08-05 08:18:39",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301981135461683",
+      "contato": {
+        "id": 17569509034,
+        "nome": "Rian De Souza Rodrigues",
+        "numeroDocumento": "48920749850",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida José Annichino",
+          "numero": "839",
+          "complemento": "Referencia: Cortina azul",
+          "bairro": "Centro",
+          "cep": "13.360-101",
+          "municipio": "Capivari",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513547156,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030199",
+      "dataEmissao": "2025-08-05 08:18:32",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301991135471562",
+      "contato": {
+        "id": 17569331040,
+        "nome": "Weslen Peres",
+        "numeroDocumento": "71129499987",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Jovino Do Rosário",
+          "numero": "1526",
+          "complemento": "Apto 605  Torre 1",
+          "bairro": "Boa Vista",
+          "cep": "82.560-435",
+          "municipio": "Curitiba",
+          "uf": "PR"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513559522,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030200",
+      "dataEmissao": "2025-08-05 08:18:23",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000302001135595221",
+      "contato": {
+        "id": 17555724673,
+        "nome": "Camillo Brandao",
+        "numeroDocumento": "04387893508",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Inácio De Souza Morais",
+          "numero": "111",
+          "complemento": "apt 1305 Referencia: edf bosque dos guararapes",
+          "bairro": "Piedade",
+          "cep": "54.410-130",
+          "municipio": "Jaboatão dos Guararapes",
+          "uf": "PE"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23513560369,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030201",
+      "dataEmissao": "2025-08-05 08:18:16",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000302011135603698",
+      "contato": {
+        "id": 17550672343,
+        "nome": "Victor",
+        "numeroDocumento": "45090229805",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua São José",
+          "numero": "193",
+          "complemento": "253",
+          "bairro": "Jardim Satélite",
+          "cep": "11.040-200",
+          "municipio": "Santos",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
+      "id": 23512842573,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019222",
+      "dataEmissao": "2025-08-05 06:56:28",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192221118965234",
+      "contato": {
+        "id": 17571885628,
+        "nome": "Wagner Geraldo Paroni Junior",
+        "numeroDocumento": "69365695104",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Doutor Timoteo Penteado",
+          "numero": "3484",
+          "complemento": "Nao consta",
+          "bairro": "Vila Galvao",
+          "cep": "07.061-002",
+          "municipio": "Guarulhos",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23512643527,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019220",
+      "dataEmissao": "2025-08-05 04:09:24",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192201014846706",
+      "contato": {
+        "id": 17571524007,
+        "nome": "Liliane Dos Santos Rocha de Brito",
+        "numeroDocumento": "10708393705",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "rua da igreja",
+          "numero": "SN",
+          "complemento": "em frente ao radar Referencia: proximo ao restaurante Paiol",
+          "bairro": "Subaia",
+          "cep": "29.230-000",
+          "municipio": "Anchieta",
+          "uf": "ES"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139821
+      }
+    },
+    {
+      "id": 23512380683,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019218",
+      "dataEmissao": "2025-08-05 00:48:16",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192181505095753",
+      "contato": {
+        "id": 17571730228,
+        "nome": "REBECA GONCALVES",
+        "numeroDocumento": "15392425798",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Estrada do Arrastao",
+          "numero": "16",
+          "complemento": "Referencia: Entregar na associacao de moradores",
+          "bairro": "Rio do Ouro",
+          "cep": "24.753-580",
+          "municipio": "São Gonçalo",
+          "uf": "RJ"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139821
+      }
+    },
+    {
+      "id": 23512131166,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019216",
+      "dataEmissao": "2025-08-04 23:07:03",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192161802913359",
+      "contato": {
+        "id": 17554506008,
+        "nome": "Daniela Moreira",
+        "numeroDocumento": "30342125850",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Doutor Francisco Mesquita",
+          "numero": "550",
+          "complemento": "apto 51 A",
+          "bairro": "Jardim Ibitirama",
+          "cep": "03.153-000",
+          "municipio": "São Paulo",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23511925074,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019214",
+      "dataEmissao": "2025-08-04 22:25:42",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192141501861657",
+      "contato": {
+        "id": 17517735353,
+        "nome": "Silvano Lopes",
+        "numeroDocumento": "60827327900",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Enemezio do Rosario Junior",
+          "numero": "551",
+          "complemento": "Referencia: casa",
+          "bairro": "Atuba",
+          "cep": "83.408-350",
+          "municipio": "Colombo",
+          "uf": "PR"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23511816164,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019212",
+      "dataEmissao": "2025-08-04 22:03:30",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192121629491851",
+      "contato": {
+        "id": 17571578690,
+        "nome": "Danira Coelho",
+        "numeroDocumento": "68191782391",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Marechal Deodoro",
+          "numero": "357",
+          "complemento": "Referencia: Bater no portao preto",
+          "bairro": "Benfica",
+          "cep": "60.020-060",
+          "municipio": "Fortaleza",
+          "uf": "CE"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23511369633,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019210",
+      "dataEmissao": "2025-08-04 20:37:25",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192101675115889",
+      "contato": {
+        "id": 17571404467,
+        "nome": "jurandy silva",
+        "numeroDocumento": "27172639855",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "RuaNascerdoSol",
+          "numero": "15",
+          "complemento": "Nao consta",
+          "bairro": "Montanhao",
+          "cep": "09.784-285",
+          "municipio": "São Bernardo do Campo",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139821
+      }
+    },
+    {
+      "id": 23511351586,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019208",
+      "dataEmissao": "2025-08-04 20:33:59",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192081280104037",
+      "contato": {
+        "id": 17571397725,
+        "nome": "Moises Martins Alexandre",
+        "numeroDocumento": "45388703827",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Julio Dias Junior",
+          "numero": "51",
+          "complemento": "Nao consta",
+          "bairro": "Vila Aparecida",
+          "cep": "18.303-540",
+          "municipio": "Capão Bonito",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139798
+      }
+    },
+    {
+      "id": 23511324504,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019206",
+      "dataEmissao": "2025-08-04 20:29:03",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192061191776957",
+      "contato": {
+        "id": 17571384890,
+        "nome": "Enzo Sevilhano de Oliveira",
+        "numeroDocumento": "54255206899",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Cabralia Paulista",
+          "numero": "65",
+          "complemento": "Nao consta",
+          "bairro": "Cidade Patriarca",
+          "cep": "03.551-010",
+          "municipio": "São Paulo",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23511296634,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019204",
+      "dataEmissao": "2025-08-04 20:24:14",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192041792008887",
+      "contato": {
+        "id": 17570912130,
+        "nome": "Jose Marcos Barbosa da Silva",
+        "numeroDocumento": "12136754726",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Estrada Guapore",
+          "numero": "967",
+          "complemento": "Casa N 09",
+          "bairro": "Amapa",
+          "cep": "25.235-433",
+          "municipio": "Duque de Caxias",
+          "uf": "RJ"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23510861433,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019197",
+      "dataEmissao": "2025-08-04 19:00:21",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000191971465849742",
+      "contato": {
+        "id": 17571219600,
+        "nome": "Cristiano Reis Nascimento",
+        "numeroDocumento": "13631213751",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Castelo Branco",
+          "numero": "SN",
+          "complemento": "Portao Cor de Bronze Referencia: Ao lado da igreja adventist",
+          "bairro": "Mae-ba",
+          "cep": "29.230-000",
+          "municipio": "Anchieta",
+          "uf": "ES"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23510197863,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019195",
+      "dataEmissao": "2025-08-04 18:10:34",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000191951877628323",
+      "contato": {
+        "id": 17571131764,
+        "nome": "MDA SOLUCOES E ENGENHARIA LTDA",
+        "numeroDocumento": "52921919000111",
+        "ie": "200962523",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua 14",
+          "numero": "SN",
+          "complemento": "QD Z14 LT 78 Referencia: MDA SOLUCOES E ENGENHARIA",
+          "bairro": "Setor Popular",
+          "cep": "75.890-000",
+          "municipio": "São Simão",
+          "uf": "GO"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107363711
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23509832165,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019193",
+      "dataEmissao": "2025-08-04 17:27:25",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000191931153176280",
+      "contato": {
+        "id": 17570307628,
+        "nome": "Wesclay Marcelino Do Nascimento",
+        "numeroDocumento": "05609439620",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Coronel Pedro Martins",
+          "numero": "50",
+          "complemento": "loja frog bikes",
+          "bairro": "Centro",
+          "cep": "35.300-040",
+          "municipio": "Caratinga",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139821
+      }
+    },
+    {
+      "id": 23508475986,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019191",
+      "dataEmissao": "2025-08-04 15:20:56",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000191911567915279",
+      "contato": {
+        "id": 17570761563,
+        "nome": "Ereni Fobrich Arrial",
+        "numeroDocumento": "93966245000",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Maria de Lourdes Seitenfus",
+          "numero": "176",
+          "complemento": "Em frente a fabrica Referencia: Casa tijolo avista",
+          "bairro": "Centro",
+          "cep": "96.950-000",
+          "municipio": "Arroio do Tigre",
+          "uf": "RS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139821
+      }
+    },
+    {
+      "id": 23508191056,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019189",
+      "dataEmissao": "2025-08-04 14:55:59",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000191891526913672",
+      "contato": {
+        "id": 17564674966,
+        "nome": "YURI NEVES F DA CRUZ",
+        "numeroDocumento": "39108266875",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Doutora Clea F. Sacramento",
+          "numero": "191",
+          "complemento": "casa",
+          "bairro": "Conjunto Habitacional Joao Batista Botelho",
+          "cep": "16.012-210",
+          "municipio": "Araçatuba",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139821
+      }
+    },
+    {
+      "id": 23507800229,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019187",
+      "dataEmissao": "2025-08-04 14:21:30",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000191871468345730",
+      "contato": {
+        "id": 17570487916,
+        "nome": "IGREJA BATISTA MORIA",
+        "numeroDocumento": "46615647000129",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Joao Paulo II",
+          "numero": "670",
+          "complemento": "Torre 2 Apto 308",
+          "bairro": "Sao Pedro",
+          "cep": "06.172-200",
+          "municipio": "Osasco",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107363711
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23507371913,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019185",
+      "dataEmissao": "2025-08-04 13:42:13",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000191851311399126",
+      "contato": {
+        "id": 17445681727,
+        "nome": "Joao Carlos Pedrosa Salles da Silva",
+        "numeroDocumento": "19814261831",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Nara Leao",
+          "numero": "332",
+          "complemento": "Portao preto Referencia: Casa 2",
+          "bairro": "Conjunto Habitacional Julio de Mesquita Filho",
+          "cep": "18.053-060",
+          "municipio": "Sorocaba",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139821
+      }
+    },
+    {
+      "id": 23506772136,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019183",
+      "dataEmissao": "2025-08-04 12:40:45",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000191831870204357",
+      "contato": {
+        "id": 17570401148,
+        "nome": "Vinicius Lopes",
+        "numeroDocumento": "02236035381",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua da Uniao",
+          "numero": "74",
+          "complemento": "Nao consta",
+          "bairro": "Olho D Agua",
+          "cep": "65.065-500",
+          "municipio": "São Luís",
+          "uf": "MA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205139821
+      }
+    },
+    {
+      "id": 23505295453,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "001517",
+      "dataEmissao": "2025-08-04 10:47:29",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "43250842985698000191550010000015171052954536",
+      "contato": {
+        "id": 17568148253,
+        "nome": "Wilson Rodolfo Júnior",
+        "numeroDocumento": "35294176882",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Pascoal Ranieri Mazzilli",
+          "numero": "233",
+          "complemento": "Ap 7 Bl 2",
+          "bairro": "Vila Mendes",
+          "cep": "03.257-180",
+          "municipio": "São Paulo",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103323507
+      },
+      "loja": {
+        "id": 204024796
+      }
+    },
+    {
+      "id": 23505296412,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "001518",
+      "dataEmissao": "2025-08-04 10:47:20",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "43250842985698000191550010000015181052964121",
+      "contato": {
+        "id": 17567005724,
+        "nome": "Kleber Lambert",
+        "numeroDocumento": "00860610624",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Cândida Salles Do Nascimento Paiva",
+          "numero": "61",
+          "complemento": "",
+          "bairro": "Jardim Sao Benedito",
+          "cep": "37.600-000",
+          "municipio": "Cambuí",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103323507
+      },
+      "loja": {
+        "id": 204024796
+      }
+    },
+    {
+      "id": 23505297387,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "001519",
+      "dataEmissao": "2025-08-04 10:47:15",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "43250842985698000191550010000015191052973870",
+      "contato": {
+        "id": 17565641072,
+        "nome": "Edir De Oliveira Custodio",
+        "numeroDocumento": "01922943266",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Cuiabá",
+          "numero": "2340",
+          "complemento": "Referencia: Escritório de Contabilidade Contalize - Entregar à Vanessa",
+          "bairro": "Centro",
+          "cep": "76.963-716",
+          "municipio": "Cacoal",
+          "uf": "RO"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103323507
+      },
+      "loja": {
+        "id": 204024796
+      }
+    },
+    {
+      "id": 23505298274,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "001520",
+      "dataEmissao": "2025-08-04 10:47:07",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "43250842985698000191550010000015201052982748",
+      "contato": {
+        "id": 17565335347,
+        "nome": "Jucineia Alegre",
+        "numeroDocumento": "00243551274",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Alfazema",
+          "numero": "3740",
+          "complemento": "3740A",
+          "bairro": "Loteamento Cidade Jardim",
+          "cep": "76.932-000",
+          "municipio": "São Miguel do Guaporé",
+          "uf": "RO"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103323507
+      },
+      "loja": {
+        "id": 204024796
+      }
+    },
+    {
+      "id": 23504880917,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "019179",
+      "dataEmissao": "2025-08-04 10:18:27",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000191791952419095",
+      "contato": {
+        "id": 17570068061,
+        "nome": "Alexandre De Paula Ferreira Ferreira",
+        "numeroDocumento": "64167011620",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Milton Ventura Marinho",
+          "numero": "194",
+          "complemento": "Nao consta",
+          "bairro": "Santa Clara",
+          "cep": "36.771-424",
+          "municipio": "Cataguases",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205139821
+      }
+    },
+    {
+      "id": 23504817482,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "005122",
+      "dataEmissao": "2025-08-04 10:15:21",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051221048174824",
+      "contato": {
+        "id": 17570016539,
+        "nome": "Gabriel Teixeira dos Santos",
+        "numeroDocumento": "17786206710",
+        "ie": "",
+        "rg": "",
+        "telefone": "21990215317",
+        "email": "o.gabrielteixeiraa@gmail.com",
+        "endereco": {
+          "endereco": "Rua da Pitanga",
+          "numero": "182",
+          "complemento": "",
+          "bairro": "Miguel Couto",
+          "cep": "26.061-105",
+          "municipio": "Nova Iguaçu",
+          "uf": "RJ"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103155275
+      },
+      "loja": {
+        "id": 203792312
+      }
+    },
+    {
+      "id": 23504304791,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "005120",
+      "dataEmissao": "2025-08-04 10:11:33",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051201043047919",
+      "contato": {
+        "id": 17459859761,
+        "nome": "Victor Matheus",
+        "numeroDocumento": "07075201425",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Formosa",
+          "numero": "1575",
+          "complemento": "font color39B54AGrátisfont",
+          "bairro": "Ponta Grossa",
+          "cep": "57.014-000",
+          "municipio": "Maceió",
+          "uf": "AL"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107809738
+      },
+      "loja": {
+        "id": 203792312
+      }
+    },
+    {
+      "id": 23504205639,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "030186",
+      "dataEmissao": "2025-08-04 10:06:56",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301861042056397",
+      "contato": {
+        "id": 17564394353,
+        "nome": "Paulo Gon Thin Wun",
+        "numeroDocumento": "36403644000178",
+        "ie": "",
+        "rg": "",
+        "telefone": "67999817236",
+        "email": "wunpaulo@gmail.com",
+        "endereco": {
+          "endereco": "Rua Marlene",
+          "numero": "560",
+          "complemento": "Casa amarela com portão branco",
+          "bairro": "Vila Giocondo Orsi",
+          "cep": "79.022-030",
+          "municipio": "Campo Grande",
+          "uf": "MS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205364860
+      }
+    },
+    {
       "id": 23503896488,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005117",
-      "dataEmissao": "2025-08-04 09:19:33",
+      "dataEmissao": "2025-08-04 10:05:47",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051171038964881",
       "contato": {
         "id": 17301929958,
         "nome": "Associação Biblica e Cultural de Juazeiro",
@@ -34,46 +2443,13 @@
       }
     },
     {
-      "id": 23503796595,
-      "tipo": 1,
-      "situacao": 1,
-      "numero": "030184",
-      "dataEmissao": "2025-08-04 09:13:32",
-      "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
-      "contato": {
-        "id": 17565712974,
-        "nome": "Anadson Barbosa",
-        "numeroDocumento": "04428176570",
-        "ie": "",
-        "rg": "",
-        "telefone": "79999568879",
-        "email": "anadsoncdo1@gmail.com",
-        "endereco": {
-          "endereco": "Av. Josias Carvalho",
-          "numero": "355",
-          "complemento": "Casa",
-          "bairro": "Centro",
-          "cep": "49.390-000",
-          "municipio": "Salgado",
-          "uf": "SE"
-        }
-      },
-      "naturezaOperacao": {
-        "id": 15102988390
-      },
-      "loja": {
-        "id": 205374838
-      }
-    },
-    {
       "id": 23503795048,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "030183",
-      "dataEmissao": "2025-08-04 09:13:27",
+      "dataEmissao": "2025-08-04 10:05:22",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550010000301831037950482",
       "contato": {
         "id": 17565536144,
         "nome": "Moacir de Oliveira",
@@ -100,13 +2476,178 @@
       }
     },
     {
+      "id": 23503796595,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "030184",
+      "dataEmissao": "2025-08-04 10:05:16",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301841037965959",
+      "contato": {
+        "id": 17565712974,
+        "nome": "Anadson Barbosa",
+        "numeroDocumento": "04428176570",
+        "ie": "",
+        "rg": "",
+        "telefone": "79999568879",
+        "email": "anadsoncdo1@gmail.com",
+        "endereco": {
+          "endereco": "Av. Josias Carvalho",
+          "numero": "355",
+          "complemento": "Casa",
+          "bairro": "Centro",
+          "cep": "49.390-000",
+          "municipio": "Salgado",
+          "uf": "SE"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205374838
+      }
+    },
+    {
+      "id": 23504080431,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "030185",
+      "dataEmissao": "2025-08-04 10:05:08",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301851040804313",
+      "contato": {
+        "id": 17547781289,
+        "nome": "Associação Bíblica e Cultural Milenar do Reino de Deus",
+        "numeroDocumento": "03647006000143",
+        "ie": "",
+        "rg": "",
+        "telefone": "85999913832",
+        "email": "jhonatacelestino@gmail.com",
+        "endereco": {
+          "endereco": "Rua Manoel Moura Negrão",
+          "numero": "221",
+          "complemento": "Apartamento 1304",
+          "bairro": "Fazendinha",
+          "cep": "62.502-404",
+          "municipio": "Itapipoca",
+          "uf": "CE"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": {
+        "id": 205382756
+      }
+    },
+    {
+      "id": 23504378890,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "005121",
+      "dataEmissao": "2025-08-04 09:54:19",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051211043788908",
+      "contato": {
+        "id": 17560888614,
+        "nome": "S&G PRODUTOS E SERVICOS LTDA",
+        "numeroDocumento": "28622594000191",
+        "ie": "30409330019",
+        "rg": "",
+        "telefone": "3535218787",
+        "email": "soaresgarcia2017@hotmail.com",
+        "endereco": {
+          "endereco": "Rua Alexandre Lima Borsari",
+          "numero": "275",
+          "complemento": "SALA 01",
+          "bairro": "Vila São José",
+          "cep": "37.903-532",
+          "municipio": "Passos",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107363711
+      },
+      "loja": {
+        "id": 203792312
+      }
+    },
+    {
+      "id": 23504235124,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "005119",
+      "dataEmissao": "2025-08-04 09:54:09",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051191042351249",
+      "contato": {
+        "id": 16438486146,
+        "nome": "isaias melo",
+        "numeroDocumento": "67352480668",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "isaias2000006957736984@mercadolivre.com",
+        "endereco": {
+          "endereco": "Rua Ângelo De Aquino Filho",
+          "numero": "22",
+          "complemento": "Casa",
+          "bairro": "Goiânia",
+          "cep": "31.950-590",
+          "municipio": "Belo Horizonte",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107809738
+      },
+      "loja": {
+        "id": 203792312
+      }
+    },
+    {
+      "id": 23504132888,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "005118",
+      "dataEmissao": "2025-08-04 09:53:58",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051181041328882",
+      "contato": {
+        "id": 16279129643,
+        "nome": "Fabio Stamato",
+        "numeroDocumento": "34929971802",
+        "ie": "",
+        "rg": "",
+        "telefone": "11942824631",
+        "email": "cmtrilhas@gmail.com",
+        "endereco": {
+          "endereco": "Rua Haddock Lobo",
+          "numero": "144",
+          "complemento": "Ap 12",
+          "bairro": "Cerqueira César",
+          "cep": "01.414-000",
+          "municipio": "São Paulo",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205364860
+      }
+    },
+    {
       "id": 23503743905,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005116",
-      "dataEmissao": "2025-08-04 09:10:28",
+      "dataEmissao": "2025-08-04 09:53:34",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051161037439050",
       "contato": {
         "id": 17565711669,
         "nome": "João Bittencourt Saldanha",
@@ -135,11 +2676,11 @@
     {
       "id": 23503742798,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005115",
-      "dataEmissao": "2025-08-04 09:10:23",
+      "dataEmissao": "2025-08-04 09:53:28",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051151037427985",
       "contato": {
         "id": 17504526231,
         "nome": "Carlos Alberto Faria Junior",
@@ -168,11 +2709,11 @@
     {
       "id": 23503741888,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005114",
-      "dataEmissao": "2025-08-04 09:10:19",
+      "dataEmissao": "2025-08-04 09:53:22",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051141037418881",
       "contato": {
         "id": 17566588267,
         "nome": "Jonathas Madruga",
@@ -201,11 +2742,11 @@
     {
       "id": 23503740617,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005113",
-      "dataEmissao": "2025-08-04 09:10:14",
+      "dataEmissao": "2025-08-04 09:53:16",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051131037406177",
       "contato": {
         "id": 17566954141,
         "nome": "Adalberto Arão Filho",
@@ -234,11 +2775,11 @@
     {
       "id": 23503739261,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005112",
-      "dataEmissao": "2025-08-04 09:10:10",
+      "dataEmissao": "2025-08-04 09:53:10",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051121037392616",
       "contato": {
         "id": 17492905332,
         "nome": "Wellyson Torres De Matos",
@@ -267,11 +2808,11 @@
     {
       "id": 23503646722,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005111",
-      "dataEmissao": "2025-08-04 09:04:49",
+      "dataEmissao": "2025-08-04 09:53:04",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051111036467224",
       "contato": {
         "id": 17567109243,
         "nome": "Alessandro SantosBrito",
@@ -300,11 +2841,11 @@
     {
       "id": 23503645076,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005110",
-      "dataEmissao": "2025-08-04 09:04:45",
+      "dataEmissao": "2025-08-04 09:52:58",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051101036450766",
       "contato": {
         "id": 17567133522,
         "nome": "Guilherme Machado",
@@ -333,11 +2874,11 @@
     {
       "id": 23503644090,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005109",
-      "dataEmissao": "2025-08-04 09:04:41",
+      "dataEmissao": "2025-08-04 09:52:52",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051091036440905",
       "contato": {
         "id": 17567530074,
         "nome": "Ricardo Dalmasso Fidelis",
@@ -366,11 +2907,11 @@
     {
       "id": 23503642998,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005108",
-      "dataEmissao": "2025-08-04 09:04:37",
+      "dataEmissao": "2025-08-04 09:52:46",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051081036429980",
       "contato": {
         "id": 17567798310,
         "nome": "Lucas Florencio Pereira",
@@ -399,11 +2940,11 @@
     {
       "id": 23503641819,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005107",
-      "dataEmissao": "2025-08-04 09:04:34",
+      "dataEmissao": "2025-08-04 09:52:40",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051071036418190",
       "contato": {
         "id": 17567847911,
         "nome": "Marcelo Brandão Dourado",
@@ -432,11 +2973,11 @@
     {
       "id": 23503640649,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005106",
-      "dataEmissao": "2025-08-04 09:04:30",
+      "dataEmissao": "2025-08-04 09:52:34",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051061036406497",
       "contato": {
         "id": 17488625028,
         "nome": "Ricardo Aparecido Perez de Almeida",
@@ -463,46 +3004,13 @@
       }
     },
     {
-      "id": 23503609201,
-      "tipo": 1,
-      "situacao": 1,
-      "numero": "005105",
-      "dataEmissao": "2025-08-04 09:02:36",
-      "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
-      "contato": {
-        "id": 17569095115,
-        "nome": "Douglas Romario Monteiro Lima",
-        "numeroDocumento": "10076709671",
-        "ie": "",
-        "rg": "",
-        "telefone": "17992703347",
-        "email": "dogaoshowmen@gmail.com",
-        "endereco": {
-          "endereco": "Rua João Antônio dos Santos",
-          "numero": "68",
-          "complemento": "Casa",
-          "bairro": "Residencial Santa Filomena",
-          "cep": "15.601-138",
-          "municipio": "Fernandópolis",
-          "uf": "SP"
-        }
-      },
-      "naturezaOperacao": {
-        "id": 15104227133
-      },
-      "loja": {
-        "id": 205364860
-      }
-    },
-    {
       "id": 23503607748,
       "tipo": 1,
-      "situacao": 1,
+      "situacao": 6,
       "numero": "005104",
-      "dataEmissao": "2025-08-04 09:02:32",
+      "dataEmissao": "2025-08-04 09:52:28",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051041036077480",
       "contato": {
         "id": 17569556271,
         "nome": "Pedro Viana Merlim Asfora",
@@ -529,36 +3037,69 @@
       }
     },
     {
-      "id": 23503606217,
+      "id": 23503609201,
       "tipo": 1,
-      "situacao": 1,
-      "numero": "005103",
-      "dataEmissao": "2025-08-04 09:02:26",
+      "situacao": 6,
+      "numero": "005105",
+      "dataEmissao": "2025-08-04 09:52:21",
       "dataOperacao": "0000-00-00 00:00:00",
-      "chaveAcesso": "",
+      "chaveAcesso": "42250842985698000272550040000051051036092010",
       "contato": {
-        "id": 17569646884,
-        "nome": "Jayanne Martins",
-        "numeroDocumento": "11340610728",
+        "id": 17569095115,
+        "nome": "Douglas Romario Monteiro Lima",
+        "numeroDocumento": "10076709671",
         "ie": "",
         "rg": "",
-        "telefone": "21995819974",
-        "email": "jayanneescorcio@gmail.com",
+        "telefone": "17992703347",
+        "email": "dogaoshowmen@gmail.com",
         "endereco": {
-          "endereco": "Rua Dois de Fevereiro",
-          "numero": "1537",
-          "complemento": "",
-          "bairro": "Água Santa",
-          "cep": "20.745-311",
-          "municipio": "Rio de Janeiro",
-          "uf": "RJ"
+          "endereco": "Rua João Antônio dos Santos",
+          "numero": "68",
+          "complemento": "Casa",
+          "bairro": "Residencial Santa Filomena",
+          "cep": "15.601-138",
+          "municipio": "Fernandópolis",
+          "uf": "SP"
         }
       },
       "naturezaOperacao": {
         "id": 15104227133
       },
       "loja": {
-        "id": 205374838
+        "id": 205364860
+      }
+    },
+    {
+      "id": 23504223067,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "030187",
+      "dataEmissao": "2025-08-04 09:39:50",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301871042230670",
+      "contato": {
+        "id": 16294058584,
+        "nome": "KOALA MUSIC LTDA",
+        "numeroDocumento": "42985698000191",
+        "ie": "0963873130",
+        "rg": "",
+        "telefone": "5140421522",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Doutor Nilo Pecanha",
+          "numero": "1891",
+          "complemento": "LOJA 4",
+          "bairro": "Tres Figueiras",
+          "cep": "91.330-000",
+          "municipio": "Porto Alegre",
+          "uf": "RS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 14316243644
+      },
+      "loja": {
+        "id": 203792312
       }
     },
     {
@@ -75670,6 +78211,270 @@
       }
     },
     {
+      "id": 23241901319,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "017574",
+      "dataEmissao": "2025-07-01 09:15:32",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250742985698000272550020000175741125457117",
+      "contato": {
+        "id": 17504908207,
+        "nome": "fernando alex",
+        "numeroDocumento": "10552399957",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Pedro Ivo",
+          "numero": "386",
+          "complemento": "policia civil Referencia: instituto de identificacao",
+          "bairro": "Centro",
+          "cep": "80.010-020",
+          "municipio": "Curitiba",
+          "uf": "PR"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23241799316,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "017572",
+      "dataEmissao": "2025-07-01 09:07:23",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250742985698000272550020000175721349066974",
+      "contato": {
+        "id": 17481507754,
+        "nome": "francisco xavier",
+        "numeroDocumento": "98927981200",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "R TANCREDO NEVES",
+          "numero": "289",
+          "complemento": "Nao consta",
+          "bairro": "Ananindeua",
+          "cep": "67.020-683",
+          "municipio": "Ananindeua",
+          "uf": "PA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": {
+        "id": 205139798
+      }
+    },
+    {
+      "id": 23508693383,
+      "tipo": 0,
+      "situacao": 5,
+      "numero": "005125",
+      "dataEmissao": "2025-08-04 15:40:34",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051251086933836",
+      "contato": {
+        "id": 17562520102,
+        "nome": "Samuel Padilha Amaral",
+        "numeroDocumento": "05022031027",
+        "ie": "",
+        "rg": "",
+        "telefone": "51996887532",
+        "email": "amaralsam03@gmail.com",
+        "endereco": {
+          "endereco": "Rua Salto Do Jacui",
+          "numero": "31",
+          "complemento": "casa Referencia: portão preto",
+          "bairro": "Querência",
+          "cep": "94.435-580",
+          "municipio": "Viamão",
+          "uf": "RS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103139667
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23508526457,
+      "tipo": 0,
+      "situacao": 7,
+      "numero": "003347",
+      "dataEmissao": "2025-08-04 15:25:28",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "35250842985698000353550050000033471402239730",
+      "contato": {
+        "id": 17548321448,
+        "nome": "Gabriell Lucas Fabri",
+        "numeroDocumento": "39978783822",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Luiz Crozatti",
+          "numero": "79",
+          "complemento": "Rua sem saida Referencia: Proximo a fabrica Terra Amada , ul",
+          "bairro": "Conjunto Habitacional Oswaldo Teixeira Magalhaes",
+          "cep": "13.922-200",
+          "municipio": "Pedreira",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107208607
+      },
+      "loja": {
+        "id": 204981095
+      }
+    },
+    {
+      "id": 23508483400,
+      "tipo": 0,
+      "situacao": 6,
+      "numero": "005124",
+      "dataEmissao": "2025-08-04 15:25:13",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051241084834000",
+      "contato": {
+        "id": 17555788588,
+        "nome": "Eva Rosa",
+        "numeroDocumento": "75597780972",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Cambará",
+          "numero": "151",
+          "complemento": "casa B",
+          "bairro": "Vila Flora",
+          "cep": "13.321-115",
+          "municipio": "Salto",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103139667
+      },
+      "loja": {
+        "id": 205120840
+      }
+    },
+    {
+      "id": 23505976478,
+      "tipo": 0,
+      "situacao": 7,
+      "numero": "019180",
+      "dataEmissao": "2025-08-04 11:32:52",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000191801715007258",
+      "contato": {
+        "id": 17556899298,
+        "nome": "Miguel Arcanjo Serafim Gouveia",
+        "numeroDocumento": "08307135737",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "RUA MURILO EMERY LUCINDO",
+          "numero": "44",
+          "complemento": "Nao consta",
+          "bairro": "Guacui",
+          "cep": "29.560-000",
+          "municipio": "Guaçuí",
+          "uf": "ES"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107208607
+      },
+      "loja": {
+        "id": 205139769
+      }
+    },
+    {
+      "id": 23505475826,
+      "tipo": 0,
+      "situacao": 6,
+      "numero": "005123",
+      "dataEmissao": "2025-08-04 10:58:29",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550040000051231054758260",
+      "contato": {
+        "id": 17511719721,
+        "nome": "Antonio Marcos Vaz",
+        "numeroDocumento": "36772399153",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Caiuas 630",
+          "numero": "630",
+          "complemento": "Nao consta",
+          "bairro": "Santo Antonio",
+          "cep": "79.100-395",
+          "municipio": "Campo Grande",
+          "uf": "MS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103139667
+      },
+      "loja": {
+        "id": 203792312
+      }
+    },
+    {
+      "id": 23504522592,
+      "tipo": 0,
+      "situacao": 6,
+      "numero": "030188",
+      "dataEmissao": "2025-08-04 09:58:43",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301881045225925",
+      "contato": {
+        "id": 16088566474,
+        "nome": "Joel Soares",
+        "numeroDocumento": "79938221220",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Passagem Snapp",
+          "numero": "9",
+          "complemento": "Referencia: paróquia imaculada conceição.",
+          "bairro": "Campina",
+          "cep": "66.645-420",
+          "municipio": "Belém",
+          "uf": "PA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103139667
+      },
+      "loja": {
+        "id": 203826594
+      }
+    },
+    {
       "id": 23501780683,
       "tipo": 0,
       "situacao": 7,
@@ -75865,6 +78670,39 @@
       },
       "loja": {
         "id": 204024796
+      }
+    },
+    {
+      "id": 23506290152,
+      "tipo": 0,
+      "situacao": 7,
+      "numero": "105416",
+      "dataEmissao": "2025-08-01 14:14:46",
+      "dataOperacao": "0000-00-00 00:00:00",
+      "chaveAcesso": "13250807703111000103550070001054161334024261",
+      "contato": {
+        "id": 14317615362,
+        "nome": "HARMAN DA AMAZONIA IND ELET E PARTI LTDA",
+        "numeroDocumento": "07703111000103",
+        "ie": "062004778",
+        "rg": "",
+        "telefone": "9232320564",
+        "email": "",
+        "endereco": {
+          "endereco": "AV CUPIUBA",
+          "numero": "401",
+          "complemento": "LOTE3 77/1",
+          "bairro": "DISTRITO INDUST",
+          "cep": "69.075-060",
+          "municipio": "Manaus",
+          "uf": "AM"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103120379
+      },
+      "loja": {
+        "id": 203792312
       }
     },
     {
@@ -81214,5 +84052,5 @@
       }
     }
   ],
-  "ultimaDataBusca": "2025-08-04"
+  "ultimaDataBusca": "2025-08-05"
 }
