@@ -4,14 +4,29 @@ import cors from 'cors';
 import fs from 'fs/promises';
 import path from 'path';
 import bodyParser from 'body-parser';
+import { google } from 'googleapis';
 import { fileURLToPath } from 'url';
 
+// Corrige a duplicação
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+
+// Autenticação Google Sheets
+const auth = new google.auth.GoogleAuth({
+  keyFile: path.join(__dirname, 'credenciais-service-account.json'), // <- nome correto do seu JSON de credenciais
+  scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
+});
+
+// ID da planilha e célula do token
+const spreadsheetId = '1wBiU07l5or7UFYMHByCG81urCcDDwa6vpLFNCQ3iAl4'; // <-- substitua por seu ID real
+const range = 'CONFIG!B2'; // <-- célula onde está o token
+
 const app = express();
 const PORT = 3000;
-const ACCESS_TOKEN = 'bff59db137771ffc11c12be53c2ae1e88072c8e3';
+import { lerTokenDaPlanilha } from './utils/lerTokenDaPlanilha.js';
+
+const ACCESS_TOKEN = await lerTokenDaPlanilha();
 
 const detalhesPath = path.resolve('./cache_detalhes.json');
 const cacheNfePath = path.resolve('./cache_nfe.json');
@@ -59,10 +74,12 @@ app.get('/api/nfe', async (req, res) => {
 
       const response = await fetch(url, {
         headers: {
-          Authorization: `Bearer ${ACCESS_TOKEN}`,
+          Authorization: `Bearer ${await lerTokenDaPlanilha()}`,
           Accept: 'application/json'
         }
       });
+
+      console.log(headers)
 
       if (!response.ok) {
         const textoErro = await response.text();
@@ -119,7 +136,7 @@ app.get('/api/nfe/:id', async (req, res) => {
   try {
     const response = await fetch(url, {
       headers: {
-        Authorization: `Bearer ${ACCESS_TOKEN}`,
+        Authorization: `Bearer ${await lerTokenDaPlanilha()}`,
         Accept: 'application/json'
       },
       redirect: 'manual'

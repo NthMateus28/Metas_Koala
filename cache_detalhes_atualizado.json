@@ -292585,9 +292585,527 @@
   },
   {
     "data": {
-      "id": 23516961348,
+      "id": 23518352420,
+      "tipo": 0,
+      "situacao": 7,
+      "numero": "019243",
+      "dataEmissao": "2025-08-05 15:06:54",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192431808790779",
+      "contato": {
+        "id": 17554506008,
+        "nome": "Daniela Moreira",
+        "numeroDocumento": "30342125850",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Doutor Francisco Mesquita",
+          "numero": "550",
+          "complemento": "apto 51 A",
+          "bairro": "Jardim Ibitirama",
+          "cep": "03.153-000",
+          "municipio": "São Paulo",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107208607
+      },
+      "loja": "Mercado Livre SC-FULL-Armer",
+      "serie": 2,
+      "valorNota": 1529.99,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550020000192431808790779&s&signature=19cf46c55e5284ed9f9dd3f8ba9803a52d7814022a2601b6e4881c04d5e15211",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=9ced09ceebd74104a88fd50544a52263",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=9ced09ceebd74104a88fd50544a52263",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 1,
+        "transportador": {
+          "nome": "",
+          "numeroDocumento": ""
+        },
+        "volumes": [],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-AX802M-C",
+          "descricao": "Microfone sem Fio de Mao Duplo Armer AX802M com Case",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 1394.07,
+          "valorTotal": 1394.07,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "",
+          "gtin": "7899701567881",
+          "cfop": "2202",
+          "impostos": {
+            "valorAproximadoTotalTributos": 0,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 61.2
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 0,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23516289902,
+      "tipo": 0,
+      "situacao": 7,
+      "numero": "030164",
+      "dataEmissao": "2025-08-02 10:24:56",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550010000301641929461541",
+      "contato": {
+        "id": 15003539576,
+        "nome": "Koala Music Ltda-Filial SC",
+        "numeroDocumento": "42985698000272",
+        "ie": "261283456",
+        "rg": "",
+        "telefone": "5140421522",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Cecilia do Rego Almeida",
+          "numero": "98",
+          "complemento": "Box 1",
+          "bairro": "Brejaru",
+          "cep": "88.133-560",
+          "municipio": "Palhoça",
+          "uf": "SC"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15103158046
+      },
+      "loja": "Loja Física RS",
+      "serie": 1,
+      "valorNota": 1009.98,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000301641929461541&s&signature=257c9bda6034369055f88073204999cece40f69c0b5533a725903314d69751c4",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=394a9b366ab85eea32de4947968f7f08",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=394a9b366ab85eea32de4947968f7f08",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Expresso Sao Miguel-Palhoca",
+          "numeroDocumento": "00428307001160"
+        },
+        "volumes": [],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-NEO-PRO8",
+          "descricao": "Caixa de Som Torre Sistema PA Portatil Bluetooth Neo Pro8 AZ",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 878.24,
+          "valorTotal": 878.24,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "",
+          "gtin": "7899701569731",
+          "cfop": "6152",
+          "impostos": {
+            "valorAproximadoTotalTributos": 418.84,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 35.13
+            }
+          }
+        }
+      ],
+      "parcelas": []
+    }
+  },
+  {
+    "data": {
+      "id": 23518175359,
       "tipo": 1,
       "situacao": 5,
+      "numero": "019242",
+      "dataEmissao": "2025-08-05 14:50:18",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192421460056792",
+      "contato": {
+        "id": 17572909536,
+        "nome": "Marcio Braga Do Vale",
+        "numeroDocumento": "47743930297",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Lauro Sodre",
+          "numero": "414",
+          "complemento": "Nao consta",
+          "bairro": "Centro",
+          "cep": "68.750-000",
+          "municipio": "Curuçá",
+          "uf": "PA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-FULL-Armer",
+      "serie": 2,
+      "valorNota": 579.99,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550020000192421460056792&s&signature=fdbc1c801a1b46fb2d6d4fe7bc7efed1883acae393453d8effba1846ab277a11",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=d5d6abb6a8e9d481604ef0b256edee86",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=d5d6abb6a8e9d481604ef0b256edee86",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012550419368",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 2,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15775999377
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-REDONE",
+          "descricao": "Interface De Audio Usb Armer Red One 2-in/2-out",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 544.59,
+          "valorTotal": 544.59,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001255041936",
+          "classificacaoFiscal": "8543.70.99",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 6,
+          "informacoesAdicionais": "",
+          "gtin": "7899701561889",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 124.55,
+            "icms": {
+              "st": 0,
+              "origem": 6,
+              "modalidade": 3,
+              "aliquota": 7,
+              "valor": 40.6
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 579.99,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 2365180
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23517830267,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "019240",
+      "dataEmissao": "2025-08-05 14:19:09",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192401807438387",
+      "contato": {
+        "id": 17572839719,
+        "nome": "Naelson Adriao da Silva Junior",
+        "numeroDocumento": "87923475415",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Capitao Rebelinho",
+          "numero": "534",
+          "complemento": "Edf Mont Sinai Referencia: Junto ao restaurante fidalgo",
+          "bairro": "Pina",
+          "cep": "51.011-010",
+          "municipio": "Recife",
+          "uf": "PE"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-FULL-AZ Audio",
+      "serie": 2,
+      "valorNota": 2182.49,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550020000192401807438387&s&signature=d57959ef0799140994af8577069fcb3fd36c46f4d8e2f13d50752830ce71e72d",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=c65b1402ae8ff8708e45da5d77102e72",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=c65b1402ae8ff8708e45da5d77102e72",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012549992112",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 2,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15775966074
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-Z1-COMPACT-PRO",
+          "descricao": "Caixa Som Compact Pro Portatil S/ Fio c/ Bateria e Bluetooth",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 1897.82,
+          "valorTotal": 1897.82,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001254999211",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "",
+          "gtin": "7899701569748",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 507.67,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 87.3
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 2182.49,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23517683301,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "003352",
+      "dataEmissao": "2025-08-05 14:05:19",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "35250842985698000353550050000033521793139798",
+      "contato": {
+        "id": 17572807651,
+        "nome": "Victor Hugo Neves Gonzaga",
+        "numeroDocumento": "75371553134",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua GB8",
+          "numero": "SN",
+          "complemento": "Cond. parque aroeira Referencia: Casa 221 condominio parque",
+          "bairro": "Jardim Guanabara II",
+          "cep": "74.680-770",
+          "municipio": "Goiânia",
+          "uf": "GO"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SP-FULL",
+      "serie": 5,
+      "valorNota": 1309.4,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=35250842985698000353550050000033521793139798&s&signature=e9b67bce5798fef290091d8587084212dabfdbf9a197981ff5e4d714a8f02642",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=cd0f8309d794960bb04954342fd889d0",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=cd0f8309d794960bb04954342fd889d0",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012549778862",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15775950824
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "TAG-SIXMART-CA",
+          "descricao": "Guitarra Stratocaster Tagima Sixmart Vermelha com Efeitos",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 1309.4,
+          "valorTotal": 1309.4,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001254977886",
+          "classificacaoFiscal": "9207.90.10",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 2,
+          "informacoesAdicionais": "",
+          "gtin": "7898563970815",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 637.68,
+            "icms": {
+              "st": 0,
+              "origem": 2,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 52.38
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 1309.4,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23516961348,
+      "tipo": 1,
+      "situacao": 6,
       "numero": "019238",
       "dataEmissao": "2025-08-05 12:51:56",
       "dataOperacao": "2025-08-05 00:00:00",
@@ -292694,7 +293212,7 @@
     "data": {
       "id": 23516580936,
       "tipo": 1,
-      "situacao": 5,
+      "situacao": 6,
       "numero": "019236",
       "dataEmissao": "2025-08-05 12:09:58",
       "dataOperacao": "2025-08-05 00:00:00",
@@ -292801,7 +293319,7 @@
     "data": {
       "id": 23515389032,
       "tipo": 1,
-      "situacao": 5,
+      "situacao": 6,
       "numero": "019234",
       "dataEmissao": "2025-08-05 10:34:04",
       "dataOperacao": "2025-08-05 00:00:00",
@@ -292908,7 +293426,7 @@
     "data": {
       "id": 23515169356,
       "tipo": 1,
-      "situacao": 5,
+      "situacao": 6,
       "numero": "003350",
       "dataEmissao": "2025-08-05 10:14:29",
       "dataOperacao": "2025-08-05 00:00:00",
@@ -295000,41 +295518,41 @@
   },
   {
     "data": {
-      "id": 23516289902,
+      "id": 23518924595,
       "tipo": 0,
       "situacao": 7,
-      "numero": "030164",
-      "dataEmissao": "2025-08-02 10:24:56",
+      "numero": "014466",
+      "dataEmissao": "2025-07-25 13:14:11",
       "dataOperacao": "2025-08-05 00:00:00",
-      "chaveAcesso": "42250842985698000272550010000301641929461541",
+      "chaveAcesso": "32250722969808000203550010000144661575653641",
       "contato": {
-        "id": 15003539576,
-        "nome": "Koala Music Ltda-Filial SC",
-        "numeroDocumento": "42985698000272",
-        "ie": "261283456",
+        "id": 17030641274,
+        "nome": "P.A.S. IMPORTACAO E EXPORTACAO LTDA. - EPP",
+        "numeroDocumento": "22969808000203",
+        "ie": "083696962",
         "rg": "",
-        "telefone": "5140421522",
+        "telefone": "1932130562",
         "email": "",
         "endereco": {
-          "endereco": "Rua Cecilia do Rego Almeida",
-          "numero": "98",
-          "complemento": "Box 1",
-          "bairro": "Brejaru",
-          "cep": "88.133-560",
-          "municipio": "Palhoça",
-          "uf": "SC"
+          "endereco": "RODOVIA GOVERNADOR MARIO COVAS",
+          "numero": "KM 28",
+          "complemento": "GALPAO 01 ANDAR 01 B",
+          "bairro": "PADRE MATHIAS",
+          "cep": "29.157-100",
+          "municipio": "Cariacica",
+          "uf": "ES"
         }
       },
       "naturezaOperacao": {
-        "id": 15103158046
+        "id": 15103120379
       },
-      "loja": "Loja Física RS",
+      "loja": "Filial SC",
       "serie": 1,
-      "valorNota": 1009.98,
+      "valorNota": 21981.07,
       "valorFrete": 0,
-      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000301641929461541&s&signature=257c9bda6034369055f88073204999cece40f69c0b5533a725903314d69751c4",
-      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=394a9b366ab85eea32de4947968f7f08",
-      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=394a9b366ab85eea32de4947968f7f08",
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=32250722969808000203550010000144661575653641&s&signature=51aea9463bfc95d119cf3d476ff06833924104bca842377f19ffc7b374de4ecf",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=bc1eefad139aa45f270e90de6be27c03",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=bc1eefad139aa45f270e90de6be27c03",
       "optanteSimplesNacional": false,
       "numeroPedidoLoja": "",
       "vendedor": {
@@ -295043,8 +295561,8 @@
       "transporte": {
         "fretePorConta": 0,
         "transportador": {
-          "nome": "Expresso Sao Miguel-Palhoca",
-          "numeroDocumento": "00428307001160"
+          "nome": "Special Servicos Postais LTDA EPP",
+          "numeroDocumento": "32398877000250"
         },
         "volumes": [],
         "etiqueta": {
@@ -295060,140 +295578,50 @@
       },
       "itens": [
         {
-          "codigo": "AZ-NEO-PRO8",
-          "descricao": "Caixa de Som Torre Sistema PA Portatil Bluetooth Neo Pro8 AZ",
+          "codigo": "SSL-SSL2-PLUS-MKII",
+          "descricao": "Ssl - Ssl 2+ MKII - Interface De Audio - PRETO",
           "unidade": "UN",
-          "quantidade": 1,
-          "valor": 878.24,
-          "valorTotal": 878.24,
+          "quantidade": 10,
+          "valor": 2063.95,
+          "valorTotal": 20639.5,
           "tipo": "P",
           "pesoBruto": 0,
           "pesoLiquido": 0,
           "numeroPedidoCompra": "",
-          "classificacaoFiscal": "8518.22.00",
-          "cest": "",
+          "classificacaoFiscal": "8543.70.99",
+          "cest": "2806300",
           "codigoServico": "",
-          "origem": 1,
+          "origem": 6,
           "informacoesAdicionais": "",
-          "gtin": "7899701569731",
-          "cfop": "6152",
+          "gtin": "878076001968",
+          "cfop": "6102",
           "impostos": {
-            "valorAproximadoTotalTributos": 418.84,
+            "valorAproximadoTotalTributos": 0,
             "icms": {
               "st": 0,
-              "origem": 1,
-              "modalidade": 0,
-              "aliquota": 4,
-              "valor": 35.13
-            }
-          }
-        }
-      ],
-      "parcelas": []
-    }
-  },
-  {
-    "data": {
-      "id": 23517683301,
-      "tipo": 1,
-      "situacao": 5,
-      "numero": "003352",
-      "dataEmissao": "2025-08-05 14:05:19",
-      "dataOperacao": "2025-08-05 00:00:00",
-      "chaveAcesso": "35250842985698000353550050000033521793139798",
-      "contato": {
-        "id": 17572807651,
-        "nome": "Victor Hugo Neves Gonzaga",
-        "numeroDocumento": "75371553134",
-        "ie": "",
-        "rg": "",
-        "telefone": "",
-        "email": "",
-        "endereco": {
-          "endereco": "Rua GB8",
-          "numero": "SN",
-          "complemento": "Cond. parque aroeira Referencia: Casa 221 condominio parque",
-          "bairro": "Jardim Guanabara II",
-          "cep": "74.680-770",
-          "municipio": "Goiânia",
-          "uf": "GO"
-        }
-      },
-      "naturezaOperacao": {
-        "id": 15104227133
-      },
-      "loja": "Mercado Livre SP-FULL",
-      "serie": 5,
-      "valorNota": 1309.4,
-      "valorFrete": 0,
-      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=35250842985698000353550050000033521793139798&s&signature=e9b67bce5798fef290091d8587084212dabfdbf9a197981ff5e4d714a8f02642",
-      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=cd0f8309d794960bb04954342fd889d0",
-      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=cd0f8309d794960bb04954342fd889d0",
-      "optanteSimplesNacional": false,
-      "numeroPedidoLoja": "2000012549778862",
-      "vendedor": {
-        "id": 0
-      },
-      "transporte": {
-        "fretePorConta": 0,
-        "transportador": {
-          "nome": "EBAZAR.COM.BR LTDA",
-          "numeroDocumento": "03007331012239"
-        },
-        "volumes": [
-          {
-            "id": 15775950824
-          }
-        ],
-        "etiqueta": {
-          "nome": "",
-          "endereco": "",
-          "numero": "",
-          "complemento": "",
-          "municipio": "",
-          "uf": "",
-          "cep": "",
-          "bairro": ""
-        }
-      },
-      "itens": [
-        {
-          "codigo": "TAG-SIXMART-CA",
-          "descricao": "Guitarra Stratocaster Tagima Sixmart Vermelha com Efeitos",
-          "unidade": "UNID",
-          "quantidade": 1,
-          "valor": 1309.4,
-          "valorTotal": 1309.4,
-          "tipo": "P",
-          "pesoBruto": 0,
-          "pesoLiquido": 0,
-          "numeroPedidoCompra": "200001254977886",
-          "classificacaoFiscal": "9207.90.10",
-          "cest": "",
-          "codigoServico": "",
-          "origem": 2,
-          "informacoesAdicionais": "",
-          "gtin": "7898563970815",
-          "cfop": "6106",
-          "impostos": {
-            "valorAproximadoTotalTributos": 637.68,
-            "icms": {
-              "st": 0,
-              "origem": 2,
+              "origem": 6,
               "modalidade": 3,
-              "aliquota": 4,
-              "valor": 52.38
+              "aliquota": 12,
+              "valor": 2476.74
             }
           }
         }
       ],
       "parcelas": [
         {
-          "data": "2025-08-05",
-          "valor": 1309.4,
+          "data": "2025-08-01",
+          "valor": 10990.54,
           "observacoes": "",
           "formaPagamento": {
-            "id": 1989128
+            "id": 1902999
+          }
+        },
+        {
+          "data": "2025-08-24",
+          "valor": 10990.53,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1902999
           }
         }
       ]
