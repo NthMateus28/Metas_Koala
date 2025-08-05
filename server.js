@@ -79,7 +79,7 @@ app.get('/api/nfe', async (req, res) => {
         }
       });
 
-      console.log(headers)
+      console.log(response.headers)
 
       if (!response.ok) {
         const textoErro = await response.text();

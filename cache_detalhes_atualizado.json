@@ -295626,5 +295626,3229 @@
         }
       ]
     }
+  },
+  {
+    "data": {
+      "id": 23519078170,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "003356",
+      "dataEmissao": "2025-08-05 16:16:51",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "35250842985698000353550050000033561396234297",
+      "contato": {
+        "id": 17572892059,
+        "nome": "Alisson Alves de Almeida",
+        "numeroDocumento": "05731546606",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua dos Monjolos",
+          "numero": "157",
+          "complemento": "103 Referencia: Primeira rua a direita depois do Supermercad",
+          "bairro": "Santa Ines",
+          "cep": "35.900-886",
+          "municipio": "Itabira",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SP-FULL",
+      "serie": 5,
+      "valorNota": 1309.4,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=35250842985698000353550050000033561396234297&s&signature=6f66742237070929114191639eff1c56dc634286bdb884c25fb7f9fb0a8838fe",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=64c087d652316c5e6d9b6696181ba869",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=64c087d652316c5e6d9b6696181ba869",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012550308952",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15775991020
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "TAG-SIXMART-CA",
+          "descricao": "Guitarra Stratocaster Tagima Sixmart Vermelha com Efeitos",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 1309.4,
+          "valorTotal": 1309.4,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001255030895",
+          "classificacaoFiscal": "9207.90.10",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 2,
+          "informacoesAdicionais": "",
+          "gtin": "7898563970815",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 637.68,
+            "icms": {
+              "st": 0,
+              "origem": 2,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 52.38
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 1309.4,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519053105,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "003354",
+      "dataEmissao": "2025-08-05 16:14:22",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "35250842985698000353550050000033541933957042",
+      "contato": {
+        "id": 17573089832,
+        "nome": "Amanda Cardoso",
+        "numeroDocumento": "03615177002",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Afonso Fonseca",
+          "numero": "108",
+          "complemento": "Referencia: Arvore grande na frente, muro baixo e portao de",
+          "bairro": "Centro",
+          "cep": "92.870-000",
+          "municipio": "Barra do Ribeiro",
+          "uf": "RS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SP-FULL",
+      "serie": 5,
+      "valorNota": 1499.95,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=35250842985698000353550050000033541933957042&s&signature=972589ffe8f99b7d4d5a8b9c15fb3225c5ed97546ae7d6f4e4064a1f6e0b05a9",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=f340cb6bae8fb5b9b3b14dbed6b78b3d",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=f340cb6bae8fb5b9b3b14dbed6b78b3d",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012551540778",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15776084846
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "TAG-SIXMART-MDSV",
+          "descricao": "Guitarra Stratocaster Tagima Sixmart Metallic Deep Silver com Efeitos",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 1499.95,
+          "valorTotal": 1499.95,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001255154077",
+          "classificacaoFiscal": "9207.90.10",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 2,
+          "informacoesAdicionais": "",
+          "gtin": "7898563970822",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 730.48,
+            "icms": {
+              "st": 0,
+              "origem": 2,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 60
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 1499.95,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1921735
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519046827,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "019246",
+      "dataEmissao": "2025-08-05 16:13:50",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192461952432088",
+      "contato": {
+        "id": 17573091520,
+        "nome": "Daiane Vieira Zeviani",
+        "numeroDocumento": "38275649803",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Guilherme Paschoal zampronio",
+          "numero": "1020",
+          "complemento": "bloco 9 apto 22 Referencia: Bloco 9 Ap 22",
+          "bairro": "Jardim Santa Rosa",
+          "cep": "14.165-476",
+          "municipio": "Sertãozinho",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-FULL-Koala Music",
+      "serie": 2,
+      "valorNota": 899.95,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550020000192461952432088&s&signature=5ddf9c12d0c239e4e5d73c25ae3b623a427144ee83a37db02a3c16d2a12c823d",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=e9f5880ebddb965d747e030558540f2e",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=e9f5880ebddb965d747e030558540f2e",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012551553850",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 2,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15776085679
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-AX801M",
+          "descricao": "Microfone sem Fio de Mao Armer AX801M",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 899.95,
+          "valorTotal": 899.95,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001255155385",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 2,
+          "informacoesAdicionais": "",
+          "gtin": "7899701567805",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 240.74,
+            "icms": {
+              "st": 0,
+              "origem": 2,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 36
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 899.95,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 2365180
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519072861,
+      "tipo": 0,
+      "situacao": 7,
+      "numero": "019247",
+      "dataEmissao": "2025-08-05 16:16:19",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192471994103659",
+      "contato": {
+        "id": 17557871713,
+        "nome": "Matheus Silva Scomparin",
+        "numeroDocumento": "45903203809",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Mine Koizumi",
+          "numero": "117",
+          "complemento": "Casa Azul",
+          "bairro": "Jardim Flamboyant",
+          "cep": "18.074-581",
+          "municipio": "Sorocaba",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107208607
+      },
+      "loja": "Mercado Livre SC-FULL-Armer",
+      "serie": 2,
+      "valorNota": 783,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550020000192471994103659&s&signature=58a1837b01bd7b7f9460f87b69a2bc78ab3a7bfd781236c9bc8a030c5135c014",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=531e38642904473534b4a7d48be79e04",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=531e38642904473534b4a7d48be79e04",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 1,
+        "transportador": {
+          "nome": "",
+          "numeroDocumento": ""
+        },
+        "volumes": [],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-ARGENT-TWO",
+          "descricao": "Interface de Audio USB Armer Argent Two 2-in/2-out",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 735.21,
+          "valorTotal": 735.21,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8543.70.99",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 6,
+          "informacoesAdicionais": "",
+          "gtin": "7899701567331",
+          "cfop": "2202",
+          "impostos": {
+            "valorAproximadoTotalTributos": 0,
+            "icms": {
+              "st": 0,
+              "origem": 6,
+              "modalidade": 3,
+              "aliquota": 12,
+              "valor": 93.96
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 0,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519246271,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005185",
+      "dataEmissao": "2025-08-05 16:43:35",
+      "dataOperacao": "2025-08-05 16:43:35",
+      "chaveAcesso": "42250842985698000272550040000051851192462718",
+      "contato": {
+        "id": 17571598817,
+        "nome": "Stanley Rafael Alencar",
+        "numeroDocumento": "04652478305",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Maria Concebida Costa",
+          "numero": "419",
+          "complemento": "casa de Valdenor",
+          "bairro": "centro",
+          "cep": "64.685-000",
+          "municipio": "Marcolândia",
+          "uf": "PI"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 481.5,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051851192462718&s&signature=7541b2a4aa252f3f6297661fc3f6f35488de86a52dcd9ade1b60523b78622f47",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=2890879944d4944d079d55d033314016",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=2890879944d4944d079d55d033314016",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012542475552",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Envios Servicos de Logistica Ltda-SC",
+          "numeroDocumento": "03.007.331/0053-72"
+        },
+        "volumes": [
+          {
+            "id": 15775374043
+          }
+        ],
+        "etiqueta": {
+          "nome": "Stanley Rafael Alencar",
+          "endereco": "Avenida Maria Concebida Costa",
+          "numero": "419",
+          "complemento": "casa de Valdenor",
+          "municipio": "Marcolândia",
+          "uf": "PI",
+          "cep": "64.685-000",
+          "bairro": "centro"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZM57-KIT",
+          "descricao": "Kit de Microfones para Bateria AZ Áudio ZM57-KIT com Maleta",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 438.72,
+          "valorTotal": 438.72,
+          "tipo": "P",
+          "pesoBruto": 3,
+          "pesoLiquido": 3,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701568420",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 195.44,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 19.26
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-24",
+          "valor": 481.5,
+          "observacoes": "Método de pagamento: pix | Pedidos Vinculados: 2000012542475552",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519245521,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005184",
+      "dataEmissao": "2025-08-05 16:43:27",
+      "dataOperacao": "2025-08-05 16:43:27",
+      "chaveAcesso": "42250842985698000272550040000051841192455218",
+      "contato": {
+        "id": 17572008825,
+        "nome": "Jean Carlos Ruiz",
+        "numeroDocumento": "09408864999",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Visconde Charles De Laguiche",
+          "numero": "58",
+          "complemento": "Edifício Tereza Loch Referencia: Edifício Tereza Loch - Sala 1",
+          "bairro": "Centro",
+          "cep": "84.470-000",
+          "municipio": "Cândido de Abreu",
+          "uf": "PR"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 470,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051841192455218&s&signature=c358ca5b4e23bed28db65148334464f362d99b82c3564e5b1308208c7710b4c8",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=7bdc836a3b40390409e90b59c13090ef",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=7bdc836a3b40390409e90b59c13090ef",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012545555492",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 1,
+        "transportador": {
+          "nome": "",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15775571057
+          }
+        ],
+        "etiqueta": {
+          "nome": "Jean Carlos Ruiz",
+          "endereco": "Avenida Visconde Charles De Laguiche",
+          "numero": "58",
+          "complemento": "Edifício Tereza Loch Referencia: Edifício Tereza Loch - Sala 1",
+          "municipio": "Cândido De Abreu",
+          "uf": "PR",
+          "cep": "84.470-000",
+          "bairro": "Centro"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-KS61BT-BK",
+          "descricao": "Teclado Musical AZ KEYS SENSE 61 Preto Teclas Sensitivas Bluetooth",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 470,
+          "valorTotal": 470,
+          "tipo": "P",
+          "pesoBruto": 4.49,
+          "pesoLiquido": 3.45,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9207.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575916",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 164.88,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 18.8
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 470,
+          "observacoes": "Método de pagamento: pix | Pedidos Vinculados: 2000012545555492",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519244733,
+      "tipo": 1,
+      "situacao": 4,
+      "numero": "005183",
+      "dataEmissao": "2025-08-05 16:43:23",
+      "dataOperacao": "2025-08-05 16:43:23",
+      "chaveAcesso": "42250842985698000272550040000051831192447331",
+      "contato": {
+        "id": 17572025443,
+        "nome": "Religiao Budista Honmon Butsur .-",
+        "numeroDocumento": "63095715000357",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Doutor José",
+          "numero": "2977",
+          "complemento": "",
+          "bairro": "Vila Formosa",
+          "cep": "19.050-000",
+          "municipio": "Presidente Prudente",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107363711
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 4,
+      "valorNota": 1373.24,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051831192447331&s&signature=9b7445c7927f6a286dba2e2f2074225a79d6392217bb1785ec0ccc042ab24edc",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=98d668b842c771028455183f59b3ebfa",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=98d668b842c771028455183f59b3ebfa",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012545628830",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA-SC",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15775578592
+          }
+        ],
+        "etiqueta": {
+          "nome": "RELIGIAO BUDISTA HONMON BUTSURYU SHU DO BRASIL",
+          "endereco": "Rua Doutor José",
+          "numero": "2977",
+          "complemento": "",
+          "municipio": "Presidente Prudente",
+          "uf": "SP",
+          "cep": "19.050-000",
+          "bairro": "Vila Formosa"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-AX802M",
+          "descricao": "Microfone Sem Fio Profissional Duplo Armer Ax802m",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 1251.24,
+          "valorTotal": 1251.24,
+          "tipo": "P",
+          "pesoBruto": 2,
+          "pesoLiquido": 2,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "MERCADORIA DESTINADA À REVENDA\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701562541",
+          "cfop": "6102",
+          "impostos": {
+            "valorAproximadoTotalTributos": 557.4,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 50.05
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 1373.24,
+          "observacoes": "Método de pagamento: account_money | Pedidos Vinculados: 2000012545628830",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519244050,
+      "tipo": 1,
+      "situacao": 4,
+      "numero": "005182",
+      "dataEmissao": "2025-08-05 16:43:18",
+      "dataOperacao": "2025-08-05 16:43:18",
+      "chaveAcesso": "42250842985698000272550040000051821192440500",
+      "contato": {
+        "id": 17572095521,
+        "nome": "Vinicius Rodrigues De Moura",
+        "numeroDocumento": "35430247000122",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua 16 A",
+          "numero": "367",
+          "complemento": "Qd 16A - Oticas Vida  Referencia: Sede administrativa oticas vida funciona de segunda a sexta das 8",
+          "bairro": "Setor Aeroporto",
+          "cep": "74.075-150",
+          "municipio": "Goiânia",
+          "uf": "GO"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15107363711
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 1244.12,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051821192440500&s&signature=ae25701d7c96c84a9b2f11d45b17b8d40bc27c1f37eb1c86c6902e9ac1d9124b",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=cc378cc61557547dbd8e2180e92e5393",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=cc378cc61557547dbd8e2180e92e5393",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012545885862",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Envios Servicos de Logistica Ltda-SC",
+          "numeroDocumento": "03.007.331/0053-72"
+        },
+        "volumes": [
+          {
+            "id": 15775610638
+          }
+        ],
+        "etiqueta": {
+          "nome": "OTICA E LAB VIDA EXPRESS IND E COM DE PROD OTIC LTDA",
+          "endereco": "Rua 16 A",
+          "numero": "367",
+          "complemento": "Qd 16A - Oticas Vida  Referencia: Sede administrativa oticas vida funciona de segunda a sexta das 8 ",
+          "municipio": "Goiânia",
+          "uf": "GO",
+          "cep": "74.075-150",
+          "bairro": "Setor Aeroporto"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZM12-FX",
+          "descricao": "Mesa De Som 12 Canais Bluetooth Az Audio Azm12fx Usb Efeitos",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 1168.19,
+          "valorTotal": 1168.19,
+          "tipo": "P",
+          "pesoBruto": 6,
+          "pesoLiquido": 5.3,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8543.70.99",
+          "cest": "2806300",
+          "codigoServico": "",
+          "origem": 6,
+          "informacoesAdicionais": "MERCADORIA DESTINADA À REVENDA\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701567904",
+          "cfop": "6102",
+          "impostos": {
+            "valorAproximadoTotalTributos": 364.65,
+            "icms": {
+              "st": 0,
+              "origem": 6,
+              "modalidade": 0,
+              "aliquota": 7,
+              "valor": 81.77
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 1244.12,
+          "observacoes": "Método de pagamento: visa | Pedidos Vinculados: 2000012545885862",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519243017,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005181",
+      "dataEmissao": "2025-08-05 16:43:10",
+      "dataOperacao": "2025-08-05 16:43:10",
+      "chaveAcesso": "42250842985698000272550040000051811192430175",
+      "contato": {
+        "id": 17572141675,
+        "nome": "Ana Paula Zanandrea",
+        "numeroDocumento": "03040063510",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Do ébano",
+          "numero": "254",
+          "complemento": "901",
+          "bairro": "Caminho das Árvores",
+          "cep": "41.820-370",
+          "municipio": "Salvador",
+          "uf": "BA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 579.49,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051811192430175&s&signature=799a73c96ac9e3270f7144aa9404663227bf4569652a917d80d0accce9b0e95d",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=9d76755b9dc37e9ea53f269433e4a7b1",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=9d76755b9dc37e9ea53f269433e4a7b1",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012546098802",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 1,
+        "transportador": {
+          "nome": "",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15775632346
+          }
+        ],
+        "etiqueta": {
+          "nome": "Ana Paula Zanandrea",
+          "endereco": "Rua Do ébano",
+          "numero": "254",
+          "complemento": "901",
+          "municipio": "Salvador",
+          "uf": "BA",
+          "cep": "41.820-370",
+          "bairro": "Caminho das Árvores"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-VOCALE-MULTI",
+          "descricao": "Microfone sem Fio Profissional VOCALE MULTI com Dois Bastões",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 528.01,
+          "valorTotal": 528.01,
+          "tipo": "P",
+          "pesoBruto": 1.142,
+          "pesoLiquido": 1.142,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701570287",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 235.21,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 23.18
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 579.49,
+          "observacoes": "Método de pagamento: master | Pedidos Vinculados: 2000012546098802",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519242273,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005180",
+      "dataEmissao": "2025-08-05 16:43:02",
+      "dataOperacao": "2025-08-05 16:43:02",
+      "chaveAcesso": "42250842985698000272550040000051801192422736",
+      "contato": {
+        "id": 17572279056,
+        "nome": "Hugo Portal",
+        "numeroDocumento": "74916190297",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Quadra 203",
+          "numero": "8",
+          "complemento": "D Pedro II 303B Referencia: Praça Andorinha",
+          "bairro": "Sul (Águas Claras)",
+          "cep": "71.939-360",
+          "municipio": "Brasília",
+          "uf": "DF"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 470,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051801192422736&s&signature=32175d852458a8dacb6586c3d219cf493d9e9631ad3ec834180f74c5d1e8cd4c",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=a6e8cd0a97facfef5779f347e5f5eeb1",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=a6e8cd0a97facfef5779f347e5f5eeb1",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012546736832",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Envios Servicos de Logistica Ltda-SC",
+          "numeroDocumento": "03.007.331/0053-72"
+        },
+        "volumes": [
+          {
+            "id": 15775698401
+          }
+        ],
+        "etiqueta": {
+          "nome": "HUGO LEAO PORTAL",
+          "endereco": "Quadra 203",
+          "numero": "8",
+          "complemento": "D Pedro II 303B Referencia: Praça Andorinha",
+          "municipio": "Brasília",
+          "uf": "DF",
+          "cep": "71.939-360",
+          "bairro": "Sul (Águas Claras)"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-KS61BT-BK",
+          "descricao": "Teclado Musical AZ KEYS SENSE 61 Preto Teclas Sensitivas Bluetooth",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 470,
+          "valorTotal": 470,
+          "tipo": "P",
+          "pesoBruto": 4.49,
+          "pesoLiquido": 3.45,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9207.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575916",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 164.88,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 18.8
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 470,
+          "observacoes": "Método de pagamento: account_money | Pedidos Vinculados: 2000012546736832",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519241430,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005179",
+      "dataEmissao": "2025-08-05 16:42:54",
+      "dataOperacao": "2025-08-05 16:42:54",
+      "chaveAcesso": "42250842985698000272550040000051791192414309",
+      "contato": {
+        "id": 17572379669,
+        "nome": "Michele Angela Andrade Mendes Pimentel",
+        "numeroDocumento": "30728242826",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Sergipe",
+          "numero": "210",
+          "complemento": "Loja na praça",
+          "bairro": "Nova Aldeinha",
+          "cep": "06.440-140",
+          "municipio": "Barueri",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 581.99,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051791192414309&s&signature=7ae66b0fef6af66cf4dda8e8d34da3efd6e75b532291199155d89542688589de",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=6312280947d2340534a3d0bc117f41a7",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=6312280947d2340534a3d0bc117f41a7",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012547231508",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 1,
+        "transportador": {
+          "nome": "",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15775747437
+          }
+        ],
+        "etiqueta": {
+          "nome": "Michele Angela",
+          "endereco": "Rua Sergipe",
+          "numero": "210",
+          "complemento": "Loja na praça",
+          "municipio": "Barueri",
+          "uf": "SP",
+          "cep": "06.440-140",
+          "bairro": "Nova Aldeinha"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-KT61-BK",
+          "descricao": "Teclado Musical AZ KEYS TONE 61 Teclas Preto c/ Fonte Bivolt",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 581.99,
+          "valorTotal": 581.99,
+          "tipo": "P",
+          "pesoBruto": 4.49,
+          "pesoLiquido": 3.45,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9207.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575947",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 204.16,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 23.28
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 581.99,
+          "observacoes": "Método de pagamento: visa | Pedidos Vinculados: 2000012547231508",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519240593,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005178",
+      "dataEmissao": "2025-08-05 16:42:46",
+      "dataOperacao": "2025-08-05 16:42:46",
+      "chaveAcesso": "42250842985698000272550040000051781192405930",
+      "contato": {
+        "id": 17572535600,
+        "nome": "Neto Soares",
+        "numeroDocumento": "02530231303",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Voluntários Da Pátria",
+          "numero": "102",
+          "complemento": "CAIXA POSTAL 75 Referencia: LOTEAMENTO MORADA DOS VENTOS",
+          "bairro": "MORADA NOVA",
+          "cep": "62.580-000",
+          "municipio": "Acaraú",
+          "uf": "CE"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 2137.51,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051781192405930&s&signature=fe8766557b57eb5b0ba4dfb7724a16ba58ac3bb276a3332abf0576d0715a9d9d",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=5d31981fec4dd66cdde7c2fcb7207a96",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=5d31981fec4dd66cdde7c2fcb7207a96",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012548093176",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Envios Servicos de Logistica Ltda-SC",
+          "numeroDocumento": "03.007.331/0053-72"
+        },
+        "volumes": [
+          {
+            "id": 15775821427
+          }
+        ],
+        "etiqueta": {
+          "nome": "VALDERI SOARES CAMPOS NETO",
+          "endereco": "Avenida Voluntários Da Pátria",
+          "numero": "102",
+          "complemento": "CAIXA POSTAL 75 Referencia: LOTEAMENTO MORADA DOS VENTOS",
+          "municipio": "Acaraú",
+          "uf": "CE",
+          "cep": "62.580-000",
+          "bairro": "MORADA NOVA"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-Z1-COMPACT-PRO",
+          "descricao": "Caixa Som Compact Pro Portátil S/ Fio c/ Bateria e Bluetooth",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 1858.7,
+          "valorTotal": 1858.7,
+          "tipo": "P",
+          "pesoBruto": 7.2,
+          "pesoLiquido": 7,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701569748",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 886.43,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 85.5
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 2137.51,
+          "observacoes": "Método de pagamento: pix | Pedidos Vinculados: 2000012548093176",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519239850,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005177",
+      "dataEmissao": "2025-08-05 16:42:38",
+      "dataOperacao": "2025-08-05 16:42:38",
+      "chaveAcesso": "42250842985698000272550040000051771192398503",
+      "contato": {
+        "id": 17572717371,
+        "nome": "BR GESTAO E DESENVOLVIMENTO DE SOFTWARES LTDA",
+        "numeroDocumento": "36983814000130",
+        "ie": "ISENTO",
+        "rg": "",
+        "telefone": "48998421948",
+        "email": "financeiro@br24.io",
+        "endereco": {
+          "endereco": "Rodovia José Carlos Daux",
+          "numero": "4230",
+          "complemento": "loja 4",
+          "bairro": "Ratones",
+          "cep": "88.052-000",
+          "municipio": "Florianópolis",
+          "uf": "SC"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 3326.29,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051771192398503&s&signature=ad075531b1a4c8db35a1a8018c7b251fd735336a0a24315cd1b601669e89c190",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=dc6f26652e47cd3b0eb8a5313837b6df",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=dc6f26652e47cd3b0eb8a5313837b6df",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012549222936",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Envios Servicos de Logistica Ltda-SC",
+          "numeroDocumento": "03.007.331/0053-72"
+        },
+        "volumes": [
+          {
+            "id": 15775906905
+          }
+        ],
+        "etiqueta": {
+          "nome": "Luiza Scherer",
+          "endereco": "Rodovia José Carlos Daux",
+          "numero": "4230",
+          "complemento": "sala 04 Referencia: entre o delicias do campo  e a farmácia Droga Raya",
+          "municipio": "Florianópolis",
+          "uf": "SC",
+          "cep": "88.052-000",
+          "bairro": "Ratones"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-NEO-PRO8",
+          "descricao": "Caixa de Som Torre Sistema PA Portátil Bluetooth Neo Pro8 AZ",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 2892.43,
+          "valorTotal": 2892.43,
+          "tipo": "P",
+          "pesoBruto": 22,
+          "pesoLiquido": 22,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701569731",
+          "cfop": "5102",
+          "impostos": {
+            "valorAproximadoTotalTributos": 1379.41,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 17,
+              "valor": 565.47
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 3326.29,
+          "observacoes": "Método de pagamento: account_money | Pedidos Vinculados: 2000012549222936",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519239242,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005176",
+      "dataEmissao": "2025-08-05 16:42:30",
+      "dataOperacao": "2025-08-05 16:42:30",
+      "chaveAcesso": "42250842985698000272550040000051761192392427",
+      "contato": {
+        "id": 17572717371,
+        "nome": "BR GESTAO E DESENVOLVIMENTO DE SOFTWARES LTDA",
+        "numeroDocumento": "36983814000130",
+        "ie": "ISENTO",
+        "rg": "",
+        "telefone": "48998421948",
+        "email": "financeiro@br24.io",
+        "endereco": {
+          "endereco": "Rodovia José Carlos Daux",
+          "numero": "4230",
+          "complemento": "loja 4",
+          "bairro": "Ratones",
+          "cep": "88.052-000",
+          "municipio": "Florianópolis",
+          "uf": "SC"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 3326.29,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051761192392427&s&signature=f4504264d66ffece23838419fb15de5c506e6f0e4cabbca3545f8600a9bda4da",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=97890b0d48f827838887b9bd9fac4bd4",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=97890b0d48f827838887b9bd9fac4bd4",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012549222948",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Envios Servicos de Logistica Ltda-SC",
+          "numeroDocumento": "03.007.331/0053-72"
+        },
+        "volumes": [
+          {
+            "id": 15775907660
+          }
+        ],
+        "etiqueta": {
+          "nome": "Luiza Scherer",
+          "endereco": "Rodovia José Carlos Daux",
+          "numero": "4230",
+          "complemento": "sala 04 Referencia: entre o delicias do campo  e a farmácia Droga Raya",
+          "municipio": "Florianópolis",
+          "uf": "SC",
+          "cep": "88.052-000",
+          "bairro": "Ratones"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-NEO-PRO8",
+          "descricao": "Caixa de Som Torre Sistema PA Portátil Bluetooth Neo Pro8 AZ",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 2892.43,
+          "valorTotal": 2892.43,
+          "tipo": "P",
+          "pesoBruto": 22,
+          "pesoLiquido": 22,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701569731",
+          "cfop": "5102",
+          "impostos": {
+            "valorAproximadoTotalTributos": 1379.41,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 17,
+              "valor": 565.47
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 3326.29,
+          "observacoes": "Método de pagamento: account_money | Pedidos Vinculados: 2000012549222948",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519238116,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005175",
+      "dataEmissao": "2025-08-05 16:42:16",
+      "dataOperacao": "2025-08-05 16:42:16",
+      "chaveAcesso": "42250842985698000272550040000051751192381169",
+      "contato": {
+        "id": 17572790258,
+        "nome": "Tasso El Halal",
+        "numeroDocumento": "12384555901",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Gomes Carneiro",
+          "numero": "1621",
+          "complemento": "Perto do corpo de bombeiros",
+          "bairro": "Centro",
+          "cep": "96.010-610",
+          "municipio": "Pelotas",
+          "uf": "RS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 4,
+      "valorNota": 752,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051751192381169&s&signature=cb6996c2b7b4ebc3208c004e7167a9ece07def2fa2154379295362d47f78d9b0",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=2f341aa0870b9e00a28f8d7cc74e2907",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=2f341aa0870b9e00a28f8d7cc74e2907",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012549653626",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Livre(Correios)",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15775942206
+          }
+        ],
+        "etiqueta": {
+          "nome": "tasso el halal",
+          "endereco": "Rua Gomes Carneiro",
+          "numero": "1621",
+          "complemento": "Perto do corpo de bombeiros",
+          "municipio": "Pelotas",
+          "uf": "RS",
+          "cep": "96.010-610",
+          "bairro": "Centro"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-ARGENT-TWO",
+          "descricao": "Interface de Áudio USB Armer Argent Two 2-in/2-out",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 706.1,
+          "valorTotal": 706.1,
+          "tipo": "P",
+          "pesoBruto": 0.435,
+          "pesoLiquido": 0.337,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8543.70.99",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 6,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701567331",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 220.41,
+            "icms": {
+              "st": 0,
+              "origem": 6,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 90.24
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 752,
+          "observacoes": "Método de pagamento: master | Pedidos Vinculados: 2000012549653626",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519236329,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005174",
+      "dataEmissao": "2025-08-05 16:42:08",
+      "dataOperacao": "2025-08-05 16:42:08",
+      "chaveAcesso": "42250842985698000272550040000051741192363295",
+      "contato": {
+        "id": 17572833920,
+        "nome": "Fabio Emanuel",
+        "numeroDocumento": "12920381440",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Rangel Travassos",
+          "numero": "1270",
+          "complemento": "",
+          "bairro": "Varjão",
+          "cep": "58.070-120",
+          "municipio": "João Pessoa",
+          "uf": "PB"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 1149.9,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051741192363295&s&signature=94271776dcbb9acf89a734b2b8f24c33698dbe46ae2fe643e5e1b153689bee6a",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=7285fa76d1f5c09a65e150a9ff27f5b2",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=7285fa76d1f5c09a65e150a9ff27f5b2",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012549888892",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Envios Servicos de Logistica Ltda-SC",
+          "numeroDocumento": "03.007.331/0053-72"
+        },
+        "volumes": [
+          {
+            "id": 15775963332
+          }
+        ],
+        "etiqueta": {
+          "nome": "Fabio Emanuel André Soares Silva de Lima",
+          "endereco": "Rua Rangel Travassos",
+          "numero": "1270",
+          "complemento": "",
+          "municipio": "João Pessoa",
+          "uf": "PB",
+          "cep": "58.070-120",
+          "bairro": "Varjão"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-SUSTAIN-1",
+          "descricao": "Pedal Sustain AZ SUSTAIN-1 para Teclados AZ Keys Sense /Tone",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 144.83,
+          "valorTotal": 144.83,
+          "tipo": "P",
+          "pesoBruto": 0.45,
+          "pesoLiquido": 0.38,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9209.94.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575978",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 52.81,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 5.79
+            }
+          }
+        },
+        {
+          "codigo": "COOPE-AZ-KEYS",
+          "descricao": "Bag Capa para Teclado Musical AZ KEYS",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 78.2,
+          "valorTotal": 78.2,
+          "tipo": "P",
+          "pesoBruto": 1,
+          "pesoLiquido": 1,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "4202.22.20",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 25.34,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 7,
+              "valor": 5.47
+            }
+          }
+        },
+        {
+          "codigo": "AZ-KS61BT-WH",
+          "descricao": "Teclado Musical AZ KEYS SENSE 61 Branco Teclas Sensitivas Bluetooth",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 753.15,
+          "valorTotal": 753.15,
+          "tipo": "P",
+          "pesoBruto": 4.49,
+          "pesoLiquido": 3.45,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9207.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575930",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 264.21,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 30.13
+            }
+          }
+        },
+        {
+          "codigo": "ASK-X10S",
+          "descricao": "Suporte para Teclado ASK X10S",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 173.72,
+          "valorTotal": 173.72,
+          "tipo": "P",
+          "pesoBruto": 3,
+          "pesoLiquido": 2.87,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9209.94.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898939972801",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 52.9,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 7,
+              "valor": 12.16
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 1149.9,
+          "observacoes": "Método de pagamento: visa | Pedidos Vinculados: 2000012549888892",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519235044,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005173",
+      "dataEmissao": "2025-08-05 16:41:59",
+      "dataOperacao": "2025-08-05 16:41:59",
+      "chaveAcesso": "42250842985698000272550040000051731192350447",
+      "contato": {
+        "id": 17572997972,
+        "nome": "Gerson Bastos",
+        "numeroDocumento": "17872847000",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Bento Gonçalves",
+          "numero": "1041",
+          "complemento": "segundo piso",
+          "bairro": "Charqueadas",
+          "cep": "96.745-000",
+          "municipio": "Charqueadas",
+          "uf": "RS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 581.99,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051731192350447&s&signature=ef8e909fe3221e800cffb73a03aedecbab2432d7bf8df4d60a9c47ed7fb0247e",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=425e97202288807bad281df09eb1756e",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=425e97202288807bad281df09eb1756e",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012550972476",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 1,
+        "transportador": {
+          "nome": "",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15776041025
+          }
+        ],
+        "etiqueta": {
+          "nome": "Jesse Bastos",
+          "endereco": "Avenida Bento Gonçalves",
+          "numero": "1041",
+          "complemento": "segundo piso",
+          "municipio": "Charqueadas",
+          "uf": "RS",
+          "cep": "96.745-000",
+          "bairro": "Charqueadas"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-KT61-WH",
+          "descricao": "Teclado Musical AZ KEYS TONE 61 Teclas Branco + Fonte Bivolt",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 581.99,
+          "valorTotal": 581.99,
+          "tipo": "P",
+          "pesoBruto": 4.62,
+          "pesoLiquido": 3.6,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9207.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575961",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 204.16,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 23.28
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 581.99,
+          "observacoes": "Método de pagamento: visa | Pedidos Vinculados: 2000012550972476",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519234022,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005172",
+      "dataEmissao": "2025-08-05 16:41:50",
+      "dataOperacao": "2025-08-05 16:41:50",
+      "chaveAcesso": "42250842985698000272550040000051721192340223",
+      "contato": {
+        "id": 17573097659,
+        "nome": "Lucas Eduardo",
+        "numeroDocumento": "06267806677",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Antão Gonçalves",
+          "numero": "254",
+          "complemento": "Lj Depósito Taquaril Referencia: Depósito Taquaril horário comercial.",
+          "bairro": "Taquaril",
+          "cep": "30.290-130",
+          "municipio": "Belo Horizonte",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 4,
+      "valorNota": 1799.93,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051721192340223&s&signature=384540e225386deebab0f34329c0bcc37517e06e80e71eb1cd7f181564332efe",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=ad18e60d9925660cda7a49027363b976",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=ad18e60d9925660cda7a49027363b976",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012551589810",
+      "vendedor": {
+        "id": 15596131472
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA-SC",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15776088660
+          }
+        ],
+        "etiqueta": {
+          "nome": "Lucas Eduardo",
+          "endereco": "Rua Antão Gonçalves",
+          "numero": "254",
+          "complemento": "Lj Depósito Taquaril Referencia: Depósito Taquaril horário comercial.",
+          "municipio": "Belo Horizonte",
+          "uf": "MG",
+          "cep": "30.290-130",
+          "bairro": "Taquaril"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AX802M-RECEIVER",
+          "descricao": "Base Receptora com Antenas Receiver Microfone sem Fio AX802M",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 962.53,
+          "valorTotal": 962.53,
+          "tipo": "P",
+          "pesoBruto": 1.7,
+          "pesoLiquido": 1.7,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8543.70.99",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575343",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 300.45,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 41
+            }
+          }
+        },
+        {
+          "codigo": "ARMER-HEADSET-UNI-BK",
+          "descricao": "Microfone Headset Armer Uni-Direcional Preto p/ Bodypack AX",
+          "unidade": "UN",
+          "quantidade": 2,
+          "valor": 247.52,
+          "valorTotal": 495.04,
+          "tipo": "P",
+          "pesoBruto": 0.15,
+          "pesoLiquido": 0.2,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575367",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 220.53,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 21.73
+            }
+          }
+        },
+        {
+          "codigo": "ARMER-AX800-BP12",
+          "descricao": "Transmissor Bodypack Armer AX800-BP para Microfone Headset - Unitário",
+          "unidade": "UN",
+          "quantidade": 2,
+          "valor": 105.48,
+          "valorTotal": 210.96,
+          "tipo": "P",
+          "pesoBruto": 0.15,
+          "pesoLiquido": 0.15,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8517.62.91",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701567843",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 88.88,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 9.26
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 1799.93,
+          "observacoes": "Método de pagamento: visa | Pedidos Vinculados: 2000012551589810",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519232938,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005171",
+      "dataEmissao": "2025-08-05 16:41:41",
+      "dataOperacao": "2025-08-05 16:41:41",
+      "chaveAcesso": "42250842985698000272550040000051711192329389",
+      "contato": {
+        "id": 17573100253,
+        "nome": "Marco Isaias",
+        "numeroDocumento": "48771017801",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Orindiuva",
+          "numero": "75",
+          "complemento": "",
+          "bairro": "Jardim América",
+          "cep": "13.221-371",
+          "municipio": "Várzea Paulista",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 470,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051711192329389&s&signature=b0374f58857a15565f5c8da3e7ea2d2eb9744a323cabb5f59745a03613fe1f68",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=13b9ff07b075749fc6a7d35746d27719",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=13b9ff07b075749fc6a7d35746d27719",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012551621856",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Envios Servicos de Logistica Ltda-SC",
+          "numeroDocumento": "03.007.331/0053-72"
+        },
+        "volumes": [
+          {
+            "id": 15776089933
+          }
+        ],
+        "etiqueta": {
+          "nome": "Marco Isaías Lacerda Doriel",
+          "endereco": "Rua Orindiuva",
+          "numero": "75",
+          "complemento": "",
+          "municipio": "Várzea Paulista",
+          "uf": "SP",
+          "cep": "13.221-371",
+          "bairro": "Jardim América"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-KS61BT-BK",
+          "descricao": "Teclado Musical AZ KEYS SENSE 61 Preto Teclas Sensitivas Bluetooth",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 470,
+          "valorTotal": 470,
+          "tipo": "P",
+          "pesoBruto": 4.49,
+          "pesoLiquido": 3.45,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9207.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575916",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 164.88,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 18.8
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 470,
+          "observacoes": "Método de pagamento: account_money | Pedidos Vinculados: 2000012551621856",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519312959,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030210",
+      "dataEmissao": "2025-08-05 16:44:00",
+      "dataOperacao": "2025-08-05 16:44:00",
+      "chaveAcesso": "42250842985698000272550010000302101193129595",
+      "contato": {
+        "id": 17572405697,
+        "nome": "Cláudia Gimenes",
+        "numeroDocumento": "10653101619",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua José Soares",
+          "numero": "371",
+          "complemento": "",
+          "bairro": "Centro",
+          "cep": "38.500-000",
+          "municipio": "Monte Carmelo",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 1,
+      "valorNota": 1845.36,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000302101193129595&s&signature=e5d2286b125f5732d6224848c09c53feb16a970f886996a8d36bd40e4151e47d",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=d1128e2da72a9565be8634f3074baa0a",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=d1128e2da72a9565be8634f3074baa0a",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012551904310",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Livre(Correios)",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15776110080
+          }
+        ],
+        "etiqueta": {
+          "nome": "Claudia gimenes nunes",
+          "endereco": "Rua José Soares",
+          "numero": "371",
+          "complemento": "",
+          "municipio": "Monte Carmelo",
+          "uf": "MG",
+          "cep": "38.500-000",
+          "bairro": "Centro"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "JBL-6CO3QPLUS",
+          "descricao": "Caixa Som Ambiente JBL 6CO3Q+ Par Arandelas de Embutir 140W",
+          "unidade": "PC",
+          "quantidade": 3,
+          "valor": 615.12,
+          "valorTotal": 1845.36,
+          "tipo": "P",
+          "pesoBruto": 3.7,
+          "pesoLiquido": 3.7,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "2105700",
+          "codigoServico": "",
+          "origem": 4,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898678590243",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 638.68,
+            "icms": {
+              "st": 0,
+              "origem": 4,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 221.44
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 1845.36,
+          "observacoes": "Método de pagamento: account_money | Pedidos Vinculados: 2000012551904310",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519312419,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030209",
+      "dataEmissao": "2025-08-05 16:44:09",
+      "dataOperacao": "2025-08-05 16:44:09",
+      "chaveAcesso": "42250842985698000272550010000302091193124193",
+      "contato": {
+        "id": 17572405697,
+        "nome": "Cláudia Gimenes",
+        "numeroDocumento": "10653101619",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua José Soares",
+          "numero": "371",
+          "complemento": "",
+          "bairro": "Centro",
+          "cep": "38.500-000",
+          "municipio": "Monte Carmelo",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 1,
+      "valorNota": 1845.36,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000302091193124193&s&signature=e6bc104f583dc553f2bea008142307935e79b8f03b57d41cab9fa06a61444207",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=9219ab0270b74c9c64b3c02e27668f2c",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=9219ab0270b74c9c64b3c02e27668f2c",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012551901136",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Livre(Correios)",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15776109552
+          }
+        ],
+        "etiqueta": {
+          "nome": "Claudia gimenes nunes",
+          "endereco": "Rua José Soares",
+          "numero": "371",
+          "complemento": "",
+          "municipio": "Monte Carmelo",
+          "uf": "MG",
+          "cep": "38.500-000",
+          "bairro": "Centro"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "JBL-6CO3QPLUS",
+          "descricao": "Caixa Som Ambiente JBL 6CO3Q+ Par Arandelas de Embutir 140W",
+          "unidade": "PC",
+          "quantidade": 3,
+          "valor": 615.12,
+          "valorTotal": 1845.36,
+          "tipo": "P",
+          "pesoBruto": 3.7,
+          "pesoLiquido": 3.7,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "2105700",
+          "codigoServico": "",
+          "origem": 4,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898678590243",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 638.68,
+            "icms": {
+              "st": 0,
+              "origem": 4,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 221.44
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 1845.36,
+          "observacoes": "Método de pagamento: account_money | Pedidos Vinculados: 2000012551901136",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519311771,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030208",
+      "dataEmissao": "2025-08-05 16:44:17",
+      "dataOperacao": "2025-08-05 16:44:17",
+      "chaveAcesso": "42250842985698000272550010000302081193117718",
+      "contato": {
+        "id": 17469911319,
+        "nome": "Alencar Carraro",
+        "numeroDocumento": "00156591006",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Almirante Fonseca Neves",
+          "numero": "534",
+          "complemento": "1501",
+          "bairro": "Perequê",
+          "cep": "88.210-000",
+          "municipio": "Porto Belo",
+          "uf": "SC"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 1,
+      "valorNota": 1845.36,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000302081193117718&s&signature=4ca343db90fc0d427588a922973b59963c132756508a18df1fb2d535a0f7bb6a",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=95d6fdcb5ce36b6293659a9dcdabc3d1",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=95d6fdcb5ce36b6293659a9dcdabc3d1",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012547214330",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03.007.331/0120-77"
+        },
+        "volumes": [
+          {
+            "id": 15775742774
+          }
+        ],
+        "etiqueta": {
+          "nome": "Alencar carraro",
+          "endereco": "Avenida Almirante Fonseca Neves",
+          "numero": "534",
+          "complemento": "1501",
+          "municipio": "Porto Belo",
+          "uf": "SC",
+          "cep": "88.210-000",
+          "bairro": "Perequê"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "JBL-6CO3QPLUS",
+          "descricao": "Caixa Som Ambiente JBL 6CO3Q+ Par Arandelas de Embutir 140W",
+          "unidade": "PC",
+          "quantidade": 3,
+          "valor": 615.12,
+          "valorTotal": 1845.36,
+          "tipo": "P",
+          "pesoBruto": 3.7,
+          "pesoLiquido": 3.7,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "2105700",
+          "codigoServico": "",
+          "origem": 4,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898678590243",
+          "cfop": "5102",
+          "impostos": {
+            "valorAproximadoTotalTributos": 638.68,
+            "icms": {
+              "st": 0,
+              "origem": 4,
+              "modalidade": 0,
+              "aliquota": 17,
+              "valor": 313.71
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 1845.36,
+          "observacoes": "Método de pagamento: account_money | Pedidos Vinculados: 2000012547214330",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519310745,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030207",
+      "dataEmissao": "2025-08-05 16:44:25",
+      "dataOperacao": "2025-08-05 16:44:25",
+      "chaveAcesso": "42250842985698000272550010000302071193107456",
+      "contato": {
+        "id": 17572703168,
+        "nome": "Niltinho Modell",
+        "numeroDocumento": "50199404615",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Itajubá",
+          "numero": "184",
+          "complemento": "Casa",
+          "bairro": "Osvaldo Rezende",
+          "cep": "38.400-394",
+          "municipio": "Uberlândia",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 1,
+      "valorNota": 615.12,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000302071193107456&s&signature=faeec9fe31e18afe154074193f6bc3079d3f88b0b3a5d23f68bc28959bc23469",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=585325e5f593a0e24277e314f761d4c5",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=585325e5f593a0e24277e314f761d4c5",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012549120548",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Livre(Correios)",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15775899882
+          }
+        ],
+        "etiqueta": {
+          "nome": "Nilton José Severino",
+          "endereco": "Rua Itajubá",
+          "numero": "184",
+          "complemento": "Casa",
+          "municipio": "Uberlândia",
+          "uf": "MG",
+          "cep": "38.400-394",
+          "bairro": "Osvaldo Rezende"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "JBL-6CO3QPLUS",
+          "descricao": "Caixa Som Ambiente JBL 6CO3Q+ Par Arandelas de Embutir 140W",
+          "unidade": "PC",
+          "quantidade": 1,
+          "valor": 615.12,
+          "valorTotal": 615.12,
+          "tipo": "P",
+          "pesoBruto": 3.7,
+          "pesoLiquido": 3.7,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "2105700",
+          "codigoServico": "",
+          "origem": 4,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898678590243",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 212.89,
+            "icms": {
+              "st": 0,
+              "origem": 4,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 73.81
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 615.12,
+          "observacoes": "Método de pagamento: pix | Pedidos Vinculados: 2000012549120548",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519309542,
+      "tipo": 1,
+      "situacao": 4,
+      "numero": "030211",
+      "dataEmissao": "2025-08-05 16:44:51",
+      "dataOperacao": "2025-08-05 16:44:51",
+      "chaveAcesso": "42250842985698000272550010000302111193095426",
+      "contato": {
+        "id": 17572745162,
+        "nome": "Fada Fundação",
+        "numeroDocumento": "04136857000194",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Av Santos Dumont",
+          "numero": "121",
+          "complemento": "",
+          "bairro": "Centro",
+          "cep": "39.205-000",
+          "municipio": "Três Marias",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 1,
+      "valorNota": 6510.24,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000302111193095426&s&signature=179e63d7709a67ebaa2c2b762030dca1070cca436330668f1a376a19cd75663b",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=56870c41f4446961d7abea6db2fb8083",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=56870c41f4446961d7abea6db2fb8083",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012549341964",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA-SC",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15775920574
+          }
+        ],
+        "etiqueta": {
+          "nome": "ZACKIA DAURA",
+          "endereco": "Av Santos Dumont",
+          "numero": "121",
+          "complemento": "",
+          "municipio": "Três Marias",
+          "uf": "MG",
+          "cep": "39.205-000",
+          "bairro": "Centro"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "JBL-MAX12-BIVOLT",
+          "descricao": "Caixa de Som JBL Max 12 com Bluetooth Ativa 350W",
+          "unidade": "UN",
+          "quantidade": 2,
+          "valor": 2968.63,
+          "valorTotal": 5937.26,
+          "tipo": "P",
+          "pesoBruto": 18.55,
+          "pesoLiquido": 15.9,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898678590212",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 2054.89,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 712.47
+            }
+          }
+        },
+        {
+          "codigo": "COOPE-MAX12BAG",
+          "descricao": "Bag Capa Para Caixa De Som 12  Jbl/ Electrovoice",
+          "unidade": "UN",
+          "quantidade": 2,
+          "valor": 166.12,
+          "valorTotal": 332.24,
+          "tipo": "P",
+          "pesoBruto": 0.5,
+          "pesoLiquido": 0.5,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "4202.22.20",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 107.65,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 39.87
+            }
+          }
+        },
+        {
+          "codigo": "ASK-CXT100",
+          "descricao": "Suporte Pedestal Tripé para Caixa de Som ASK CXT 100",
+          "unidade": "UN",
+          "quantidade": 2,
+          "valor": 120.37,
+          "valorTotal": 240.74,
+          "tipo": "P",
+          "pesoBruto": 2.3,
+          "pesoLiquido": 2.1,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9209.99.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898939971675",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 73.31,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 28.89
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 6510.24,
+          "observacoes": "Método de pagamento: pix | Pedidos Vinculados: 2000012549341964",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519308235,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030206",
+      "dataEmissao": "2025-08-05 16:44:32",
+      "dataOperacao": "2025-08-05 16:44:32",
+      "chaveAcesso": "42250842985698000272550010000302061193082359",
+      "contato": {
+        "id": 17572793086,
+        "nome": "Micael Bomfim",
+        "numeroDocumento": "09324686593",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Travessa Vital Brasil",
+          "numero": "226",
+          "complemento": "ao lado a torre oi",
+          "bairro": "CIA I",
+          "cep": "43.716-455",
+          "municipio": "Simões Filho",
+          "uf": "BA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 1,
+      "valorNota": 4800.63,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000302061193082359&s&signature=9be98493ceec6edb0d114aaef09c2ed6c1cb9d1cd6814f12b19197d2e4b35c64",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=cc5755e5a5165a03461e6d7ab30c8392",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=cc5755e5a5165a03461e6d7ab30c8392",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012549569686",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Livre(Correios)",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15775943486
+          }
+        ],
+        "etiqueta": {
+          "nome": "Micael da conceição Bomfim",
+          "endereco": "Travessa Vital Brasil",
+          "numero": "226",
+          "complemento": "ao lado a torre oi",
+          "municipio": "Simões Filho",
+          "uf": "BA",
+          "cep": "43.716-455",
+          "bairro": "CIA I"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "JBL-EON715-220V",
+          "descricao": "Caixa de Som Ativa Portátil JBL EON715 1300W Bluetooth 220V",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 4677.52,
+          "valorTotal": 4677.52,
+          "tipo": "P",
+          "pesoBruto": 22.5,
+          "pesoLiquido": 22.5,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 2,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898678590533",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 1939.77,
+            "icms": {
+              "st": 0,
+              "origem": 2,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 187.1
+            }
+          }
+        },
+        {
+          "codigo": "ASK-CXT100",
+          "descricao": "Suporte Pedestal Tripé para Caixa de Som ASK CXT 100",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 123.11,
+          "valorTotal": 123.11,
+          "tipo": "P",
+          "pesoBruto": 2.3,
+          "pesoLiquido": 2.1,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9209.99.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898939971675",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 37.49,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 7,
+              "valor": 8.62
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 4800.63,
+          "observacoes": "Método de pagamento: pix | Pedidos Vinculados: 2000012549569686",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519307279,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030205",
+      "dataEmissao": "2025-08-05 16:44:41",
+      "dataOperacao": "2025-08-05 16:44:41",
+      "chaveAcesso": "42250842985698000272550010000302051193072798",
+      "contato": {
+        "id": 17573023044,
+        "nome": "Edmar Castro Trindade",
+        "numeroDocumento": "46826064847",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Servidão Maria Vieira Dos Santos",
+          "numero": "1000",
+          "complemento": "301 C IMPAR Referencia: Condomínio Flores da colina",
+          "bairro": "São Sebastião",
+          "cep": "88.136-220",
+          "municipio": "Palhoça",
+          "uf": "SC"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 1,
+      "valorNota": 184,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000302051193072798&s&signature=1c416ed3326c2ad1bda89ff8889a7a0026683bea665585638fda0509d9eae5ed",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=3df17436aba51e05eacbdcf4dd96301f",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=3df17436aba51e05eacbdcf4dd96301f",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012551115084",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03.007.331/0120-77"
+        },
+        "volumes": [
+          {
+            "id": 15776053362
+          }
+        ],
+        "etiqueta": {
+          "nome": "Edmar Castro Trindade",
+          "endereco": "Servidão Maria Vieira Dos Santos",
+          "numero": "1000",
+          "complemento": "301 C IMPAR Referencia: Condomínio Flores da colina",
+          "municipio": "Palhoça",
+          "uf": "SC",
+          "cep": "88.136-220",
+          "bairro": "São Sebastião"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "HERIN-BZ7020C-FBLUES",
+          "descricao": "Gaita De Boca Harmonica Hering Free Blues Bronze Dó (c)",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 184,
+          "valorTotal": 184,
+          "tipo": "P",
+          "pesoBruto": 0.1,
+          "pesoLiquido": 0.1,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9205.90.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898651700003",
+          "cfop": "5102",
+          "impostos": {
+            "valorAproximadoTotalTributos": 56.03,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 17,
+              "valor": 31.28
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 184,
+          "observacoes": "Método de pagamento: pix | Pedidos Vinculados: 2000012551115084",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519306459,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "030204",
+      "dataEmissao": "2025-08-05 16:43:52",
+      "dataOperacao": "2025-08-05 16:43:52",
+      "chaveAcesso": "42250842985698000272550010000302041193064593",
+      "contato": {
+        "id": 17573071414,
+        "nome": "Gabriel Rameh",
+        "numeroDocumento": "11448889480",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Cuiabá",
+          "numero": "2346",
+          "complemento": "apartamento 702 Referencia: Rua Cuiabá, 2346\nbloco 11 apartamento 702",
+          "bairro": "Candeias",
+          "cep": "54.440-130",
+          "municipio": "Jaboatão dos Guararapes",
+          "uf": "PE"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 1,
+      "valorNota": 1939.98,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000302041193064593&s&signature=ac42d5f6da8fcbc9ef60751f10e432f647221dd1b6a7b9877c353da6308fe298",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=51f13024aa4f368e1dbd90c184659d26",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=51f13024aa4f368e1dbd90c184659d26",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012551420482",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Livre(Correios)",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15776076429
+          }
+        ],
+        "etiqueta": {
+          "nome": "GABRIEL RAMEH DE MELO RODRIGUES",
+          "endereco": "Rua Cuiabá",
+          "numero": "2346",
+          "complemento": "apartamento 702 Referencia: Rua Cuiabá, 2346\nbloco 11 apartamento 702",
+          "municipio": "Jaboatão Dos Guararapes",
+          "uf": "PE",
+          "cep": "54.440-130",
+          "bairro": "Candeias"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "TAG-MODENA-NS",
+          "descricao": "Violão Elétrico de Corpo Sólido Tagima Modena Nylon Natural",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 1939.98,
+          "valorTotal": 1939.98,
+          "tipo": "P",
+          "pesoBruto": 4.5,
+          "pesoLiquido": 4.5,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9202.90.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 2,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898651941161",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 659.01,
+            "icms": {
+              "st": 0,
+              "origem": 2,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 77.6
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-25",
+          "valor": 1939.98,
+          "observacoes": "Método de pagamento: pix | Pedidos Vinculados: 2000012551420482",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23519247021,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005186",
+      "dataEmissao": "2025-08-05 16:43:43",
+      "dataOperacao": "2025-08-05 16:43:43",
+      "chaveAcesso": "42250842985698000272550040000051861192470211",
+      "contato": {
+        "id": 17571400085,
+        "nome": "Jasmine Thaís Amaral",
+        "numeroDocumento": "07050246360",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Quinze De Novembro",
+          "numero": "1182",
+          "complemento": "",
+          "bairro": "Centro",
+          "cep": "61.600-090",
+          "municipio": "Caucaia",
+          "uf": "CE"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 470,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051861192470211&s&signature=d4274f00d3280c98e4f97af85470a121854beb73a17e3c183a65a58f908d2557",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=c6799c7a39d0f20d8809703bacd46390",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=c6799c7a39d0f20d8809703bacd46390",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012541060570",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Envios Servicos de Logistica Ltda-SC",
+          "numeroDocumento": "03.007.331/0053-72"
+        },
+        "volumes": [
+          {
+            "id": 15775274209
+          }
+        ],
+        "etiqueta": {
+          "nome": "Jasmine Thaís Silva Miranda Amaral",
+          "endereco": "Rua Quinze De Novembro",
+          "numero": "1182",
+          "complemento": "",
+          "municipio": "Caucaia",
+          "uf": "CE",
+          "cep": "61.600-090",
+          "bairro": "Centro"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-KS61BT-BK",
+          "descricao": "Teclado Musical AZ KEYS SENSE 61 Preto Teclas Sensitivas Bluetooth",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 470,
+          "valorTotal": 470,
+          "tipo": "P",
+          "pesoBruto": 4.49,
+          "pesoLiquido": 3.45,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9207.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575916",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 164.88,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 18.8
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-24",
+          "valor": 470,
+          "observacoes": "Método de pagamento: visa | Pedidos Vinculados: 2000012541060570",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
   }
 ]
