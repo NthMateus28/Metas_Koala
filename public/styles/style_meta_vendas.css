@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start; /* <-- Agora o menu vai ficar no topo */
-  background: linear-gradient(#97291d, #330c08, #1a0604); /* vermelho para preto */
+  background: linear-gradient(135deg, #25868d, #1e1e1e) ; /* roxo escuro para cinza */
   color: #ecf0f1;
   box-sizing: border-box;
   min-height: 100vh;

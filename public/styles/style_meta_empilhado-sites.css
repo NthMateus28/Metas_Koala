@@ -1,0 +1,9 @@
+@import url("../styles/style_meta_vendas.css");
+@import url("../styles/style_meta_empilhado.css");
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ffe600, #0057a5, #002776) !important;
+  color: white;
+}
