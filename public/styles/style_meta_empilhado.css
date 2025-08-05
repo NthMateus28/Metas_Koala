@@ -153,10 +153,12 @@ canvas {
   }
 
   .menu-hamburguer-container {
-    display: block;
-    background-color: #111;
+    display: flex;
+    justify-content: flex-end;
     padding: 10px;
-  }
+    position: relative;
+    z-index: 1000;
+  }  
 
   .menu-slide {
     position: fixed;

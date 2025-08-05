@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meta de Vendas</title>
+  <title>Koala Brands</title>
   <link rel="stylesheet" href="../styles/style_meta_vendas.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="icon" href="../images/logo_koalaBrands.png" type="image/x-icon">
@@ -17,8 +17,8 @@
       <div class="fechar-menu" id="fecharMenu">&times;</div>
       <a href="../pages/index_meta_vendas.html" class="nav-link">Meta Vendas Geral</a>
       <a href="../pages/index_meta_empilhado-sites.html" class="nav-link">Meta Vendas Site</a>
-      <a href="../pages/meta-ml.html" class="nav-link">Metas Venda Mercado Livre</a>
-      <a href="../pages/meta-outros.html" class="nav-link">Meta Vendas Outros</a>
+      <a href="../pages/index_meta_empilhado-ml.html" class="nav-link">Metas Venda Mercado Livre</a>
+      <a href="../pages/index_meta_empilhado-outros.html" class="nav-link">Meta Vendas Outros</a>
     </div>
   </div>
 
@@ -40,8 +40,8 @@
       <nav class="nav-menu">
         <a href="../pages/index_meta_vendas.html" class="nav-item">Meta Vendas Geral</a>
         <a href="../pages/index_meta_empilhado-sites.html" class="nav-item">Meta Vendas Site</a>
-        <a href="../pages/meta-ml.html" class="nav-item">Metas Venda Mercado Livre</a>
-        <a href="../pages/meta-outros.html" class="nav-item">Meta Vendas Outros</a>
+        <a href="../pages/index_meta_empilhado-ml.html" class="nav-item">Metas Venda Mercado Livre</a>
+        <a href="../pages/index_meta_empilhado-outros.html" class="nav-item">Meta Vendas Outros</a>
       </nav>
 
       <!-- Linha 1: Gráfico de Metas + Devoluções -->
@@ -96,21 +96,20 @@
     </main>
   </div>
 
-  <!-- Script principal -->
+  <!-- Scripts -->
   <script src="../scrypts/script_meta_vendas.js"></script>
-
-  <!-- Script do menu hamburguer -->
   <script src="../scrypts/barras_empilhadas.js"></script>
 
+  <!-- Script do menu hamburguer -->
   <script>
     const hamburguer = document.getElementById('hamburguer');
     const menuSlide = document.getElementById('menuSlide');
     const fecharMenu = document.getElementById('fecharMenu');
-  
+
     hamburguer.addEventListener('click', () => {
       menuSlide.classList.add('aberto');
     });
-  
+
     fecharMenu.addEventListener('click', () => {
       menuSlide.classList.remove('aberto');
     });

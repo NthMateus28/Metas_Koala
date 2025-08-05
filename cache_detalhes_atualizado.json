@@ -292582,5 +292582,1992 @@
         }
       ]
     }
+  },
+  {
+    "data": {
+      "id": 23514111143,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "019230",
+      "dataEmissao": "2025-08-05 08:58:12",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192301177412280",
+      "contato": {
+        "id": 17572082331,
+        "nome": "lucas lins",
+        "numeroDocumento": "03947206445",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Rio Xingu",
+          "numero": "543",
+          "complemento": "casa oficina Referencia: proximo a big waley empresa de banh",
+          "bairro": "Ibura",
+          "cep": "51.240-040",
+          "municipio": "Recife",
+          "uf": "PE"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Mercado Livre SC-FULL-Armer",
+      "serie": 2,
+      "valorNota": 1501,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550020000192301177412280&s&signature=63fb7cbf8a3e9bffd1b15a98a2e94cfde9c7a4855fd241958597866644ca3642",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=c1682fb5d9bf9a52edbc8a93bd735169",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=c1682fb5d9bf9a52edbc8a93bd735169",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012545827570",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 2,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15775603958
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-AX802M-C",
+          "descricao": "Microfone sem Fio de Mao Duplo Armer AX802M com Case",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 1367.65,
+          "valorTotal": 1367.65,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001254582757",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "",
+          "gtin": "7899701567881",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 365.85,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 60.04
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 551,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1921735
+          }
+        },
+        {
+          "data": "2025-08-05",
+          "valor": 950,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23513988228,
+      "tipo": 1,
+      "situacao": 6,
+      "numero": "030202",
+      "dataEmissao": "2025-08-05 08:49:14",
+      "dataOperacao": "2025-08-05 08:49:14",
+      "chaveAcesso": "42250842985698000272550010000302021139882289",
+      "contato": {
+        "id": 17569103483,
+        "nome": "Paloma Soares Da Silva",
+        "numeroDocumento": "47519376850",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Raul Allier",
+          "numero": "17",
+          "complemento": "Referencia: A",
+          "bairro": "Jardim Pérola II",
+          "cep": "08.474-440",
+          "municipio": "São Paulo",
+          "uf": "SP"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Mercado Livre SC-Koala Music",
+      "serie": 1,
+      "valorNota": 3551.06,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550010000302021139882289&s&signature=105ffd749db808eff10758825fce52aecbcdb50190a8eedca7ffbf4b8cf33cf1",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=9afd52d0a8efbce7a19ddcb979b53d65",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=9afd52d0a8efbce7a19ddcb979b53d65",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012527060124",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA-SC",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15774190339
+          }
+        ],
+        "etiqueta": {
+          "nome": "Paloma Soares da Silva",
+          "endereco": "Rua Raul Allier",
+          "numero": "17",
+          "complemento": "Referencia: A",
+          "municipio": "São Paulo",
+          "uf": "SP",
+          "cep": "08.474-440",
+          "bairro": "Jardim Pérola II"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "FRAHM-SLIM1600-G5",
+          "descricao": "Amplificador Som Ambiente Frahm SLIM 1600 G5 Bluetooth 2X30W",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 788.57,
+          "valorTotal": 788.57,
+          "tipo": "P",
+          "pesoBruto": 1.8,
+          "pesoLiquido": 1.8,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8543.70.19",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7896673816603",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 255.5,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 94.63
+            }
+          }
+        },
+        {
+          "codigo": "JBL-C321P-PAR",
+          "descricao": "Caixa de Som Ambiente JBL C321P Par de Caixinhas com Suporte",
+          "unidade": "UN",
+          "quantidade": 3,
+          "valor": 920.83,
+          "valorTotal": 2762.49,
+          "tipo": "P",
+          "pesoBruto": 3.46,
+          "pesoLiquido": 2.88,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.21.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 4,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898928923012",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 956.1,
+            "icms": {
+              "st": 0,
+              "origem": 4,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 331.5
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-23",
+          "valor": 3551.06,
+          "observacoes": "Método de pagamento: visa | Pedidos Vinculados: 2000012527060124",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23513976604,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "019228",
+      "dataEmissao": "2025-08-05 08:47:59",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "42250842985698000272550020000192281067657159",
+      "contato": {
+        "id": 17572060690,
+        "nome": "Fabiano Martins de Oliveira",
+        "numeroDocumento": "26009482879",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Santa Rita",
+          "numero": "210",
+          "complemento": "Referencia: Auto moto escola modello",
+          "bairro": "Centro",
+          "cep": "37.640-084",
+          "municipio": "Extrema",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-FULL-Armer",
+      "serie": 2,
+      "valorNota": 1501,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550020000192281067657159&s&signature=90b6284e5726fd636b10ca69252903f88df2d9efba0804e925b871eee1210892",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=90b5239dd13ed6b0bfc30ea5ee3e6096",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=90b5239dd13ed6b0bfc30ea5ee3e6096",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012545743478",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 2,
+        "transportador": {
+          "nome": "EBAZAR.COM.BR LTDA",
+          "numeroDocumento": "03007331012239"
+        },
+        "volumes": [
+          {
+            "id": 15775594547
+          }
+        ],
+        "etiqueta": {
+          "nome": "",
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "municipio": "",
+          "uf": "",
+          "cep": "",
+          "bairro": ""
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-AX802M-C",
+          "descricao": "Microfone sem Fio de Mao Duplo Armer AX802M com Case",
+          "unidade": "UNID",
+          "quantidade": 1,
+          "valor": 1367.65,
+          "valorTotal": 1367.65,
+          "tipo": "P",
+          "pesoBruto": 0,
+          "pesoLiquido": 0,
+          "numeroPedidoCompra": "200001254574347",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "",
+          "gtin": "7899701567881",
+          "cfop": "6106",
+          "impostos": {
+            "valorAproximadoTotalTributos": 365.85,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 3,
+              "aliquota": 4,
+              "valor": 60.04
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-05",
+          "valor": 1501,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514715242,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005169",
+      "dataEmissao": "2025-08-05 09:43:50",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17572164287,
+        "nome": "Felipe Rotta",
+        "numeroDocumento": "00972926054",
+        "ie": "",
+        "rg": "",
+        "telefone": "53999031414",
+        "email": "feliperotta@hotmail.com",
+        "endereco": {
+          "endereco": "Largo dos Caixeiros Viajantes",
+          "numero": "16",
+          "complemento": "Apto 301",
+          "bairro": "Rio Branco",
+          "cep": "90.430-070",
+          "municipio": "Porto Alegre",
+          "uf": "RS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Nuvemshop Armer",
+      "serie": 4,
+      "valorNota": 773.99,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=5bd2c2bdf65e3766715728b201c528ef",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=5bd2c2bdf65e3766715728b201c528ef",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "1759517862_01K1X3K27KD101EJW6DGH69AS5",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "LOGGI TRANSPORTES LTDA",
+          "numeroDocumento": "44.871.373/0001-03"
+        },
+        "volumes": [
+          {
+            "id": 15775642887
+          }
+        ],
+        "etiqueta": {
+          "nome": "Felipe Rotta",
+          "endereco": "Largo dos Caixeiros Viajantes",
+          "numero": "16",
+          "complemento": "Apto 301",
+          "municipio": "Porto Alegre",
+          "uf": "RS",
+          "cep": "90.430-070",
+          "bairro": "Rio Branco"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-ARGENT-TWO",
+          "descricao": "Interface de Áudio USB Armer Argent Two 2-in/2-out",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 812.75,
+          "valorTotal": 812.75,
+          "tipo": "P",
+          "pesoBruto": 0.435,
+          "pesoLiquido": 0.337,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8543.70.99",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 6,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701567331",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 226.86,
+            "icms": {
+              "st": 0,
+              "origem": 6,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 92.88
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-07",
+          "valor": 773.99,
+          "observacoes": "Método de pagamento: pix",
+          "formaPagamento": {
+            "id": 7667975
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514695769,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005168",
+      "dataEmissao": "2025-08-05 09:42:21",
+      "dataOperacao": "2025-08-04 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17511719721,
+        "nome": "Antonio Marcos Vaz",
+        "numeroDocumento": "36772399153",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Rua Caiuas 630",
+          "numero": "630",
+          "complemento": "Nao consta",
+          "bairro": "Santo Antonio",
+          "cep": "79.100-395",
+          "municipio": "Campo Grande",
+          "uf": "MS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Filial SC",
+      "serie": 4,
+      "valorNota": 2230.98,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=389a926f25686dd488171620adbac83f",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=389a926f25686dd488171620adbac83f",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012195116970",
+      "vendedor": {
+        "id": 15596264628
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "LOGGI TRANSPORTES LTDA",
+          "numeroDocumento": "44.871.373/0001-03"
+        },
+        "volumes": [
+          {
+            "id": 15774711165
+          }
+        ],
+        "etiqueta": {
+          "nome": "Antonio Marcos Vaz",
+          "endereco": "Rua Caiuás",
+          "numero": "630",
+          "complemento": "",
+          "municipio": "Campo Grande",
+          "uf": "MS",
+          "cep": "79.100-395",
+          "bairro": "Santo Antônio"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-Z1-COMPACT-PRO",
+          "descricao": "Caixa Som Compact Pro Portátil S/ Fio c/ Bateria e Bluetooth",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 1939.98,
+          "valorTotal": 1939.98,
+          "tipo": "P",
+          "pesoBruto": 7.2,
+          "pesoLiquido": 7,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701569748",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 925.19,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 89.24
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-24",
+          "valor": 2230.98,
+          "observacoes": "",
+          "formaPagamento": {
+            "id": 2371605
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514675889,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005167",
+      "dataEmissao": "2025-08-05 09:40:52",
+      "dataOperacao": "2025-08-05 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17570648058,
+        "nome": "Thalita ferreira",
+        "numeroDocumento": "07903838539",
+        "ie": "",
+        "rg": "",
+        "telefone": "77991824326",
+        "email": "125r6hsq5vw3qm5@marketplace.amazon.com.br",
+        "endereco": {
+          "endereco": "Avenida Braulino Santos",
+          "numero": "S/n",
+          "complemento": "Candeias",
+          "bairro": "Candeias",
+          "cep": "45.028-170",
+          "municipio": "Vitória da Conquista",
+          "uf": "BA"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Amazon SC",
+      "serie": 4,
+      "valorNota": 1249.99,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=639ca4beae137fe7384176d15ccedd64",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=639ca4beae137fe7384176d15ccedd64",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "702-8052335-7621041",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "DBA-Delivery by Amazon",
+          "numeroDocumento": ""
+        },
+        "volumes": [
+          {
+            "id": 15774924214
+          }
+        ],
+        "etiqueta": {
+          "nome": "THALITA FERREIRA ROCHA",
+          "endereco": "Avenida Braulino Santos",
+          "numero": "S/n",
+          "complemento": "Candeias",
+          "municipio": "Vitória da Conquista",
+          "uf": "BA",
+          "cep": "45.028-170",
+          "bairro": "Candeias"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "CASIO-CT-S300",
+          "descricao": "Teclado Musical Casio CT-S300 com Fonte e Porta Partitura",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 1249.99,
+          "valorTotal": 1249.99,
+          "tipo": "P",
+          "pesoBruto": 3.3,
+          "pesoLiquido": 3.3,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9207.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 2,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "4971850382140",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 438.5,
+            "icms": {
+              "st": 0,
+              "origem": 2,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 50
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-09-03",
+          "valor": 1249.99,
+          "observacoes": "Nº Pedido Loja: 702-8052335-7621041",
+          "formaPagamento": {
+            "id": 1989158
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514641369,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005166",
+      "dataEmissao": "2025-08-05 09:38:18",
+      "dataOperacao": "2025-08-03 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17569444862,
+        "nome": "Verônica Almeida",
+        "numeroDocumento": "06693074677",
+        "ie": "",
+        "rg": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+          "endereco": "Avenida Nossa Senhora Do Carmo",
+          "numero": "1885",
+          "complemento": "apto 601",
+          "bairro": "Sion",
+          "cep": "30.320-000",
+          "municipio": "Belo Horizonte",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Mercado Livre SC-AZAudio",
+      "serie": 4,
+      "valorNota": 470,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=7d5c9766620ddbdd2f047cd94ab233d4",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=7d5c9766620ddbdd2f047cd94ab233d4",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "2000012529224258",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Mercado Envios Servicos de Logistica Ltda-SC",
+          "numeroDocumento": "03.007.331/0053-72"
+        },
+        "volumes": [
+          {
+            "id": 15774349217
+          }
+        ],
+        "etiqueta": {
+          "nome": "Mauro Tyba Jr",
+          "endereco": "Avenida Nossa Senhora Do Carmo",
+          "numero": "1885",
+          "complemento": "apto 601",
+          "municipio": "Belo Horizonte",
+          "uf": "MG",
+          "cep": "30.320-000",
+          "bairro": "Sion"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-KS61BT-BK",
+          "descricao": "Teclado Musical AZ KEYS SENSE 61 Preto Teclas Sensitivas Bluetooth",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 470,
+          "valorTotal": 470,
+          "tipo": "P",
+          "pesoBruto": 4.49,
+          "pesoLiquido": 3.45,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9207.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575916",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 164.88,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 18.8
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-23",
+          "valor": 470,
+          "observacoes": "Método de pagamento: master | Pedidos Vinculados: 2000012529224258",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514574467,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "030203",
+      "dataEmissao": "2025-08-05 09:33:18",
+      "dataOperacao": "2025-08-04 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17570511632,
+        "nome": "Andressa Cardoso",
+        "numeroDocumento": "11862685908",
+        "ie": "",
+        "rg": "",
+        "telefone": "45998568546",
+        "email": "andressa.cardoso.oliveira@hotmail.com",
+        "endereco": {
+          "endereco": "Rua Professor Daniel Muraro",
+          "numero": "802",
+          "complemento": "Casa dos fundos",
+          "bairro": "Parque Verde",
+          "cep": "85.840-000",
+          "municipio": "Céu Azul",
+          "uf": "PR"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15102988390
+      },
+      "loja": "Nuvemshop Koala",
+      "serie": 1,
+      "valorNota": 4445.05,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=6654e6e84601af86cd3af37eec965977",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=6654e6e84601af86cd3af37eec965977",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "1761602875_01K1TYQA6HCHYPBJ7S7KFB0EEJ",
+      "vendedor": {
+        "id": 15596131472
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Expresso São Miguel-Palhoça",
+          "numeroDocumento": "00.428.307/0011-60"
+        },
+        "volumes": [
+          {
+            "id": 15774857657
+          }
+        ],
+        "etiqueta": {
+          "nome": "Andressa Cardoso",
+          "endereco": "Rua Professor Daniel Muraro",
+          "numero": "802",
+          "complemento": "Casa dos fundos",
+          "municipio": "Céu Azul",
+          "uf": "PR",
+          "cep": "85.840-000",
+          "bairro": "Parque Verde"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZM16-FX",
+          "descricao": "Mesa De Som 16 Canais Bluetooth Az Audio Azm16fx Usb Efeitos",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 1596.15,
+          "valorTotal": 1596.15,
+          "tipo": "P",
+          "pesoBruto": 7.3,
+          "pesoLiquido": 6.45,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8543.70.99",
+          "cest": "2806300",
+          "codigoServico": "",
+          "origem": 6,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701567898",
+          "cfop": "6102",
+          "impostos": {
+            "valorAproximadoTotalTributos": 425.99,
+            "icms": {
+              "st": 0,
+              "origem": 6,
+              "modalidade": 3,
+              "aliquota": 0,
+              "valor": 0
+            }
+          }
+        },
+        {
+          "codigo": "JBL-MAX12-BIVOLT",
+          "descricao": "Caixa de Som JBL Max 12 com Bluetooth Ativa 350W",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 3313.58,
+          "valorTotal": 3313.58,
+          "tipo": "P",
+          "pesoBruto": 18.55,
+          "pesoLiquido": 15.9,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898678590212",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 980.54,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 339.97
+            }
+          }
+        },
+        {
+          "codigo": "COOPE-MAX12BAG",
+          "descricao": "Bag Capa Para Caixa De Som 12  Jbl/ Electrovoice",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 185.42,
+          "valorTotal": 185.42,
+          "tipo": "P",
+          "pesoBruto": 0.5,
+          "pesoLiquido": 0.5,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "4202.22.20",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 51.37,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 19.02
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-06",
+          "valor": 4445.05,
+          "observacoes": "Método de pagamento: pix",
+          "formaPagamento": {
+            "id": 7667991
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514408262,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005165",
+      "dataEmissao": "2025-08-05 09:21:36",
+      "dataOperacao": "2025-08-03 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17568286487,
+        "nome": "Luiz Gustavo Ramos de Arruda",
+        "numeroDocumento": "53304357149",
+        "ie": "",
+        "rg": "",
+        "telefone": "63999395018",
+        "email": "luizgustavomusic@gmail.com",
+        "endereco": {
+          "endereco": "Loteamento Caribe",
+          "numero": "SN",
+          "complemento": "",
+          "bairro": "Loteamento Caribe",
+          "cep": "77.003-110",
+          "municipio": "Palmas",
+          "uf": "TO"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Nuvemshop Armer",
+      "serie": 4,
+      "valorNota": 759.99,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=b8e91f008ef11f9541433f46875d632b",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=b8e91f008ef11f9541433f46875d632b",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "1760877186_01K1R54Y9AB2TK0DPCYCPKK49Y",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "LOGGI TRANSPORTES LTDA",
+          "numeroDocumento": "44.871.373/0001-03"
+        },
+        "volumes": [
+          {
+            "id": 15773795447
+          }
+        ],
+        "etiqueta": {
+          "nome": "Luiz Gustavo Ramos de Arruda",
+          "endereco": "Loteamento Caribe",
+          "numero": "SN",
+          "complemento": "",
+          "municipio": "Palmas",
+          "uf": "TO",
+          "cep": "77.003-110",
+          "bairro": "Loteamento Caribe"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-A87-MIC",
+          "descricao": "Microfone Condensador Profissional Armer A87",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 799.99,
+          "valorTotal": 799.99,
+          "tipo": "P",
+          "pesoBruto": 0.869,
+          "pesoLiquido": 0.804,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 2,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701562800",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 308.48,
+            "icms": {
+              "st": 0,
+              "origem": 2,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 30.4
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-09-02",
+          "valor": 759.99,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 7316323
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514407042,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005164",
+      "dataEmissao": "2025-08-05 09:21:31",
+      "dataOperacao": "2025-08-03 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17568324848,
+        "nome": "Marcelo Costa",
+        "numeroDocumento": "04970461996",
+        "ie": "",
+        "rg": "",
+        "telefone": "41985073228",
+        "email": "marceloprojetos1@gmail.com",
+        "endereco": {
+          "endereco": "Rua Edson Campos Matesich",
+          "numero": "857",
+          "complemento": "",
+          "bairro": "Santa Felicidade",
+          "cep": "82.410-370",
+          "municipio": "Curitiba",
+          "uf": "PR"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Nuvemshop Armer",
+      "serie": 4,
+      "valorNota": 859.99,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=f43c89f2a1ba5aa1ce3ed0193025fbcb",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=f43c89f2a1ba5aa1ce3ed0193025fbcb",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "1760885067_01K1R6EAJG6T4QTADN9W5ZRQ4H",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Expresso São Miguel-Palhoça",
+          "numeroDocumento": "00.428.307/0011-60"
+        },
+        "volumes": [
+          {
+            "id": 15773814438
+          }
+        ],
+        "etiqueta": {
+          "nome": "Marcelo COSTA",
+          "endereco": "Rua Edson Campos Matesich",
+          "numero": "857",
+          "complemento": "",
+          "municipio": "Curitiba",
+          "uf": "PR",
+          "cep": "82.410-370",
+          "bairro": "Santa Felicidade"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-ARGENT-TWO",
+          "descricao": "Interface de Áudio USB Armer Argent Two 2-in/2-out",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 807.5,
+          "valorTotal": 807.5,
+          "tipo": "P",
+          "pesoBruto": 0.435,
+          "pesoLiquido": 0.337,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8543.70.99",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 6,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701567331",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 252.06,
+            "icms": {
+              "st": 0,
+              "origem": 6,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 103.2
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-09-02",
+          "valor": 859.99,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 7316323
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514406247,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005163",
+      "dataEmissao": "2025-08-05 09:21:27",
+      "dataOperacao": "2025-08-04 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17570276990,
+        "nome": "Pericles PORTELA DE ARAUJO",
+        "numeroDocumento": "21698910304",
+        "ie": "",
+        "rg": "",
+        "telefone": "82988642766",
+        "email": "periar.al15@gmail.com",
+        "endereco": {
+          "endereco": "Rua Alfredo Lins do Nascimento",
+          "numero": "20",
+          "complemento": "",
+          "bairro": "Tabuleiro do Martins",
+          "cep": "57.081-164",
+          "municipio": "Maceió",
+          "uf": "AL"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Nuvemshop Koala",
+      "serie": 4,
+      "valorNota": 1000.01,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=3a55a2f896207b87f8e87e2fb61331a6",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=3a55a2f896207b87f8e87e2fb61331a6",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "1761531617_01K1TRKAC1AVSS0NETTN8DDK5H",
+      "vendedor": {
+        "id": 15596131472
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "LOGGI TRANSPORTES LTDA",
+          "numeroDocumento": "44.871.373/0001-03"
+        },
+        "volumes": [
+          {
+            "id": 15774742764
+          }
+        ],
+        "etiqueta": {
+          "nome": "Pericles  PORTELA DE ARAUJO",
+          "endereco": "Rua Alfredo Lins do Nascimento",
+          "numero": "20",
+          "complemento": "",
+          "municipio": "Maceió",
+          "uf": "AL",
+          "cep": "57.081-164",
+          "bairro": "Tabuleiro do Martins"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-Z1-COMPACT-PRO",
+          "descricao": "Caixa Som Compact Pro Portátil S/ Fio c/ Bateria e Bluetooth",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 2169.56,
+          "valorTotal": 2169.56,
+          "tipo": "P",
+          "pesoBruto": 7.2,
+          "pesoLiquido": 7,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701569748",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 414.7,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 40
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-09-03",
+          "valor": 1000.01,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 7460977
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514405076,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005162",
+      "dataEmissao": "2025-08-05 09:21:22",
+      "dataOperacao": "2025-08-04 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17570739844,
+        "nome": "Carlos Lima",
+        "numeroDocumento": "86596594734",
+        "ie": "",
+        "rg": "",
+        "telefone": "21998728554",
+        "email": "nitolima4@gmail.com",
+        "endereco": {
+          "endereco": "Rua Pacheco Leão",
+          "numero": "536",
+          "complemento": "Casa 07",
+          "bairro": "Jardim Botânico",
+          "cep": "22.460-030",
+          "municipio": "Rio de Janeiro",
+          "uf": "RJ"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Nuvemshop Koala",
+      "serie": 4,
+      "valorNota": 2449.99,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=e69ee2d9cf2478413110a43c3b7787fc",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=e69ee2d9cf2478413110a43c3b7787fc",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "1761671566_01K1V4DFXAHXXRCS2V9X6P3KD2",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "LOGGI TRANSPORTES LTDA",
+          "numeroDocumento": "44.871.373/0001-03"
+        },
+        "volumes": [
+          {
+            "id": 15774965021
+          }
+        ],
+        "etiqueta": {
+          "nome": "Carlos Lima",
+          "endereco": "Rua Pacheco Leão",
+          "numero": "536",
+          "complemento": "Casa 07",
+          "municipio": "Rio de Janeiro",
+          "uf": "RJ",
+          "cep": "22.460-030",
+          "bairro": "Jardim Botânico"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-Z1-COMPACT-PRO",
+          "descricao": "Caixa Som Compact Pro Portátil S/ Fio c/ Bateria e Bluetooth",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 1954.56,
+          "valorTotal": 1954.56,
+          "tipo": "P",
+          "pesoBruto": 7.2,
+          "pesoLiquido": 7,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701569748",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 932.14,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 89.91
+            }
+          }
+        },
+        {
+          "codigo": "COOPE-BAG-Z1-COMPACT",
+          "descricao": "Bag Capa Para Caixa De Som Compact Portátil",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 202.25,
+          "valorTotal": 202.25,
+          "tipo": "P",
+          "pesoBruto": 0.6,
+          "pesoLiquido": 0.6,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "4202.22.20",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 65.53,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 24.27
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-09-03",
+          "valor": 2449.99,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 7460977
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514402362,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005161",
+      "dataEmissao": "2025-08-05 09:21:12",
+      "dataOperacao": "2025-08-04 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17538979874,
+        "nome": "Luiz Paulo Machado Amoras",
+        "numeroDocumento": "16416513854",
+        "ie": "",
+        "rg": "",
+        "telefone": "32988039279",
+        "email": "dj.contato@yahoo.com.br",
+        "endereco": {
+          "endereco": "Rua Venina Rocha de Almeida",
+          "numero": "100",
+          "complemento": "casa 252 res. Santa Felicidade",
+          "bairro": "Jóquei Clube",
+          "cep": "36.083-640",
+          "municipio": "Juiz de Fora",
+          "uf": "MG"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Nuvemshop Koala",
+      "serie": 4,
+      "valorNota": 3329.09,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=e6acc9227dc36ac609c1e73996d13abe",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=e6acc9227dc36ac609c1e73996d13abe",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "1761748998_01K1VBWTKDAGZ0PKCJESCD2N5Z",
+      "vendedor": {
+        "id": 15596264628
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Braspress -Palhoça",
+          "numeroDocumento": "48.740.351/0015-60"
+        },
+        "volumes": [
+          {
+            "id": 15775096992
+          }
+        ],
+        "etiqueta": {
+          "nome": "Luiz Paulo Machado Amoras",
+          "endereco": "Rua Venina Rocha de Almeida",
+          "numero": "100",
+          "complemento": "casa 252 res. Santa Felicidade",
+          "municipio": "Juiz de Fora",
+          "uf": "MG",
+          "cep": "36.083-640",
+          "bairro": "Jóquei Clube"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ASK-CXM",
+          "descricao": "Suporte Pedestal Tripé para Caixa de Som ASK CXM",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 169,
+          "valorTotal": 169,
+          "tipo": "P",
+          "pesoBruto": 2.3,
+          "pesoLiquido": 2.1,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9209.99.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898939971354",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 45.1,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 17.77
+            }
+          }
+        },
+        {
+          "codigo": "ARMER-EVX15",
+          "descricao": "Caixa Som Ativa Armer EVX15 Pol. 1400W Bivolt Profissional",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 2849,
+          "valorTotal": 2849,
+          "tipo": "P",
+          "pesoBruto": 23.2,
+          "pesoLiquido": 20.2,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.22.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701573158",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 1190.65,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 114.84
+            }
+          }
+        },
+        {
+          "codigo": "COOPE-MAX15BAG",
+          "descricao": "Bag Capa Para Caixa De Som 15  Jbl/ Electrovoice",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 206.9,
+          "valorTotal": 206.9,
+          "tipo": "P",
+          "pesoBruto": 0.5,
+          "pesoLiquido": 0.5,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "4202.22.20",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 58.74,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 21.76
+            }
+          }
+        },
+        {
+          "codigo": "ASK-CXT100",
+          "descricao": "Suporte Pedestal Tripé para Caixa de Som ASK CXT 100",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 146.74,
+          "valorTotal": 146.74,
+          "tipo": "P",
+          "pesoBruto": 2.3,
+          "pesoLiquido": 2.1,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9209.99.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 0,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7898939971675",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 39.15,
+            "icms": {
+              "st": 0,
+              "origem": 0,
+              "modalidade": 0,
+              "aliquota": 12,
+              "valor": 15.43
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-08-06",
+          "valor": 3329.09,
+          "observacoes": "Método de pagamento: pix",
+          "formaPagamento": {
+            "id": 7667991
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514400331,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005160",
+      "dataEmissao": "2025-08-05 09:21:07",
+      "dataOperacao": "2025-08-04 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17571385118,
+        "nome": "Endrew Galeno",
+        "numeroDocumento": "06718634956",
+        "ie": "",
+        "rg": "",
+        "telefone": "41997435713",
+        "email": "endrew.mk@hotmail.com",
+        "endereco": {
+          "endereco": "Rua Visconde de Guarapuava",
+          "numero": "262",
+          "complemento": "",
+          "bairro": "Centro",
+          "cep": "85.155-000",
+          "municipio": "Inácio Martins",
+          "uf": "PR"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Nuvemshop Koala",
+      "serie": 4,
+      "valorNota": 399.99,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=cbbf789e27b911476988f35ba61eb3a9",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=cbbf789e27b911476988f35ba61eb3a9",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "1761875616_01K1VPJRMPDHRCB01NS6R1294Q",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "LOGGI TRANSPORTES LTDA",
+          "numeroDocumento": "44.871.373/0001-03"
+        },
+        "volumes": [
+          {
+            "id": 15775266649
+          }
+        ],
+        "etiqueta": {
+          "nome": "Endrew Galeno",
+          "endereco": "Rua Visconde de Guarapuava",
+          "numero": "262",
+          "complemento": "",
+          "municipio": "Inácio Martins",
+          "uf": "PR",
+          "cep": "85.155-000",
+          "bairro": "Centro"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "AZ-VOCALE-DUO-A",
+          "descricao": "Microfone sem Fio Profissional VOCALE DUO com Dois Bastões FREQUÊNCIA DE TRANSMISSÃO:630.2 - 645.6MHz",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 364.46,
+          "valorTotal": 364.46,
+          "tipo": "P",
+          "pesoBruto": 1.111,
+          "pesoLiquido": 1.111,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701570263",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 162.36,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 16
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-09-03",
+          "valor": 399.99,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 7460977
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23514399115,
+      "tipo": 1,
+      "situacao": 1,
+      "numero": "005159",
+      "dataEmissao": "2025-08-05 09:21:02",
+      "dataOperacao": "2025-08-04 00:00:00",
+      "chaveAcesso": "",
+      "contato": {
+        "id": 17571425132,
+        "nome": "Leandro de senna",
+        "numeroDocumento": "00967057019",
+        "ie": "",
+        "rg": "",
+        "telefone": "51996797479",
+        "email": "senna99254431@gmail.com",
+        "endereco": {
+          "endereco": "Rua Cinco",
+          "numero": "32",
+          "complemento": "New fiesta vermelho na garagem",
+          "bairro": "Santa Rita",
+          "cep": "92.707-520",
+          "municipio": "Guaíba",
+          "uf": "RS"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Nuvemshop Zarcon",
+      "serie": 4,
+      "valorNota": 889,
+      "valorFrete": 0,
+      "xml": "",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=e43b48890cabd16b00093a2a7f209f9f",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=e43b48890cabd16b00093a2a7f209f9f",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "1761511305_01K1VQPK65VPEZBP8XP1TDEEQ9",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Expresso São Miguel-Palhoça",
+          "numeroDocumento": "00.428.307/0011-60"
+        },
+        "volumes": [],
+        "etiqueta": {
+          "nome": "Leandro de senna",
+          "endereco": "Rua Cinco",
+          "numero": "32",
+          "complemento": "New fiesta vermelho na garagem",
+          "municipio": "Guaíba",
+          "uf": "RS",
+          "cep": "92.707-520",
+          "bairro": "Santa Rita"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ZARCON-SILENT",
+          "descricao": "Kit Pratos Zarcon Silent E 14HH 16&18CR 20RD 10SP",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 889,
+          "valorTotal": 889,
+          "tipo": "P",
+          "pesoBruto": 4.31,
+          "pesoLiquido": 3.53,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "9206.00.00",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701575909",
+          "cfop": "6108",
+          "impostos": {
+            "valorAproximadoTotalTributos": 327.95,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 4,
+              "valor": 35.56
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-09-03",
+          "valor": 88.9,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        },
+        {
+          "data": "2025-10-03",
+          "valor": 88.9,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        },
+        {
+          "data": "2025-11-02",
+          "valor": 88.9,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        },
+        {
+          "data": "2025-12-02",
+          "valor": 88.9,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        },
+        {
+          "data": "2026-01-01",
+          "valor": 88.9,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        },
+        {
+          "data": "2026-01-31",
+          "valor": 88.9,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        },
+        {
+          "data": "2026-03-02",
+          "valor": 88.9,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        },
+        {
+          "data": "2026-04-01",
+          "valor": 88.9,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        },
+        {
+          "data": "2026-05-01",
+          "valor": 88.9,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        },
+        {
+          "data": "2026-05-31",
+          "valor": 88.9,
+          "observacoes": "Método de pagamento: credit_card",
+          "formaPagamento": {
+            "id": 1989128
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 23515013243,
+      "tipo": 1,
+      "situacao": 5,
+      "numero": "005170",
+      "dataEmissao": "2025-08-05 10:08:59",
+      "dataOperacao": "2025-08-05 10:08:59",
+      "chaveAcesso": "42250842985698000272550040000051701150132431",
+      "contato": {
+        "id": 17572228774,
+        "nome": "Wilza torrano",
+        "numeroDocumento": "41475640110",
+        "ie": "",
+        "rg": "",
+        "telefone": "48988312476",
+        "email": "k4js6x5f4tfvyds@marketplace.amazon.com.br",
+        "endereco": {
+          "endereco": "Avenida Santos dumont",
+          "numero": "202",
+          "complemento": "Centro",
+          "bairro": "Centro",
+          "cep": "88.370-200",
+          "municipio": "Navegantes",
+          "uf": "SC"
+        }
+      },
+      "naturezaOperacao": {
+        "id": 15104227133
+      },
+      "loja": "Amazon SC",
+      "serie": 4,
+      "valorNota": 149.38,
+      "valorFrete": 0,
+      "xml": "https://www.bling.com.br/relatorios/nfe.xml.php?chaveAcesso=42250842985698000272550040000051701150132431&s&signature=046c153563e3ce1576c09be581325d089f9d45420f20af487fc757e9890f0939",
+      "linkDanfe": "https://www.bling.com.br/doc.view.php?id=0dffe4ca03e193f451b7364906d65f7f",
+      "linkPDF": "https://www.bling.com.br/doc.view.php?PDF=true&id=0dffe4ca03e193f451b7364906d65f7f",
+      "optanteSimplesNacional": false,
+      "numeroPedidoLoja": "701-7491844-6113003",
+      "vendedor": {
+        "id": 0
+      },
+      "transporte": {
+        "fretePorConta": 0,
+        "transportador": {
+          "nome": "Expresso São Miguel-Palhoça",
+          "numeroDocumento": "00.428.307/0011-60"
+        },
+        "volumes": [],
+        "etiqueta": {
+          "nome": "Wilza torrano",
+          "endereco": "Avenida Santos dumont",
+          "numero": "202",
+          "complemento": "Centro",
+          "municipio": "Navegantes",
+          "uf": "SC",
+          "cep": "88.370-200",
+          "bairro": "Centro"
+        }
+      },
+      "itens": [
+        {
+          "codigo": "ARMER-H153-HYE5001",
+          "descricao": "Microfone sem fio Headset Armer H153 Preto para AX800M - Unitário",
+          "unidade": "UN",
+          "quantidade": 1,
+          "valor": 136.11,
+          "valorTotal": 136.11,
+          "tipo": "P",
+          "pesoBruto": 0.14,
+          "pesoLiquido": 0.14,
+          "numeroPedidoCompra": "",
+          "classificacaoFiscal": "8518.10.90",
+          "cest": "",
+          "codigoServico": "",
+          "origem": 1,
+          "informacoesAdicionais": "PRODUTO DESTINADO PARA USO E CONSUMO-ICMS  EXCLUÍDO DA BASE DE CALCULO DO PIS/COFINS\nTotal aproximado de tributos: R$ [APROX_TRIB]. Fonte IBPT.",
+          "gtin": "7899701567836",
+          "cfop": "5102",
+          "impostos": {
+            "valorAproximadoTotalTributos": 60.63,
+            "icms": {
+              "st": 0,
+              "origem": 1,
+              "modalidade": 0,
+              "aliquota": 17,
+              "valor": 25.39
+            }
+          }
+        }
+      ],
+      "parcelas": [
+        {
+          "data": "2025-09-04",
+          "valor": 149.38,
+          "observacoes": "Nº Pedido Loja: 701-7491844-6113003",
+          "formaPagamento": {
+            "id": 1989158
+          }
+        }
+      ]
+    }
   }
 ]
