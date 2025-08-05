@@ -182,7 +182,7 @@ const METAS = {
     console.log('[🔄 Início] Atualizando notas...');
   
     try {
-      const res = await fetch('http://localhost:3000/api/atualizar-notas');
+      const res = await fetch('https://metas-koala.onrender.com/api/atualizar-notas');
   
       console.log(`[🌐 Status] Código da resposta: ${res.status}`);
   
