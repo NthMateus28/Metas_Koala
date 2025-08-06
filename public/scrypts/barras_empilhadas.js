@@ -88,6 +88,7 @@ async function carregarDadosBarras() {
       }
 
       const ctx = graficoBox.querySelector('canvas').getContext('2d');
+      const isMobile = window.innerWidth <= 768;
 
       const datasets = [
         {
@@ -133,9 +134,10 @@ async function carregarDadosBarras() {
               }
             },
             datalabels: {
+              display: isMobile ? false : true,
               color: '#000',
-              anchor: 'end',
-              align: 'start',
+              anchor: isMobile ? 'end' : 'end',
+              align: isMobile ? 'start' : 'start',
               formatter: (valor, context) => {
                 const label = context.dataset.label;
                 const valorAbsoluto = valor * meta;
@@ -143,14 +145,14 @@ async function carregarDadosBarras() {
               },
               font: {
                 weight: 'bold',
-                size: 12
+                size: isMobile ? 6 : 10
               },
               clamp: true,
               clip: true,
               padding: {
                 right: 6
               }
-            }
+            }            
           },
           scales: {
             x: {
