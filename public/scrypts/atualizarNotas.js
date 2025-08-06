@@ -1,22 +1,13 @@
 import fetch from 'node-fetch';
 import fs from 'fs';
-import { lerTokenDaPlanilha } from '../../utils/lerTokenDaPlanilha.js';
 
 export async function atualizarNotasCompletas() {
   try {
     console.log('🔄 Buscando novas notas fiscais...');
 
-    // 🔐 Obter token do Google Sheets
-    const token = await lerTokenDaPlanilha();
-    if (!token) throw new Error('Token não encontrado na planilha!');
-
     // 1. Buscar lista geral de notas
     const url = 'https://metas-koala.onrender.com/api/nfe';
-    const res = await fetch(url, {
-      headers: {
-        Authorization: `Bearer ${await lerTokenDaPlanilha()}`
-      }
-    });
+    const res = await fetch(url);
     const { data: notas } = await res.json();
 
     // 2. Obter cache atual
@@ -37,12 +28,7 @@ export async function atualizarNotasCompletas() {
 
     for (const id of idsRestantes) {
       try {
-        const resposta = await fetch(`https://metas-koala.onrender.com/api/nfe/${id}`, {
-          headers: {
-            Authorization: `Bearer ${await lerTokenDaPlanilha()}`
-          }
-        });
-
+        const resposta = await fetch(`https://metas-koala.onrender.com/api/nfe/${id}`);
         const status = resposta.status;
 
         if (status === 302) {
@@ -71,7 +57,7 @@ export async function atualizarNotasCompletas() {
         console.error(`❌ Erro ao buscar detalhe da nota ${id}:`, e.message);
       }
 
-      await new Promise(resolve => setTimeout(resolve, 1000)); // pausa de 1s entre chamadas
+      await new Promise(resolve => setTimeout(resolve, 1000)); // pausa para respeitar limite
     }
 
     // 5. Atualizar cache
@@ -81,18 +67,17 @@ export async function atualizarNotasCompletas() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(novosDetalhes)
       });
-
       console.log(`🗃️ Cache atualizado com ${novosDetalhes.length} novas notas`);
+
+      // 6. Substituir IDs de loja por nomes
     } else {
       console.log('📭 Nenhuma nota detalhada foi adicionada');
     }
 
-    // 6. Substituir IDs de loja por nomes
     substituirIdsDeLojaPorNome(novosDetalhes, cacheAtual);
 
     // 7. Resumo
-    console.log(`🔚 Finalizado: ${novosDetalhes.length} salvas, ${redirects} redirecionadas, ${erros} com erro`);
-
+    console.log(`🔚 Finalizado: ${novosDetalhes.length} salvas, ${redirects} 302, ${erros} erros`);
   } catch (err) {
     console.error('🔥 Erro geral ao atualizar notas:', err);
   }
@@ -120,19 +105,20 @@ function substituirIdsDeLojaPorNome(novosDetalhes, cacheAtual) {
       mapaNotas.set(nf.data.id, nf);
     }
   });
-
+  
   novosDetalhes.forEach(nf => {
     if (nf?.data?.id) {
       mapaNotas.set(nf.data.id, nf);
     }
   });
-
+  
   const detalhesCompletos = Array.from(mapaNotas.values());
-
+  
   const detalhesAtualizados = detalhesCompletos.map(nf => {
     if (nf?.data?.loja?.id) {
       const idLoja = nf.data.loja.id;
       const nomeLoja = mapaLojas[idLoja];
+
       if (nomeLoja) {
         nf.data.loja = nomeLoja;
       }
