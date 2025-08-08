@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = 3000;
-const ACCESS_TOKEN = '33012feccf61310975c94a2dc685376d2ee92c44';
+const ACCESS_TOKEN = 'c711d660784fa9b306e0ff53768ace68ecd0bdc3';
 
 const detalhesPath = path.resolve('./cache_detalhes.json');
 const cacheNfePath = path.resolve('./cache_nfe.json');
