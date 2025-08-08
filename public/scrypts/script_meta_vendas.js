@@ -59,7 +59,6 @@ async function buscarNotas() {
     const detalhes = Object.values(detalhesCacheados || {});
     const totalDevolucoes = calcularTotalDevolucoes(detalhes, categoriaSelecionada);
 
-    // Exibir na interface (em cima do gráfico)
     document.getElementById('grafico-total-devolucoes').innerHTML = `
     <div class="devolucoes-titulo">DEVOLUÇÕES</div>
     <div class="devolucoes-valor">R$ ${totalDevolucoes.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</div>
@@ -70,14 +69,12 @@ async function buscarNotas() {
     let mesFiltro = hoje.getMonth();
     let anoFiltro = hoje.getFullYear();
 
-    // 👉 EXCEÇÃO: se hoje é 1 de agosto, continua mostrando JULHO (mês 6)
     if (hoje.getDate() === 1 && hoje.getMonth() === 7) {
       mesFiltro = 7;
       anoFiltro = hoje.getFullYear();
     }
 
     const notasFiltradas = detalhes.filter(nf => {
-      // ✅ Apenas notas de saída
       if (nf?.data?.tipo !== 1) return false;
 
       const data = nf?.data?.dataEmissao;
@@ -104,7 +101,7 @@ async function buscarNotas() {
         );
       }
 
-      return true; // geral
+      return true;
     });
 
     const realizadoBruto = notasFiltradas.reduce((soma, nf) => soma + (nf?.data?.valorNota || 0), 0);
@@ -133,19 +130,17 @@ async function buscarNotas() {
 
 function renderizarGraficoMeta(realizado, projetado, meta) {
   const ctx = document.getElementById('chartMetaGeral').getContext('2d');
-
   if (chartMeta) chartMeta.destroy();
 
-  const realizadoPercentual = Math.min(realizado / meta, 1);
-  const projetadoPercentual = projetado / meta;
+  const realizadoPct  = Math.min(realizado / meta, 1);      // 0..1
+  const projetadoPct  = Math.min(projetado / meta, 1);      // 0..1 (capado a 100%)
 
-  const data = projetado >= meta
-    ? [100, 0, 0]
-    : [
-        realizadoPercentual * 100,
-        Math.max(0, (projetadoPercentual - realizadoPercentual) * 100),
-        Math.max(0, 100 - Math.min(projetadoPercentual, 1) * 100)
-      ];
+  // fatia 1 = realizado, fatia 2 = projeção além do realizado, fatia 3 = restante
+  const data = [
+    realizadoPct * 100,
+    Math.max(0, (projetadoPct - realizadoPct) * 100),
+    Math.max(0, (1 - projetadoPct) * 100)
+  ];
 
   chartMeta = new Chart(ctx, {
     type: 'doughnut',
@@ -167,7 +162,7 @@ function renderizarGraficoMeta(realizado, projetado, meta) {
         legend: { display: false },
         tooltip: {
           callbacks: {
-            label: ctx => `${ctx.label}: ${ctx.raw.toFixed(1)}%`
+            label: c => `${c.label}: ${c.raw.toFixed(1)}%`
           }
         },
         centerText: {
@@ -181,9 +176,9 @@ function renderizarGraficoMeta(realizado, projetado, meta) {
 
   const gap = meta - realizado;
   document.getElementById('grafico-gap').innerHTML =
-    `GAP<br><span style="color: ${gap >= 0 ? '#c0392b' : '#27ae60'}; font-size: 16px;">R$ ${Math.abs(gap).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
+    `GAP<br><span style="color:${gap >= 0 ? '#c0392b' : '#27ae60'};font-size:16px;">R$ ${Math.abs(gap).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
   document.getElementById('grafico-projecao').innerHTML =
-    `PROJEÇÃO<br><span style="color: #2980b9; font-size: 16px;">R$ ${projetado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
+    `PROJEÇÃO<br><span style="color:#2980b9;font-size:16px;">R$ ${projetado.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>`;
 }
 
 function gerarTopProdutos(notas) {
@@ -363,8 +358,6 @@ function atualizarLogo(categoria) {
 }
 
 function gerarDadosMensaisParaMes(mesStr) {
-  // Aqui você pode aplicar o filtro nos dados carregados do JSON
-  // mesStr deve ser '07', '08', '09', etc.
   const vendas = todasNotasFiscais.filter(nf => 
     nf.tipo === 1 && nf.data.startsWith(`2025-${mesStr}`)
   );
@@ -382,10 +375,9 @@ function gerarDadosMensaisParaMes(mesStr) {
 }
 
 document.getElementById('botaoRefresh')?.addEventListener('click', async (event) => {
-  event.preventDefault(); // evita recarregamento da página
-
+  event.preventDefault();
   const btn = document.getElementById('botaoRefresh');
-  btn.classList.add('girando'); // inicia rotação
+  btn.classList.add('girando');
   console.log('[🔄 Início] Atualizando notas...');
 
   try {
@@ -406,7 +398,7 @@ document.getElementById('botaoRefresh')?.addEventListener('click', async (event)
     console.error('[❌ Erro] Durante a atualização:', err);
     alert('Erro ao atualizar notas!');
   } finally {
-    btn.classList.remove('girando'); // para rotação
+    btn.classList.remove('girando'); 
     console.log('[✔️ Fim] Processo de atualização encerrado');
   }
 });
@@ -443,7 +435,6 @@ document.querySelectorAll('.botao-menu').forEach(botao => {
   });
 });
 
-// Menu hamburguer
 const hamburguer = document.getElementById('hamburguer');
 const menuSlide = document.getElementById('menuSlide');
 const fecharMenu = document.getElementById('fecharMenu');
@@ -456,6 +447,5 @@ fecharMenu.addEventListener('click', () => {
   menuSlide.classList.remove('aberto');
 });
 
-// Inicialização
-atualizarLogo(categoriaSelecionada); // 👈 Logo ao iniciar
+atualizarLogo(categoriaSelecionada); 
 buscarNotas();
